@@ -20,6 +20,7 @@ export default function Home({ allPostsData }) {
       </section>
       
       <section className={styles.Posts}>
+        <h3>Case Studies</h3>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>

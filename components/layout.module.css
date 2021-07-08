@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .container {
   padding: 0;
   margin: 0;
   color: #333;
+  font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -20,7 +23,7 @@
   grid-template-areas: "Heading Heading Posts Posts Posts Generator Generator"
   "Heading Heading . Notepad Notepad Notepad Notepad"
   "Heading Heading ContactUs Notepad Notepad Notepad Notepad"
-  ". . ContactUs Notepad Notepad Notepad Notepad"
+  "Heading Heading ContactUs Notepad Notepad Notepad Notepad"
   ;
   height: calc(100vh - 46px);
 }
@@ -28,7 +31,7 @@
 .homeContent h1 {
   max-width: 25rem;
   font-size: 3rem;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.1;
   border-bottom: 2px solid;
   padding-bottom: 0.5rem;
@@ -45,12 +48,14 @@
   grid-area: Generator;
   border-left: 2px solid;
   border-bottom: 2px solid;
+  font-family: 'Pt Serif', serif;
 }
 .Posts {
   grid-area: Posts;
   border-left: 2px solid;
   border-bottom: 2px solid;
   padding: 1rem;
+  font-family: 'Pt Serif', serif;
 }
 
 .notepad {
@@ -60,13 +65,14 @@
   background: url('/images/photocopy-edge.jpg');
   background-repeat: no-repeat;
   background-size: 2.5rem;
+  font-family: 'Pt Serif', serif;
 }
 
 .contactUs {
   grid-area: ContactUs;
   width: 14.25rem;
   font-size: 0.75rem;
-  font-weight: 200;
+  font-weight: 400;
   align-self: end;
   margin-bottom: 1rem;
 }
@@ -81,6 +87,13 @@
 
 .sharkieBois a + a{
   margin-left: 0.25rem;
+}
+
+.cta {
+  border: 2px solid;
+  background: white;
+  font-family: 'Pt Serif', serif;
+  padding: 0.5rem 1rem;
 }
 
 .backToHome {

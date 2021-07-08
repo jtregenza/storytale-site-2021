@@ -7,6 +7,7 @@ import {
   convertToRaw,
   convertFromRaw,
 } from 'draft-js'
+import styles from './layout.module.css'
 
 export default class Notepad extends Component {
   constructor(props) {
@@ -174,8 +175,9 @@ export default class Notepad extends Component {
 
     const toolbarStyle = {
       display: this.state.showToolbar ? 'block' : 'none',
-      backgroundColor: 'black',
-      color: 'white',
+      backgroundColor: 'white',
+      border: '2px solid',
+      color: '#333',
       position: 'absolute',
       left: this.state.toolbarCoordinates.x,
       top: this.state.toolbarCoordinates.y,
@@ -199,9 +201,9 @@ export default class Notepad extends Component {
             editorState={editorState}
             handleKeyCommand={this.handleKeyCommand}
             onChange={this.onChange}
-            placeholder="Tell your story..."
+            placeholder="Start your story..."
             editorKey="foobar"
-            spellCheck={false}
+            spellCheck={true}
             ref={(element) => {
               this.editor = element
             }}
@@ -209,11 +211,11 @@ export default class Notepad extends Component {
         </div>
         <div style={{ marginTop: 40 }}>
           <button
-            onClick={() =>
+             className={styles.cta} onClick={() =>
               this.setState({ showRawData: !this.state.showRawData })
             }
           >
-            {!this.state.showRawData ? 'Show' : 'Hide'} Write your story
+             Tell your tale...
           </button>
           <br />
           {this.state.showRawData &&
@@ -233,7 +235,7 @@ const styleMap = {
     padding: 4,
   },
   BOLD: {
-    color: '#395296',
+    color: '#333',
     fontWeight: 'bold',
   },
   ANYCUSTOMSTYLE: {
@@ -267,6 +269,7 @@ var toolbarItems = [
   { label: 'Italic', style: 'ITALIC' },
   { label: 'Underline', style: 'UNDERLINE' },
   { label: 'Code', style: 'CODE' },
+  { label: 'Strikethrough', style: 'STRIKETHROUGH'},
   { label: 'Surprise', style: 'ANYCUSTOMSTYLE' },
 ]
 
