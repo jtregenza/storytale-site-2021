@@ -12,18 +12,10 @@ const GeneratePdf = ({ html }) => {
         doc.text(split, 5, 75);
         doc.output("dataurlnewwindow");
     };
-    const generateImage = async () => {
-        const image = await toPng(html.current, { quality: 0.95 });
-        const doc = new jsPDF();
-        doc.addImage(image, 'JPEG', 5, 22, 200, 160);
-        doc.save();
-    };
+
     return (<div className="button-container">
-      <button onClick={generateImage} className={styles.cta}>
-        Get PDF as image
-      </button>
       <button onClick={generatePdf} className={styles.cta}>
-        Get PDF as text
+        Tell your table... Download a PDF
       </button>
     </div>);
 };
