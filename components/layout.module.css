@@ -49,6 +49,8 @@
   border-left: 2px solid;
   border-bottom: 2px solid;
   font-family: 'Pt Serif', serif;
+  padding: 1rem;
+  font-size: 0.8rem;
 }
 .Posts {
   grid-area: Posts;
