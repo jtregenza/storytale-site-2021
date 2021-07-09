@@ -5,6 +5,9 @@
   margin: 0;
   color: #333;
   font-family: 'Roboto', sans-serif;
+  /* background: url('/images/Indieground_FoldedPaper_Textures_02.jpg'), black;
+  background-size: cover;
+  background-blend-mode: luminosity; */
 }
 
 .header {

@@ -1,5 +1,5 @@
 
-import { Component } from 'react'
+import { Component, React, useRef } from 'react'
 import {
   Editor,
   EditorState,
@@ -8,9 +8,12 @@ import {
   convertFromRaw,
 } from 'draft-js'
 import styles from './layout.module.css'
+import GeneratePdf from './generatePDF'
 
 export default class Notepad extends Component {
   constructor(props) {
+    
+    
     super(props)
     this.state = {
       editorState: EditorState.createWithContent(convertFromRaw(initialData)),
@@ -163,8 +166,10 @@ export default class Notepad extends Component {
       RichUtils.toggleInlineStyle(this.state.editorState, inlineStyle)
     )
   }
-
+  
+  
   render() {
+    
     const { editorState } = this.state
     // Make sure we're not on the ssr
     if (typeof window !== 'undefined') {
@@ -172,6 +177,8 @@ export default class Notepad extends Component {
       // when the window is resized
       window.addEventListener('resize', this.checkSelectedText)
     }
+
+    
 
     const toolbarStyle = {
       display: this.state.showToolbar ? 'block' : 'none',
@@ -184,9 +191,12 @@ export default class Notepad extends Component {
       zIndex: 999,
       padding: 10,
     }
+    
     return (
+      
       <div>
         <div
+        
           ref={(elem) => {
             this.elemWidth = elem ? elem.clientWidth : 0
             this.elemHeight = elem ? elem.clientHeight : 0
@@ -195,8 +205,9 @@ export default class Notepad extends Component {
         >
           <ToolBar editorState={editorState} onToggle={this.toggleToolbar} />
         </div>
-        <div onClick={this.onClickEditor} onBlur={this.checkSelectedText}>
+        <div id="text" onClick={this.onClickEditor} onBlur={this.checkSelectedText}>
           <Editor
+          
             customStyleMap={styleMap}
             editorState={editorState}
             handleKeyCommand={this.handleKeyCommand}
@@ -207,6 +218,7 @@ export default class Notepad extends Component {
             ref={(element) => {
               this.editor = element
             }}
+            
           />
         </div>
         <div style={{ marginTop: 40 }}>
@@ -217,6 +229,7 @@ export default class Notepad extends Component {
           >
              Tell your tale...
           </button>
+          <GeneratePdf html={this.showRawData}/>
         </div>
       </div>
     )
