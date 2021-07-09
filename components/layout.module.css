@@ -87,6 +87,7 @@
   background-repeat: no-repeat;
   background-size: 2.5rem;
   font-family: 'Pt Serif', serif;
+  overflow-y: auto;
 }
 
 .contactUs {
@@ -140,6 +141,7 @@
   }
   .notepad {
     border-bottom: 2px solid;
+    min-height: 50%;
   }
   .contactUs {
     text-align: right;
