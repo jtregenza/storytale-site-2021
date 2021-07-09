@@ -28,13 +28,7 @@
   height: calc(100vh - 46px);
 }
 
-@media screen and (max-width: 1080px) {
-  .homeContent {
-    display: flex;
-    flex-direction: column;
-    margin-right: 1.5rem;
-  }
-}
+
 
 .homeContent h1 {
   max-width: 25rem;
@@ -127,4 +121,28 @@
   margin: 3rem 0 0;
 }
 
+
+@media screen and (max-width: 1080px) {
+  .homeContent {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+  .headingBlurb {
+    align-self: start;
+    margin-left: 1rem;
+  }
+  .notepad,
+  .generator,
+  .Posts {
+    border: 2px solid;
+    border-bottom: 0;
+  }
+  .notepad {
+    border-bottom: 2px solid;
+  }
+  .contactUs {
+    text-align: right;
+  }
+}
 

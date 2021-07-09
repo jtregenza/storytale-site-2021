@@ -1,5 +1,5 @@
 import styles from './layout.module.css'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 const Adventure = {
 	1: {
 	  situation: {
