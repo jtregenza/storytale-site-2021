@@ -217,9 +217,6 @@ export default class Notepad extends Component {
           >
              Tell your tale...
           </button>
-          <br />
-          {this.state.showRawData &&
-            JSON.stringify(convertToRaw(editorState.getCurrentContent()))}
         </div>
       </div>
     )
@@ -270,7 +267,6 @@ var toolbarItems = [
   { label: 'Underline', style: 'UNDERLINE' },
   { label: 'Code', style: 'CODE' },
   { label: 'Strikethrough', style: 'STRIKETHROUGH'},
-  { label: 'Surprise', style: 'ANYCUSTOMSTYLE' },
 ]
 
 const ToolBar = (props) => {

@@ -58,6 +58,23 @@
   font-family: 'Pt Serif', serif;
 }
 
+.Posts h3 {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0rem;
+  margin-bottom: 0.25rem;
+}
+
+.Posts a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: black;
+  text-transform: uppercase;
+}
+.Posts li {
+  display: flex;
+  flex-direction: column;
+}
+
 .notepad {
   grid-area: Notepad;
   border-left: 2px solid;

@@ -7,6 +7,7 @@ import Link from 'next/link'
 import Date from '../components/date'
 import Year from '../components/year'
 import Notepad from '../components/notepad'
+import StoryStarter from '../components/story-starter'
 
 export default function Home({ allPostsData }) {
   return (
@@ -22,20 +23,20 @@ export default function Home({ allPostsData }) {
       <section className={styles.Posts}>
         <h3>Case Studies</h3>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, byline }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
                 <a>{title}</a>
               </Link>
-              <br />
               <small className={utilStyles.lightText}>
-                <Date dateString={date} />
+                {byline}
               </small>
             </li>
           ))}
         </ul>
       </section>
       <section className={styles.generator}>
+        <StoryStarter/>
         {/* Generator for story starters */}
       </section>
       <section className={styles.notepad}>
