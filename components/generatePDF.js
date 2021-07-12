@@ -9,7 +9,7 @@ const GeneratePdf = ({ html }) => {
         // let image = document.getElementById("image").getAttribute('src');
         // doc.text(document.querySelector(".content > h1").innerHTML, 75, 5);
         // doc.addImage(image, 70, 7, 60, 60);
-        doc.text(split, 5, 5);
+        doc.text(split, 5, 15);
         doc.output("dataurlnewwindow");
     };
 
