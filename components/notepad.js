@@ -222,13 +222,6 @@ export default class Notepad extends Component {
           />
         </div>
         <div style={{ marginTop: 40 }}>
-          <button
-             className={styles.cta} onClick={() =>
-              this.setState({ showRawData: !this.state.showRawData })
-            }
-          >
-             Tell your tale...
-          </button>
           <GeneratePdf html={this.showRawData}/>
         </div>
       </div>
