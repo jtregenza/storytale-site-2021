@@ -47,6 +47,7 @@
   grid-template-rows: repeat(4, 1fr);
   line-height: 0.9;
   text-align: center;
+  place-items: center;
 }
 
 
@@ -67,6 +68,14 @@
   margin-right: -2ch;
 }
 
+.heroImage {
+  background: url(/images/photo-1605370692977-3c272ddb10ef.webp);
+  background-position:center;
+  background-size: cover;
+  border-radius: 100%;
+  width: 1.3ch;
+  height:1.3ch;
+}
 
 
 .homeNav {

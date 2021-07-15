@@ -23,7 +23,7 @@ export default function Home({ allPostsData }) {
         <div className={styles.heroText}>
           <div>S</div>
           <div>T</div>
-          <div>O</div>
+          <div className={styles.heroImage}></div>
           <div>R</div>
           <div>Y</div>
           <div>T</div>
