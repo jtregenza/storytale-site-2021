@@ -1,7 +1,8 @@
 ---
 title: "Brodies"
-byline: "A Family Affair"
+byline: "Home to Roost"
 date: "2020-01-01"
+type: "story"
 ---
 
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.

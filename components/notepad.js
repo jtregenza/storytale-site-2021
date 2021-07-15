@@ -194,7 +194,7 @@ export default class Notepad extends Component {
     
     return (
       
-      <div>
+      <div className={styles.notepad}>
         <div
         
           ref={(elem) => {
@@ -222,7 +222,13 @@ export default class Notepad extends Component {
           />
         </div>
         <div style={{ marginTop: 40 }}>
-          <GeneratePdf html={this.showRawData}/>
+        <button
+             className={styles.cta} onClick={() =>
+              this.setState({ showRawData: !this.state.showRawData })
+            }
+          >
+             Tell your tale...
+          </button>
         </div>
       </div>
     )

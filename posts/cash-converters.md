@@ -1,7 +1,8 @@
 ---
 title: "Cash Converters"
-byline: "A pawn in a game of checkers"
+byline: "Cashback to the future"
 date: "2020-01-02"
+type: "story"
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.

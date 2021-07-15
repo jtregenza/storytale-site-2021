@@ -12,6 +12,16 @@ export default function Layout({ children, home }) {
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <link
+            rel="stylesheet"
+            href="/fonts/Silka/Silka-Roman-Webfont/stylesheet.css"
+            crossOrigin=""
+          />
+          <link
+            rel="stylesheet"
+            href="/fonts/Silka/Silka-Italic-Webfont/stylesheet.css"
+            crossOrigin=""
+          />
         <meta
           name="description"
           content="Story-powered solutions for products, brands and businesses"
@@ -28,29 +38,24 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <Image
-              priority
-              src="/images/storytale-logo-dark.svg"
-              width={52}
-              height={26}
-              alt={name}
-            />
+            Storytale Studio
           </>
         ) : (
           <>
             <Link href="/">
               <a>
-              <Image
-              priority
-              src="/images/storytale-logo-dark.svg"
-              width={52}
-              height={26}
-              alt={name}
-            />
+              Storytale Studio
               </a>
             </Link>
           </>
         )}
+        <span className={styles.center}>
+        Brisbane, Australia
+        </span>
+        <button>
+          {/* Make this into a dropdown menu or something */}
+        Menu
+        </button>
       </header>
       <main className={styles.content}>{children}</main>
       {!home && (
