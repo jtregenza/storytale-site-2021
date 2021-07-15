@@ -17,19 +17,21 @@
   font-size: 0.875rem;
   padding: 0.5rem 0 ;
   border-bottom: 2px solid;
-  margin: 0 1.5rem;
+  margin: 0 2.5rem;
 }
 
 .intro {
-  margin: 0 1.5rem;
+  margin: 0 2.5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1.25fr;
-  grid-gap: 1rem;
+  grid-template-columns: auto auto 1.25fr;
+  grid-gap: 2rem;
 }
 
-.homeContent h1 {
-  max-width: 22rem;
-  font-size: 2.4rem;
+
+
+.intro h1 {
+  max-width: 30rem;
+  font-size: 3rem;
   font-family: var(--font-light);
   font-weight: normal;
   line-height: 1.1;
@@ -39,13 +41,14 @@
 
 .heroText {
   font-family: var(--font-bold);
-  font-size: 15rem;
+  font-size: 18rem;
   display: grid;
-  grid-template-columns:repeat(3, 1fr);
+  grid-template-columns:repeat(3, 1.3ch);
   grid-template-rows: repeat(4, 1fr);
-  line-height: 1;
+  line-height: 0.9;
   text-align: center;
 }
+
 
 .heroText > div:nth-of-type(6) {
   grid-row-start: 3;
@@ -61,7 +64,7 @@
 .heroText > div:nth-of-type(9) {
   grid-row-start: 4;
   grid-column-start: 3;
-  margin-right: -2.5ch;
+  margin-right: -2ch;
 }
 
 
@@ -70,13 +73,14 @@
   display: flex;
   flex-direction: column;
   font-family: var(--font-bold);
-  font-size: 1.725rem;
-  max-width: 6.5rem;
+  font-size: 2rem;
   line-height: 1.1;
 }
 
+
 .homeNav a {
   margin: 1rem 0;
+  width: 28%;
 }
 
 
@@ -132,28 +136,4 @@
 }
 
 
-@media screen and (max-width: 1080px) {
-  .homeContent {
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
-  }
-  .headingBlurb {
-    align-self: start;
-    margin-left: 1rem;
-  }
-  .notepad,
-  .generator,
-  .Posts {
-    border: 2px solid;
-    border-bottom: 0;
-  }
-  .notepad {
-    border-bottom: 2px solid;
-    min-height: 50%;
-  }
-  .contactUs {
-    text-align: right;
-  }
-}
 
