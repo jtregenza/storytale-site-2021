@@ -42,26 +42,38 @@ export default function Home({ allPostsData }) {
       
       <section className={styles.ourStories}>
         <h3>Our Stories</h3>
-        <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, type, byline }) => (
-            <li className={utilStyles.listItem} key={id}>
+            <div className={styles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link>
-              <Date dateString={date}/> {type}
-              <small className={utilStyles.lightText}>
+                <a>
+                  <div>
+                  {title}
+                <small>
                 {byline}
               </small>
-            </li>
+              </div>
+              <div>
+              <Date dateString={date}/> {type}
+              <div className={styles.arrow}></div>
+              </div>
+              </a>
+
+              </Link>
+              
+              
+              
+            </div>
           ))}
-        </ul>
       </section>
       <section className={styles.aboutUs}>
             <h2 className={styles.display}>Studio</h2>
             <p>Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. </p>
-            <img src="#" alt="image-1"/>
-            <img src="#" alt="image-2"/>
-            <img src="#" alt="image-3"/>
+            <div className={styles.imageGroup}>
+              <img src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1"/>
+              <img src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2"/>
+              <img src="/images/photo-1625378163049-d1ca880237c7.webp" alt="image-3"/>
+            </div>
+
       </section>
       <section className={styles.contactUs}>
         <h2>Tell us your story</h2>

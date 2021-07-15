@@ -52,8 +52,8 @@
   padding: 1rem;
 }
 
-.lightText {
-  color: #666;
+.listItem a {
+  color: var(--color-light)
 }
 
 .articleContent {

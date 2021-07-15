@@ -95,7 +95,63 @@
 
 
 .ourStories {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
+
+.listItem {
+  background: var(--color-dark);
+  color: var(--color-light);
+  padding: 1rem;
+}
+
+.listItem a {
+  color: var(--color-light)
+}
+
+.aboutUs {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-areas: "Heading Heading"
+  "Blurb Images";
+  margin: 2rem 0 ;
+}
+
+
+
+.aboutUs h2 {
+  font-family: var(--font-bold);
+  font-size: 30rem;
+  margin: 0;
+  line-height: 1;
+  margin-left: -10rem;
+  margin-bottom: -8rem;
+  z-index: 2;
+  grid-area: Heading;
+}
+
+.aboutUs p {
+  grid-area: Blurb;
+  padding: 4rem 3rem;
+  font-size: 1.25rem;
+}
+
+.aboutUs .imageGroup {
+  display: grid;
+  /* width: 50%; */
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+}
+
+.aboutUs img{
+  width: 25rem;
+  height: 30rem;
+  object-fit: cover;
 }
 
 .notepad {
@@ -123,7 +179,7 @@
 }
 
 .contactUs a{
-  color: var(--color-dark));
+  color: var(--color-dark);
 }
 
 .sharkieBois a + a{
