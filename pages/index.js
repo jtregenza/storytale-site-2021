@@ -32,15 +32,15 @@ export default function Home({ allPostsData }) {
           <div>E</div>
         </div>
         <nav className={styles.homeNav}>
-          <Link href="#">Case studies</Link>
-          <Link href="#">View products</Link>
-          <Link href="#">Our stories</Link>
-          <Link href="#">About us both</Link>
-          <Link href="#">Let's work together</Link>
+          <Link href="#ourStories">Case studies</Link>
+          <Link href="#ourStories">View products</Link>
+          <Link href="#ourStories">Our stories</Link>
+          <Link href="#aboutUs">About us both</Link>
+          <Link href="#contactUs">Let's work together</Link>
         </nav>
       </section>
       
-      <section className={styles.ourStories}>
+      <section id="ourStories" className={styles.ourStories}>
         <h3 className={styles.listItem}>Our <br/>Stories</h3>
           {allPostsData.map(({ id, date, title, type, byline,image }) => (
             <div className={styles.listItem} key={id}>
@@ -60,7 +60,7 @@ export default function Home({ allPostsData }) {
               </div>
               <div className={styles.arrow}>
               <svg width="119" height="25" viewBox="0 0 119 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M97.8911 0.538397L117.999 11.8962L98.1089 23.6314L98.0189 14.0848L1.01891 14.9999L0.981175 11.0001L97.9811 10.085L97.8911 0.538397Z" fill="var(--color-light)"/>
+            <path fillRule="evenodd" clipRule="evenodd" d="M97.8911 0.538397L117.999 11.8962L98.1089 23.6314L98.0189 14.0848L1.01891 14.9999L0.981175 11.0001L97.9811 10.085L97.8911 0.538397Z" fill="var(--color-light)"/>
           </svg>
               </div>
               </div>
@@ -72,7 +72,7 @@ export default function Home({ allPostsData }) {
             </div>
           ))}
       </section>
-      <section className={styles.aboutUs}>
+      <section id="aboutUs" className={styles.aboutUs}>
             <h2 className={styles.display}>Studio</h2>
             <p>Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. </p>
             <div className={styles.imageGroup}>
@@ -82,12 +82,12 @@ export default function Home({ allPostsData }) {
             </div>
 
       </section>
-      <section className={styles.contactUs}>
+      <section id="contactUs" className={styles.contactUs}>
         <div className={styles.yourStory}>
           <header>
             <h2>Tell us <br/>your story</h2>
             <svg width="119" height="25" viewBox="0 0 119 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M97.8911 0.538397L117.999 11.8962L98.1089 23.6314L98.0189 14.0848L1.01891 14.9999L0.981175 11.0001L97.9811 10.085L97.8911 0.538397Z" fill="black"/>
+              <path fillRule="evenodd" clipRule="evenodd" d="M97.8911 0.538397L117.999 11.8962L98.1089 23.6314L98.0189 14.0848L1.01891 14.9999L0.981175 11.0001L97.9811 10.085L97.8911 0.538397Z" fill="black"/>
             </svg>
           </header>
           <main>
