@@ -52,10 +52,12 @@ export default function Home({ allPostsData }) {
                   </p>
 
               <div className={styles.lowerHalf}>
+                <div>
               <p className={styles.title}>{title}</p>
               <p className={styles.storyMeta}>
               <Date dateString={date}/> <i>{type}</i>
               </p>
+              </div>
               <div className={styles.arrow}>
               <svg width="119" height="25" viewBox="0 0 119 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M97.8911 0.538397L117.999 11.8962L98.1089 23.6314L98.0189 14.0848L1.01891 14.9999L0.981175 11.0001L97.9811 10.085L97.8911 0.538397Z" fill="var(--color-light)"/>
