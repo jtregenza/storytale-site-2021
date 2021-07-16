@@ -1,8 +1,9 @@
 ---
 title: "Brodies"
 byline: "Home to Roost"
-date: "2020-01-01"
+date: "2021-03-01"
 type: "story"
+image: "/images/photo-1574672280600-4accfa5b6f98.webp"
 ---
 
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.

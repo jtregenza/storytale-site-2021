@@ -1,8 +1,9 @@
 ---
 title: "Seasonal"
 byline: "Growing your own pantry"
-date: "2020-01-01"
+date: "2021-09-01"
 type: "product"
+image: "/images/photo-1573499931826-293a9722a62d.webp"
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.

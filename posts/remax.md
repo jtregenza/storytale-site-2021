@@ -1,8 +1,10 @@
 ---
 title: "Remax"
 byline: "Taking it to the max"
-date: "2020-01-02"
+date: "2021-07-01"
 type: "story"
+image: "/images/photo-1511452885600-a3d2c9148a31.webp"
+
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.

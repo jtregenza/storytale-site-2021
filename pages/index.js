@@ -41,27 +41,32 @@ export default function Home({ allPostsData }) {
       </section>
       
       <section className={styles.ourStories}>
-        <h3>Our Stories</h3>
-          {allPostsData.map(({ id, date, title, type, byline }) => (
+        <h3 className={styles.listItem}>Our <br/>Stories</h3>
+          {allPostsData.map(({ id, date, title, type, byline,image }) => (
             <div className={styles.listItem} key={id}>
+              <div className={styles.content}>
               <Link href={`/posts/${id}`}>
                 <a>
-                  <div>
-                  {title}
-                <small>
-                {byline}
-              </small>
+                  <p className={styles.byline}>
+                  {byline}
+                  </p>
+
+              <div className={styles.lowerHalf}>
+              <p className={styles.title}>{title}</p>
+              <p className={styles.storyMeta}>
+              <Date dateString={date}/> <i>{type}</i>
+              </p>
+              <div className={styles.arrow}>
+              <svg width="119" height="25" viewBox="0 0 119 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M97.8911 0.538397L117.999 11.8962L98.1089 23.6314L98.0189 14.0848L1.01891 14.9999L0.981175 11.0001L97.9811 10.085L97.8911 0.538397Z" fill="var(--color-light)"/>
+          </svg>
               </div>
-              <div>
-              <Date dateString={date}/> {type}
-              <div className={styles.arrow}></div>
               </div>
               </a>
 
-              </Link>
-              
-              
-              
+              </Link> 
+            </div>
+            <img src={image}/>
             </div>
           ))}
       </section>
@@ -76,20 +81,25 @@ export default function Home({ allPostsData }) {
 
       </section>
       <section className={styles.contactUs}>
-        <h2>Tell us your story</h2>
-        <p>A story about business</p>
-        <p>A tale about yourself</p>
-        <p>A yarn about something fun</p>
-      <p>Storytale</p>
-<a href="javascript:location='mailto:\u0066\u0061\u0062\u006c\u0065\u0073\u0040\u0073\u0074\u006f\u0072\u0079\u0074\u0061\u006c\u0065\u002e\u0064\u0065\u0073\u0069\u0067\u006e';void 0">fables (at)</a>
-  <div className={styles.sharkieBois}>
-  {/* <a href="http://ijoek.com/">Isaac</a>
-  <a href="https://joshtregenza.com">Josh</a>  */}
-  {/* <a href="#leo">Leo</a> */}
-  </div>
-  <p><Year/> Storytale Studio</p>
-
-  <Notepad/>
+        <div className={styles.yourStory}>
+          <header>
+            <h2>Tell us <br/>your story</h2>
+            <svg width="119" height="25" viewBox="0 0 119 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M97.8911 0.538397L117.999 11.8962L98.1089 23.6314L98.0189 14.0848L1.01891 14.9999L0.981175 11.0001L97.9811 10.085L97.8911 0.538397Z" fill="black"/>
+            </svg>
+          </header>
+          <main>
+            <p>A story about business</p>
+            <p>A tale about yourself</p>
+            <p>A yarn about something fun</p>
+          </main>
+          <footer>
+            <p>Storytale</p>
+            <a href="javascript:location='mailto:\u0066\u0061\u0062\u006c\u0065\u0073\u0040\u0073\u0074\u006f\u0072\u0079\u0074\u0061\u006c\u0065\u002e\u0064\u0065\u0073\u0069\u0067\u006e';void 0">fables (at)</a>
+            <p><Year/> Storytale Studio</p>
+          </footer>
+      </div>
+      <Notepad/>
       </section>
 
       </article>
