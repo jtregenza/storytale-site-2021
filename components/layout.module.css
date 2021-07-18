@@ -94,7 +94,7 @@
 
 .homeNav a {
   margin: 1rem 0;
-  width: 28%;
+  width: 35%;
 }
 
 
@@ -238,7 +238,7 @@
 .arrow {
   display: flex;
   justify-content: center;
-  align-self: end;
+  align-self: flex-end;
 }
 
 .arrow svg {
