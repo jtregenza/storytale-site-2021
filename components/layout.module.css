@@ -32,24 +32,7 @@
   grid-gap: 2rem;
 }
 
-@media screen and (max-width: 1200px) { 
-  .intro {
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    grid-template-areas: "Blurb Menu"
-    "Tale Tale";
-  }
-  .blurb {
-    grid-area: Blurb;
-  }
-  .homeNav {
-    grid-area: Menu;
-  }
-  .heroText {
-    grid-area: Tale;
-    justify-self: center;
-  }
-}
+
 
 
 
@@ -117,6 +100,26 @@
   width: 35%;
 }
 
+
+@media screen and (max-width: 1200px) { 
+  .intro {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "Blurb Menu"
+    "Tale Tale";
+  }
+  .blurb {
+    grid-area: Blurb;
+  }
+  .homeNav {
+    grid-area: Menu;
+  }
+  .heroText {
+    grid-area: Tale;
+    justify-self: flex-start;
+    font-size: 16rem;
+  }
+}
 
 
 /* Our Stories Home Page */
@@ -246,12 +249,28 @@
   grid-area: Image;
 }
 
+.listItem .content {
+  padding: 2rem;
+  width: 20vw;
+  height: 20vw;
+
+}
+
 
 @media screen and (max-width: 1200px) {
   .ourStories {
-    grid-template-columns: repeat(4, 20vw);
-    grid-template-rows: repeat(5, 20vw);
+    grid-template-columns: repeat(4, 25vw);
+    grid-template-rows: repeat(5, 25vw);
   }
+
+  .listItem .content {
+    padding: 2rem;
+    width: 25vw;
+    height: 25vw;
+  
+  }
+
+
   .listItem:nth-child(2) {
     grid-column: 2/5;
     grid-template-columns: 1fr 3fr;
@@ -305,14 +324,27 @@
     grid-template-areas: "Image Content";
     height: 100%;
   }
-}
 
-.listItem .content {
-  padding: 2rem;
-  width: 20vw;
-  height: 20vw;
 
 }
+
+@media screen and (max-width: 800px) {
+  .byline {
+    font-size: calc(2rem / 2);
+    width: 90%;
+  }
+  
+  .title {
+    font-size: calc(1.725rem / 2);
+  }
+  
+  .storyMeta {
+    font-size: 0.75rem;
+  }
+}
+
+
+
 
 .lowerHalf {
   display: flex;
@@ -382,13 +414,26 @@
   grid-area: Heading;
 }
 
+@media screen and (max-width: 1200px) {
+  .aboutUs {
+    grid-template-areas: "Heading Heading"
+    "Blurb Blurb"
+    "Images Images";
+  }
+  .aboutUs h2 {
+    font-size: 15rem;
+    margin-left: -4rem;
+  }
+}
+
 .aboutUs p {
   grid-area: Blurb;
   padding: 5rem 3rem;
-  font-size: 1.25rem;
+
 }
 
 .aboutUs .imageGroup {
+  grid-area: Images;
   display: grid;
   /* width: 50%; */
   grid-auto-flow: column;
@@ -403,7 +448,7 @@
 
 .notepad {
   border-left: 2px solid;
-  padding: 1rem 2rem;
+  padding: 2.5rem;
   background: url(/images/photocopy-edge.jpg), var(--color-light);
   background-size: auto;
   background-repeat: repeat-y;
@@ -470,6 +515,45 @@
 .contactUs footer p {
   margin-top: 0;
 }
+
+
+@media screen and (max-width: 1200px) {
+  .contactUs {
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 1fr;
+  }
+
+  .notepad {
+    position: relative;
+    border-left: 0;
+    border-top: 2px solid;
+    padding: 2.5rem;
+    background: none;
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-blend-mode: darken;
+    background-size: 2.5rem;
+    overflow-y: auto;
+  }
+
+  .notepad:before {
+    content: "";
+    position: absolute;
+    top:0;
+    display: grid;
+    background: url(/images/photocopy-edge.jpg), var(--color-light);
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-blend-mode: darken;
+    background-size: 2.5rem;
+    transform: rotatez(90deg);
+    height: 100%;
+    width: 2.5rem;
+    z-index: 0;
+  }
+  
+}
+
 
 .sharkieBois a + a{
   margin-left: 0.25rem;
