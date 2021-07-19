@@ -95,13 +95,14 @@ export default function Home({ allPostsData }) {
             <p>A tale about yourself</p>
             <p>A yarn about something fun</p>
           </main>
-          <footer>
+
+      </div>
+      <Notepad/>
+      <footer>
             <p>Storytale</p>
             <a href="javascript:location='mailto:\u0066\u0061\u0062\u006c\u0065\u0073\u0040\u0073\u0074\u006f\u0072\u0079\u0074\u0061\u006c\u0065\u002e\u0064\u0065\u0073\u0069\u0067\u006e';void 0">fables (at)</a>
             <p><Year/> Storytale Studio</p>
           </footer>
-      </div>
-      <Notepad/>
       </section>
 
       </article>

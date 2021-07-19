@@ -195,6 +195,7 @@ export default class Notepad extends Component {
     return (
       
       <div className={styles.notepad}>
+        <form name="story" netlify>
         <div
         
           ref={(elem) => {
@@ -225,11 +226,12 @@ export default class Notepad extends Component {
         <button
              className={styles.cta} onClick={() =>
               this.setState({ showRawData: !this.state.showRawData })
-            }
+            } type="submit"
           >
              Tell your tale...
           </button>
         </div>
+        </form>
       </div>
     )
   }
