@@ -85,8 +85,6 @@
     grid-row-start: 4;
     grid-column-start: 3;
     margin-right: unset;
-
-
   }
 }
 
@@ -135,7 +133,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 800px) { 
   .intro {
     grid-template-columns: auto ;
     grid-template-rows: auto auto auto;
@@ -145,6 +143,9 @@
   }
   .blurb {
     grid-area: Blurb;
+  }
+  .intro h1 {
+    font-size: 2rem;
   }
   .homeNav {
     grid-area: Menu;
@@ -157,11 +158,6 @@
 }
 
 
-@media screen and (max-width: 800px) {
-.intro h1 {
-  font-size: 2rem;
-}
-}
 
 
 /* Our Stories Home Page */
@@ -422,7 +418,7 @@
   }
 
   .listItem .content {
-    padding: 2rem;
+    padding: 1rem;
     width: 33vw;
     height: 33vw;
   
@@ -491,16 +487,16 @@
 
 
   .byline {
-    font-size: calc(2rem / 2);
+    font-size: calc(2rem / 2.5);
     width: 90%;
   }
   
   .title {
-    font-size: calc(1.725rem / 2);
+    font-size: calc(1.725rem / 2.25);
   }
   
   .storyMeta {
-    font-size: 0.75rem;
+    font-size: 0.5rem;
   }
 }
 
@@ -606,6 +602,13 @@
   flex-direction: column;
   justify-content: space-between;
 }
+@media screen and (max-width:800px) {
+  .yourStory {
+    margin: 0;
+    padding: 1rem;
+  }
+
+}
 
 .yourStory main {
   margin-bottom: auto;
@@ -681,6 +684,9 @@
 
   .contactUs h2 {
     font-size: 4rem
+  }
+  .notepad {
+    padding: 1.5rem;
   }
 }
 
