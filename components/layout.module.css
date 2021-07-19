@@ -76,6 +76,20 @@
   margin-right: -2ch;
 }
 
+@media screen and (max-width: 800px) {
+  .heroText > div:nth-of-type(8) {
+    grid-row-start: 4;
+    grid-column-start: 2;
+  }
+  .heroText > div:nth-of-type(9) {
+    grid-row-start: 4;
+    grid-column-start: 3;
+    margin-right: unset;
+
+
+  }
+}
+
 .heroImage {
   background: url(/images/photo-1605370692977-3c272ddb10ef.webp);
   background-position:center;
@@ -140,6 +154,13 @@
     justify-self: flex-start;
     font-size: 6rem;
   }
+}
+
+
+@media screen and (max-width: 800px) {
+.intro h1 {
+  font-size: 2rem;
+}
 }
 
 
