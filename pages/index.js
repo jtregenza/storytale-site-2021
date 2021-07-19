@@ -17,7 +17,7 @@ export default function Home({ allPostsData }) {
       </Head>
       <article className={styles.homeContent}>
       <section className={styles.intro}>
-        <div>
+        <div className={styles.blurb}>
         <h1>Story-powered solutions for products, brands and businesses.</h1>
         </div>
         <div className={styles.heroText}>
