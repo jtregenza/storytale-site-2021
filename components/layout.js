@@ -10,7 +10,7 @@ export const siteTitle = 'Story-powered solutions for products, brands and busin
 
 export default function Layout({ children, home }) {
   return (
-    <AnimateSharedLayout className={styles.container}>
+    <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <link
@@ -66,6 +66,6 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-    </AnimateSharedLayout>
+    </div>
   )
 }

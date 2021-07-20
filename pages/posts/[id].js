@@ -3,6 +3,8 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
+import { motion } from 'framer-motion'
+
 
 export default function Post({ postData }) {
   return (
@@ -11,7 +13,11 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article className={utilStyles.articleContent}>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+        <motion.img layoutId="img" src={postData.image}/>
+        <motion.h1 layoutId="title" className={utilStyles.headingXl}>{postData.title}</motion.h1>
+        <motion.h2 layoutId="byline">
+          {postData.byline}
+        </motion.h2>
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>

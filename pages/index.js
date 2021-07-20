@@ -24,7 +24,16 @@ export default function Home({ allPostsData }) {
         <div className={styles.heroText}>
           <div>S</div>
           <div>T</div>
-          <div className={styles.heroImage}></div>
+          <motion.div     
+          drag
+    
+          dragConstraints={{
+            top: -50,
+            left: -50,
+            right: 50,
+            bottom: 50,
+          }}
+    className={styles.heroImage}></motion.div>
           <div>R</div>
           <div>Y</div>
           <div>T</div>
@@ -58,13 +67,13 @@ export default function Home({ allPostsData }) {
               <div className={styles.content}>
               <Link href={`/posts/${id}`}>
                 <a>
-                  <p className={styles.byline}>
+                  <motion.p layoutId="byline" className={styles.byline}>
                   {byline}
-                  </p>
+                  </motion.p>
 
               <div className={styles.lowerHalf}>
                 <div>
-              <p className={styles.title}>{title}</p>
+              <motion.p layoutId="title" className={styles.title}>{title}</motion.p>
               <p className={styles.storyMeta}>
               <Date dateString={date}/> <i>{type}</i>
               </p>
@@ -79,7 +88,7 @@ export default function Home({ allPostsData }) {
 
               </Link> 
             </div>
-            <img src={image}/>
+            <motion.img layoutId="image" src={image}/>
             </div>
           ))}
       </section>
