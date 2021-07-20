@@ -1,6 +1,7 @@
 
 import { Component, React, useRef } from 'react'
 import styles from './layout.module.css'
+import { motion } from 'framer-motion'
 
 export default function Notepad() {
   return (
@@ -21,12 +22,15 @@ export default function Notepad() {
       </p>
       <p>
         <label htmlFor="yourmessage">
-          Message:
+          Start your story:
         </label> <br />
         <textarea name="message" id="yourmessage"></textarea>
       </p>
       <p>
-        <button className={styles.cta} type="submit">Tell your tale...</button>
+        <motion.button className={styles.cta} type="submit" 
+        transition={{ duration: 0.8 }}
+        whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}>Tell your tale...</motion.button>
       </p>
     </form>
     </div>

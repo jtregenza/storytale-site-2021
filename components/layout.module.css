@@ -24,6 +24,7 @@
   background: unset;
   border: unset;
   color: initial;
+  cursor: pointer;
 }
 
 
@@ -725,10 +726,13 @@
   }
 }
 .cta {
-  border: 2px solid;
+  border: unset;
   background: var(--color-light);
   padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-decoration: underline;
 }
+
 
 .backToHome {
   margin: 3rem 0 0;

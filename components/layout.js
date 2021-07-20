@@ -3,13 +3,14 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import { AnimateSharedLayout } from "framer-motion"
 
 const name = 'storytale'
 export const siteTitle = 'Story-powered solutions for products, brands and businesses'
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <AnimateSharedLayout className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <link
@@ -65,6 +66,6 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-    </div>
+    </AnimateSharedLayout>
   )
 }
