@@ -128,7 +128,8 @@
 
 .homeNav a {
   margin: 1rem 0;
-  width: 35%;
+  width: 45%;
+  cursor: pointer;
 }
 
 
