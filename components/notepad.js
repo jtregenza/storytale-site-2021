@@ -5,10 +5,9 @@ import styles from './layout.module.css'
 export default function Notepad() {
   return (
     <div className={styles.notepad}>
-      <form name="story" action="" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <form name="story" action="/success" method="POST" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="bot-field" />
       <p>
-<input type="text" name="firstname" id="firstname" />
         <label htmlFor="yourname">
           Your Name:
         </label> <br />

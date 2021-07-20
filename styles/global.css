@@ -53,3 +53,7 @@ img {
 button {
   font-size: unset;
 }
+
+[type="hidden"] {
+  display: none;
+}
