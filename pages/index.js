@@ -8,6 +8,7 @@ import Date from '../components/date'
 import Year from '../components/year'
 import Notepad from '../components/notepad'
 import StoryStarter from '../components/story-starter'
+import { motion } from 'framer-motion'
 
 export default function Home({ allPostsData }) {
   return (
@@ -32,11 +33,21 @@ export default function Home({ allPostsData }) {
           <div>E</div>
         </div>
         <nav className={styles.homeNav}>
-          <Link href="#ourStories">Case studies</Link>
-          <Link href="#ourStories">View products</Link>
-          <Link href="#ourStories">Our stories</Link>
-          <Link href="#aboutUs">About us both</Link>
-          <Link href="#contactUs">Let's work together</Link>
+          <Link href="#ourStories"><motion.a
+          whileHover={{ scale: 1.1}}
+          whileTap={{ scale: 0.95}}>Case studies</motion.a></Link>
+          <Link href="#ourStories"><motion.a
+          whileHover={{ scale: 1.1}}
+          whileTap={{ scale: 0.95}}>View products</motion.a></Link>
+          <Link href="#ourStories"><motion.a
+          whileHover={{ scale: 1.1}}
+          whileTap={{ scale: 0.95}}>Our stories</motion.a></Link>
+          <Link href="#aboutUs"><motion.a
+          whileHover={{ scale: 1.1}}
+          whileTap={{ scale: 0.95}}>About us both</motion.a></Link>
+          <Link href="#contactUs"><motion.a
+          whileHover={{ scale: 1.1}}
+          whileTap={{ scale: 0.95}}>Let's work together</motion.a></Link>
         </nav>
       </section>
       

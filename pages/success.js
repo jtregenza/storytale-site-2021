@@ -4,7 +4,7 @@ export default function Success() {
 	return (
 		<Layout>
 			<div>Form successfully submitted!</div>
-			</Layout>
+	</Layout>
 	) 
   }
   
