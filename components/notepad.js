@@ -167,9 +167,12 @@ export default class Notepad extends Component {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: { "form-name": "story", ...this.state }
+      body: { "form-name": "story", ...this.state.getPlainText() }
     })
-      .then(() => alert("Success!"))
+      .then(() => {
+        alert("Success!");
+         console.log(this.getPlainText(state))}
+         )
       .catch(error => alert(error));
 
     e.preventDefault();
