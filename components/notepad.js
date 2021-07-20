@@ -8,12 +8,9 @@ import {
   convertFromRaw,
 } from 'draft-js'
 import styles from './layout.module.css'
-import GeneratePdf from './generatePDF'
 
 export default class Notepad extends Component {
   constructor(props) {
-    
-    
     super(props)
     this.state = {
       editorState: EditorState.createWithContent(convertFromRaw(initialData)),
@@ -166,7 +163,19 @@ export default class Notepad extends Component {
       RichUtils.toggleInlineStyle(this.state.editorState, inlineStyle)
     )
   }
-  
+  handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
+
+    e.preventDefault();
+  };
+
+  handleChange = e => this.setState({ [e.target.name]: e.target.value });
   
   render() {
     
@@ -191,11 +200,36 @@ export default class Notepad extends Component {
       zIndex: 999,
       padding: 10,
     }
+
+
+
+
+
+
+    const encode = (data) => {
+      return Object.keys(data)
+          .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+          .join("&");
+    }
+
+  
+      /* Here’s the juicy bit for posting the form submission */
+  
+
+
+
+
+const {message} = this.state;
     
     return (
-      
+     
       <div className={styles.notepad}>
-        <form name="story" netlify>
+           <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+        <form name="story" onSubmit={this.handleSubmit}>
         <div
         
           ref={(elem) => {
@@ -206,7 +240,7 @@ export default class Notepad extends Component {
         >
           <ToolBar editorState={editorState} onToggle={this.toggleToolbar} />
         </div>
-        <div id="text" onClick={this.onClickEditor} onBlur={this.checkSelectedText}>
+        <div id="text" onClick={this.onClickEditor} onBlur={this.checkSelectedText} name="message" value={message} onChange={this.handleChange}>
           <Editor
           
             customStyleMap={styleMap}
@@ -224,10 +258,7 @@ export default class Notepad extends Component {
         </div>
         <div style={{ marginTop: 40 }}>
         <button
-             className={styles.cta} onClick={() =>
-              this.setState({ showRawData: !this.state.showRawData })
-            } type="submit"
-          >
+             className={styles.cta} type="submit">
              Tell your tale...
           </button>
         </div>
