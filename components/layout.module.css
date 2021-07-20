@@ -355,6 +355,16 @@
   height: 100%;
 }
 
+.ourStories h3 {
+  font-family: var(--font-bold);
+  color: var(--color-dark);
+  background: var(--color-light);
+  font-size: 2.5rem;
+  align-self: center;
+  justify-self: center;
+  line-height: 1.1;
+}
+
 
 @media screen and (max-width: 1200px) {
   .ourStories {
@@ -435,6 +445,14 @@
   .ourStories {
     grid-template-columns: repeat(3, 33vw);
     grid-template-rows: repeat(7, 33vw);
+  }
+
+  .ourStories h3 {
+    font-size: 1.5rem;
+  }
+
+  .arrow svg {
+    min-width: 1rem;
   }
 
   .listItem .content {
@@ -521,15 +539,7 @@
 }
 
 
-.ourStories h3 {
-  font-family: var(--font-bold);
-  color: var(--color-dark);
-  background: var(--color-light);
-  font-size: 2.5rem;
-  align-self: center;
-  justify-self: center;
-  line-height: 1.1;
-}
+
 
 .aboutUs {
   display: grid;

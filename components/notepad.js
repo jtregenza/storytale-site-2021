@@ -18,13 +18,13 @@ export default function Notepad() {
         <label htmlFor="yourname">
           Your Name:
         </label> <br />
-        <input type="text" name="name" id="yourname" />
+        <input type="text" name="name" id="yourname" placeholder="name"/>
       </p>
       <p>
         <label htmlFor="youremail">
           Your Email:
         </label> <br />
-        <input type="email" name="email" id="youremail" />
+        <input type="email" name="email" id="youremail" placeholder="email"/>
       </p>
       <p>
         <motion.button className={styles.cta} type="submit" 
