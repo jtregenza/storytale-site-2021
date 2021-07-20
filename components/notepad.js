@@ -167,7 +167,7 @@ export default class Notepad extends Component {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "story", ...this.state })
+      body: { "form-name": "story", ...this.state }
     })
       .then(() => alert("Success!"))
       .catch(error => alert(error));
@@ -175,7 +175,6 @@ export default class Notepad extends Component {
     e.preventDefault();
   };
 
-  handleChange = e => this.setState({ [e.target.name]: e.target.value });
   
   render() {
     
@@ -206,11 +205,6 @@ export default class Notepad extends Component {
 
 
 
-    const encode = (data) => {
-      return Object.keys(data)
-          .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-          .join("&");
-    }
 
   
       /* Here’s the juicy bit for posting the form submission */
@@ -238,7 +232,7 @@ const {message} = this.state;
         >
           <ToolBar editorState={editorState} onToggle={this.toggleToolbar} />
         </div>
-        <div id="text" onClick={this.onClickEditor} onBlur={this.checkSelectedText} name="message" value={message} onChange={this.handleChange}>
+        <div id="text" onClick={this.onClickEditor} onBlur={this.checkSelectedText} name="message" value={message}>
           <Editor
           
             customStyleMap={styleMap}
