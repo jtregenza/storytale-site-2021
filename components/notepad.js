@@ -167,7 +167,7 @@ export default class Notepad extends Component {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
+      body: encode({ "form-name": "story", ...this.state })
     })
       .then(() => alert("Success!"))
       .catch(error => alert(error));
@@ -224,9 +224,7 @@ const {message} = this.state;
     return (
      
       <div className={styles.notepad}>
-           <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
+           <form name="story" data-netlify="true" netlify-honeypot="bot-field" hidden>
       <textarea name="message"></textarea>
     </form>
         <form name="story" onSubmit={this.handleSubmit}>
