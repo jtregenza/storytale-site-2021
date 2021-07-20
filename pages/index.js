@@ -8,7 +8,7 @@ import Date from '../components/date'
 import Year from '../components/year'
 import Notepad from '../components/notepad'
 import StoryStarter from '../components/story-starter'
-import { motion } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 
 export default function Home({ allPostsData }) {
   return (
@@ -21,7 +21,11 @@ export default function Home({ allPostsData }) {
         <div className={styles.blurb}>
         <h1>Story-powered solutions for products, brands and businesses.</h1>
         </div>
-        <div className={styles.heroText}>
+        <motion.div initial={{ scale: 0.8, opacity: 0 }}
+  animate={{ scale: 1, opacity: 1, }}
+  transition={{staggerChildren: 0.5, delay: 0.4}}
+
+        className={styles.heroText}>
           <div>S</div>
           <div>T</div>
           <motion.div     
@@ -40,7 +44,7 @@ export default function Home({ allPostsData }) {
           <div>A</div>
           <div>L</div>
           <div>E</div>
-        </div>
+        </motion.div>
         <nav className={styles.homeNav}>
           <Link href="#ourStories"><motion.a
           whileHover={{ scale: 1.1}}
@@ -63,17 +67,17 @@ export default function Home({ allPostsData }) {
       <section id="ourStories" className={styles.ourStories}>
         <h3 className={styles.listItem}>Our <br/>Stories</h3>
           {allPostsData.map(({ id, date, title, type, byline,image }) => (
-            <div className={styles.listItem} key={id}>
+            <motion.div layout className={styles.listItem} key={id}>
               <div className={styles.content}>
               <Link href={`/posts/${id}`}>
                 <a>
-                  <motion.p layoutId="byline" className={styles.byline}>
+                  <motion.p className={styles.byline}>
                   {byline}
                   </motion.p>
 
               <div className={styles.lowerHalf}>
                 <div>
-              <motion.p layoutId="title" className={styles.title}>{title}</motion.p>
+              <motion.p className={styles.title}>{title}</motion.p>
               <p className={styles.storyMeta}>
               <Date dateString={date}/> <i>{type}</i>
               </p>
@@ -85,11 +89,12 @@ export default function Home({ allPostsData }) {
               </div>
               </div>
               </a>
-
               </Link> 
             </div>
-            <motion.img layoutId="image" src={image}/>
-            </div>
+            <motion.img 
+             src={image}/>
+            </motion.div>
+            
           ))}
       </section>
       <section id="aboutUs" className={styles.aboutUs}>

@@ -3,7 +3,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
 
 export default function Post({ postData }) {
@@ -12,10 +12,10 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article className={utilStyles.articleContent}>
-        <motion.img layoutId="img" src={postData.image}/>
-        <motion.h1 layoutId="title" className={utilStyles.headingXl}>{postData.title}</motion.h1>
-        <motion.h2 layoutId="byline">
+      <article className={utilStyles.articleContent} key={postData.key}>
+        <motion.img layoutId="image" initial={false} src={postData.image}/>
+        <motion.h1 initial={false} className={utilStyles.headingXl}>{postData.title}</motion.h1>
+        <motion.h2 initial={false} layoutId="byline" initial="pageInitial" >
           {postData.byline}
         </motion.h2>
         <div className={utilStyles.lightText}>

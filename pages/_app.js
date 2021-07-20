@@ -1,11 +1,25 @@
 import '../styles/global.css'
 
-import { AnimateSharedLayout } from "framer-motion"
+import { AnimateSharedLayout, motion } from "framer-motion"
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps, router }) {
   return (
-    <AnimateSharedLayout>
+    <AnimateSharedLayout type="crossfade">
+       <motion.div key={router.route} initial="pageInitial" animate="pageAnimate" exit="pageExit" variants={{
+        pageInitial: {
+          opacity: 0
+        },
+        pageAnimate: {
+          opacity: 1
+        },
+        pageExit: {
+          backgroundColor: 'white',
+          filter: `invert()`,
+          opacity: 0
+        }
+      }}>
       <Component {...pageProps} />
+      </motion.div>
     </AnimateSharedLayout>
   )
 }
