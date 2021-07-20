@@ -27,7 +27,7 @@ export default function Notepad() {
         <textarea name="message" id="yourmessage"></textarea>
       </p>
       <p>
-        <button type="submit">Send</button>
+        <button className={styles.cta} type="submit">Tell your tale...</button>
       </p>
     </form>
     </div>
