@@ -603,18 +603,6 @@
   object-fit: cover;
 }
 
-.notepad {
-  grid-area: Notepad;
-  border-left: 2px solid;
-  padding: 2.5rem;
-  background: url(/images/photocopy-edge.jpg), var(--color-light);
-  background-size: auto;
-  background-repeat: repeat-y;
-  background-blend-mode: darken;
-  background-size: 2.5rem;
-  overflow-y: auto;
-}
-
 .contactUs {
   border-top: 2px solid;
   margin:0 1.5rem;
@@ -628,6 +616,60 @@
   min-height: 50rem;
   height: 100%;
 }
+
+.notepad {
+  grid-area: Notepad;
+  border-left: 2px solid;
+  padding: 2.5rem;
+  background: url(/images/photocopy-edge.jpg), var(--color-light);
+  background-size: auto;
+  background-repeat: repeat-y;
+  background-blend-mode: darken;
+  background-size: 2.5rem;
+  overflow-y: auto;
+}
+
+.notepad form {
+  width: 80%;
+}
+
+
+.notepad input {
+  margin: 0;
+  margin-left: 1ch;
+  border: unset;
+  border-bottom: 2px solid;
+  font-size: 1rem;
+  color: var(--color-dark);
+  background: var(--color-light);
+  font-family: var(--font-regular);
+  padding: 0.25rem;
+}
+
+
+.notepad textarea {
+  margin-top: 0.5ch;
+  width: 100%;
+  border: unset;
+  font-size: 1rem;
+  border-bottom: 2px solid;
+  background: var(--color-light);
+  font-family: var(--font-regular);
+  resize: vertical;
+  min-height: 1ch;
+  height: 100%;
+}
+
+.notepad input:focus-visible,
+.notepad textarea:focus-visible{
+  outline: none;
+  border: unset;
+  outline: 2px solid;
+  background: var(--color-light);
+  color: var(--color-dark);
+}
+
+
 
 .yourStory {
   grid-area: yourStory;
@@ -737,13 +779,17 @@
     padding: 1.5rem;
   }
 }
+
+
 .cta {
   border: unset;
-  background: var(--color-light);
+  background: var(--color-dark);
+  color: var(--color-light);
   padding: 0.5rem 1rem;
   cursor: pointer;
-  text-decoration: underline;
 }
+
+
 
 
 .backToHome {
@@ -756,4 +802,6 @@
 }
 
 
-
+.contentMain {
+  padding: 1rem;
+}

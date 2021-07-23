@@ -29,6 +29,7 @@ export default function Home({ allPostsData }) {
           <div>S</div>
           <div>T</div>
           <motion.div     
+          transition= {{  stiffness: 3, mass: 0.2, velocity: 2000}}
           drag
     
           dragConstraints={{
