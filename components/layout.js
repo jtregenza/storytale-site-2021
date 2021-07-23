@@ -2,11 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from './layout.module.css'
 import Link from 'next/link'
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { motion, useCycle } from "framer-motion";
 import { useDimensions } from "./useDimensions";
 import { MenuToggle } from "./MenuToggle";
 import { Navigation } from "./Navigation";
+import { useDarkMode } from './darkMode';
+import Toggle from './Toggle';
 
 const name = 'storytale'
 export const siteTitle = 'Story-powered solutions for products, brands and businesses'
@@ -39,8 +41,13 @@ export default function Layout({ children, home }) {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
   const { height } = useDimensions(containerRef);
+  const [theme, toggleTheme, componentMounted] = useDarkMode();
+
+  const themeMode = theme === 'light' ? 'light' : 'dark';
+
+
   return (
-    <div className={styles.container}>
+    <div className={styles.container} theme={themeMode}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <link
@@ -91,7 +98,10 @@ export default function Layout({ children, home }) {
       className={styles.headerNav}
     >      
     <MenuToggle toggle={() => toggleOpen()}>{isOpen ? "Close" : "Menu"}</MenuToggle>
-      <motion.div className={styles.background} variants={sidebar}><Navigation /></motion.div>
+      <motion.div className={styles.background} variants={sidebar}><Navigation />
+      
+      <Toggle theme={theme} toggleTheme={toggleTheme} />
+      </motion.div>
       
       </motion.nav>
       </header>

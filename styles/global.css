@@ -25,6 +25,16 @@
 }
 
 
+[theme="light"] {
+  --color-dark: rgb(20, 20, 20);
+  --color-light: rgb(255,249,243);
+}
+
+[theme="dark"] {
+  --color-dark: rgb(255,249,243); 
+  --color-light: rgb(20, 20, 20);
+}
+
 html,
 body {
   padding: 0;
