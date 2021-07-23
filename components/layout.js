@@ -1,14 +1,44 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
-import { AnimateSharedLayout } from "framer-motion"
+import { useRef } from "react";
+import { motion, useCycle } from "framer-motion";
+import { useDimensions } from "./useDimensions";
+import { MenuToggle } from "./MenuToggle";
+import { Navigation } from "./Navigation";
 
 const name = 'storytale'
 export const siteTitle = 'Story-powered solutions for products, brands and businesses'
 
+const sidebar = {
+  open: (height = 1000) => ({
+    height: height,
+    clipPath: `circle(${height * 2 + 200}px at 40px 40px)`,
+    background: 'var(--color-dark)',
+     transition: {
+      type: "spring",
+      stiffness: 20,
+      restDelta: 2
+    }
+  }),
+  closed: {
+    height: 'unset',
+    clipPath: "circle(20px at 300px 1px)",
+    background: 'var(--color-light)',
+    transition: {
+      delay: 0.5,
+      type: "spring",
+      stiffness: 400,
+      damping: 40
+    }
+  }
+};
+
 export default function Layout({ children, home }) {
+  const [isOpen, toggleOpen] = useCycle(false, true);
+  const containerRef = useRef(null);
+  const { height } = useDimensions(containerRef);
   return (
     <div className={styles.container}>
       <Head>
@@ -53,10 +83,17 @@ export default function Layout({ children, home }) {
         <span className={styles.center}>
         Brisbane, Australia
         </span>
-        <button>
-          {/* Make this into a dropdown menu or something */}
-        Menu
-        </button>
+        <motion.nav
+      initial={false}
+      animate={isOpen ? "open" : "closed"}
+      custom={height}
+      ref={containerRef}
+      className={styles.headerNav}
+    >      
+    <MenuToggle toggle={() => toggleOpen()}>{isOpen ? "Close" : "Menu"}</MenuToggle>
+      <motion.div className={styles.background} variants={sidebar}><Navigation /></motion.div>
+      
+      </motion.nav>
       </header>
       <main className={styles.content}>{children}</main>
       {!home && (
