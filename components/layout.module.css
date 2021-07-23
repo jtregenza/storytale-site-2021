@@ -41,17 +41,13 @@
 @media screen and (max-width: 800px) {
   .header {
     margin: 0 1.5rem;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .center {
+    display: none;
   }
   .intro {
     margin: 1.5rem
-  }
-  .header > div:first-of-type {
-    align-self: flex-start;
-  }
-  .header button {
-    align-self: flex-end;
   }
 }
 
@@ -647,9 +643,11 @@
   padding: 0.25rem;
 }
 
-.notepad textarea::-webkit-input-placeholder{
+.notepad textarea::-webkit-input-placeholder,
+.notepad textarea::placeholder{
   color: var(--color-dark);
 }
+
 
 
 .notepad textarea {
@@ -657,6 +655,7 @@
   width: 100%;
   border: unset;
   font-size: 1rem;
+  margin-bottom: 0;
   border-bottom: 2px solid var(--color-dark);
   background: var(--color-light);
   font-family: var(--font-regular);
@@ -670,6 +669,7 @@
   outline: none;
   border: unset;
   outline: 2px solid;
+  margin-bottom: 2px;
   background: var(--color-light);
   color: var(--color-dark);
 }
