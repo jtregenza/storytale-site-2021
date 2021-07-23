@@ -45,8 +45,6 @@ export default function Layout({ children, home }) {
 
 
   return (
-
-    console.log(themeMode),
     <div className={styles.container} theme={themeMode}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
