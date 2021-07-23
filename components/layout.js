@@ -15,9 +15,8 @@ export const siteTitle = 'Story-powered solutions for products, brands and busin
 
 const sidebar = {
   open: (height = 1000) => ({
-    height: height,
+    height: '100vh',
     clipPath: `circle(${height * 2 + 200}px at 40px 40px)`,
-    background: 'var(--color-dark)',
      transition: {
       type: "spring",
       stiffness: 20,
@@ -26,8 +25,7 @@ const sidebar = {
   }),
   closed: {
     height: 'unset',
-    clipPath: "circle(20px at 300px 1px)",
-    background: 'var(--color-light)',
+    clipPath: "circle(0px at 300px 1px)",
     transition: {
       delay: 0.5,
       type: "spring",
@@ -47,6 +45,8 @@ export default function Layout({ children, home }) {
 
 
   return (
+
+    console.log(themeMode),
     <div className={styles.container} theme={themeMode}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
