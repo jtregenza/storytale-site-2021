@@ -21,7 +21,7 @@ export default function Notepad() {
         <label htmlFor="yourmessage">
           and this is my tale
         </label><br/>
-        <TextareaAutosize placeholder="Start your story..." name="message" rows="3"/>
+        <TextareaAutosize placeholder="Start your story..." name="message" rows="3" required/>
         {/* <textarea className='autoExpand' data-min-rows='3'  width="100%" name="message"  draggable="false" id="yourmessage" placeholder="Start your story..."></textarea> */}
       </p>
      
@@ -29,7 +29,7 @@ export default function Notepad() {
         <label htmlFor="youremail">
           If you want to talk more about my tale here 
         </label>
-        <input type="email" name="email" id="youremail" placeholder="Your Email" pattern="\S+.*"/>.
+        <input type="email" name="email" id="youremail" placeholder="Your Email" pattern="[^@\s]+@[^@\s]+" />.
       </p>
       <p>
         <motion.button className={styles.cta} type="submit" 
