@@ -72,6 +72,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
+        <div className={styles.borderHeader}>
         {home ? (
           <>
             Storytale Studio
@@ -102,6 +103,7 @@ export default function Layout({ children, home }) {
       </motion.div>
       
       </motion.nav>
+      </div>
       </header>
       <main className={styles.content}>{children}</main>
       {!home && (
