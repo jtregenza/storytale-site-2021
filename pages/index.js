@@ -38,6 +38,7 @@ export default function Home({ allPostsData }) {
             right: 50,
             bottom: 50,
           }}
+          dragTransition={{ bounceStiffness: 200, bounceDamping: 10 }}
     className={styles.heroImage}></motion.div>
           <div>R</div>
           <div>Y</div>

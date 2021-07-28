@@ -120,6 +120,7 @@
   background-position:center;
   background-size: cover;
   border-radius: 100%;
+  z-index: 1000;
   width: 1.3ch;
   height:1.3ch;
 }
