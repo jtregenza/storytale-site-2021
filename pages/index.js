@@ -19,7 +19,11 @@ export default function Home({ allPostsData }) {
       <article className={styles.homeContent}>
       <section className={styles.intro}>
         <div className={styles.blurb}>
-        <h1>Story-powered solutions for products, brands and businesses.</h1>
+        <motion.h1
+        initial={{ scale: 0, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1, }}
+        transition={{staggerChildren: 0.5,}}
+        >Story-powered solutions for products, brands and businesses.</motion.h1>
         </div>
         <motion.div initial={{ scale: 0.8, opacity: 0 }}
   animate={{ scale: 1, opacity: 1, }}
@@ -29,7 +33,7 @@ export default function Home({ allPostsData }) {
           <div>S</div>
           <div>T</div>
           <motion.div     
-          transition= {{  stiffness: 3, mass: 0.2, velocity: 2000}}
+
           drag
     
           dragConstraints={{
@@ -39,6 +43,7 @@ export default function Home({ allPostsData }) {
             bottom: 50,
           }}
           dragTransition={{ bounceStiffness: 200, bounceDamping: 10 }}
+
     className={styles.heroImage}></motion.div>
           <div>R</div>
           <div>Y</div>
