@@ -93,8 +93,10 @@ export default function Home({ allPostsData }) {
               </a>
               </Link> 
             </div>
+            <div className={styles.storyImage}>
             <motion.img 
              src={image}/>
+             </div>
             </motion.div>
             
           ))}
