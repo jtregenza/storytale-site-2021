@@ -4,10 +4,23 @@ import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 import styles from '../../components/layout.module.css'
-import { motion, AnimatePresence } from 'framer-motion'
+import { useEffect, useState } from "react";
+import {
+  motion,
+  useViewportScroll,
+  useSpring,
+  useTransform
+} from "framer-motion";
 
 
 export default function Post({ postData }) {
+  const [isComplete, setIsComplete] = useState(false);
+  const { scrollYProgress } = useViewportScroll();
+  const yRange = useTransform(scrollYProgress, [0, 0.9], [0, 1]);
+  const pathLength = useSpring(yRange, { stiffness: 400, damping: 90 });
+
+  useEffect(() => yRange.onChange(v => setIsComplete(v >= 1)), [yRange]);
+
   return (
     <Layout>
       <Head>
@@ -25,6 +38,31 @@ export default function Post({ postData }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </section>
+        <svg className={styles.progressIcon} viewBox="0 0 60 60">
+        <motion.path
+          fill="none"
+          strokeWidth="5"
+          stroke="var(--color-dark)"
+          strokeDasharray="0 1"
+          d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
+          style={{
+            pathLength,
+            rotate: 90,
+            translateX: 5,
+            translateY: 5,
+            scaleX: -1 // Reverse direction of line animation
+          }}
+        />
+                <motion.path
+          fill="none"
+          strokeWidth="5"
+          stroke="none"
+          d="M 0, 20 a 20, 20 0 1,0 40,0 a 20, 20 0 1,0 -40,0"
+          initial={false}
+          strokeDasharray="0 100"
+          animate={{ pathLength: isComplete ? 1 : 0 }}
+        />
+        </svg>
       </article>
     </Layout>
   )
