@@ -75,7 +75,7 @@ export default function Home({ allPostsData }) {
       <section id="ourStories" className={styles.ourStories}>
         <h3 className={styles.listItem}>Our <br/>Stories</h3>
           {allPostsData.map(({ id, date, title, type, byline,image }) => (
-            <motion.div layout className={styles.listItem} key={id}>
+            <motion.div initial={{scale:1}} exit={{scale:100}} className={styles.listItem} key={id}>
               <div className={styles.content}>
               <Link href={`/posts/${id}`}>
                 <a>
