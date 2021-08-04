@@ -265,6 +265,10 @@
   transform-origin: top;
 }
 
+.listItem:nth-child(5) .storyImage > div{
+  height: 100%;
+}
+
 .listItem:nth-child(6) {
   flex-direction: column-reverse;
   grid-row: 3/5;
@@ -282,6 +286,8 @@
 .listItem:nth-child(6) .storyImage{
   grid-area: Image;
 }
+
+
 
 .listItem:nth-child(6) .arrow {
   transform: rotateZ(-90deg);

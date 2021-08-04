@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
+import Image from 'next/image'
 import Date from '../components/date'
 import Year from '../components/year'
 import Notepad from '../components/notepad'
@@ -84,7 +85,7 @@ export default function Home({ allPostsData }) {
 
               <div className={styles.lowerHalf}>
                 <div>
-              <motion.p className={styles.title}>{title}</motion.p>
+              <motion.p layoutId="title" className={styles.title}>{title}</motion.p>
               <p className={styles.storyMeta}>
               <Date dateString={date}/> <i>{type}</i>
               </p>
@@ -99,8 +100,8 @@ export default function Home({ allPostsData }) {
               </Link> 
             </div>
             <div className={styles.storyImage}>
-            <motion.img 
-             src={image}/>
+            <Image  
+             src={image} width="" height="" placeholder="blur" layoutId="image" layout="responsive"/>
              </div>
             </motion.div>
             
@@ -110,9 +111,9 @@ export default function Home({ allPostsData }) {
             <h2 className={styles.display}>Studio</h2>
             <p>Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. </p>
             <div className={styles.imageGroup}>
-              <img src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1"/>
-              <img src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2"/>
-              <img src="/images/photo-1625378163049-d1ca880237c7.webp" alt="image-3"/>
+              <Image src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1" placeholder="blur" width="" height="" />
+              <Image src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2" placeholder="blur" width="" height="" />
+              <Image src="/images/photo-1625378163049-d1ca880237c7.webp" alt="image-3" placeholder="blur" width="" height="" />
             </div>
 
       </section>

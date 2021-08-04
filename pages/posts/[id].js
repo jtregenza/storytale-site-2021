@@ -3,6 +3,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
+import Image from 'next/image'
 import styles from '../../components/layout.module.css'
 import { useEffect, useState } from "react";
 import {
@@ -27,15 +28,18 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article className={utilStyles.articleContent} key={postData.key}>
-        <motion.img layoutId="image" initial={false} src={postData.image}/>
-        <section className={styles.contentMain}>
-        <motion.h1 initial={false} className={utilStyles.headingXl}>{postData.title}</motion.h1>
-        <motion.h2 initial={false} layoutId="byline" initial="pageInitial" >
+        <header>
+        <motion.h1 className={utilStyles.headingXl}>{postData.title}</motion.h1>
+        <motion.h2 initial={false}  >
           {postData.byline}
         </motion.h2>
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
+        </header>
+        <Image className="img" layout="responsive" width="100" height="100%" src={postData.image}/>
+        <section className={styles.contentMain}>
+        
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </section>
         <svg className={styles.progressIcon} viewBox="0 0 60 60">
