@@ -34,7 +34,7 @@ This left us with a few questions:
 - Does the marketplace have a gap that the company could fill?
 - How much change would we make in order to bring this company inline with our own views and mentality?
 
-Cash Converters as a personal finance company really isn't the of company we want to associate with. Pay day loans, cash advances and sub prime loans have disproportionate affect poorer individuals and families and practices of predatory lending have run rampant. This isn't us accusing Cash Converters of predatory lending (As part of the 2019 class action suite's settlement Cash Converters did not admit liability in the alleged consumer law breaches).
+Cash Converters as a personal finance company really isn't the of company we want to associate with. Pay day loans, cash advances and sub prime loans have disproportionate affect poorer individuals and families and practices of predatory lending have run rampant. This isn't us accusing Cash Converters of predatory lending (As part of the 2019 class action suite's settlement Cash Converters did not admit liability in the alleged consumer law breaches). It's also very weird that for their website to mark federal government reforms and amendments as company milestones.
 
 Cash Converters as a second-hand retailer has some openings though, especially once we look to their contemporaries.
 
@@ -42,15 +42,37 @@ The main competition to the likes of Cash Converters second-hand market are prod
 
 How would Cash Converters keep up with the this marketplace and make a case for itself? By providing greater safety to the buyers and sellers.
 
-A core part of the peer to peer is the collection of the goods and the 
+A core part of the peer to peer is the collection of the goods at the end of the transaction, either through post or going to the sellers home.
 
+Whether imagined or not, there are safety concerns about going ot a persons home to then collect goods and exchange cash for, you've probably only known this person through your brief conversation and don't fully know the person you are going to meet. 
 
+Josh isn't an avid buyer or seller but he is ever present in transactions along with his partner, either being the person the buyers solely meets when the buyer picks up items from their house or being there at the property of the seller when it's his time to collect.
 
+It's in this gap in the marketplace where a brick and mortar store that Cash Converters has (with over 150 stores across Australia) can be utilised and lead to larger innovation for the company around second hand retail.
 
-# The current story
+We have now reached the point in our tale for our hero to reach Apotheosis, the metamorphosis from Cash Converters to a brand that will take the next steps in safe peer to peer exchange of second hand items. Introducing HAGL.
 
-Taking on
+---
 
-# The new story
+HAGL creates a pointed departure from the Cash Converters brand and pawn shop aesthetic into the trendy space that is only really occupied by Depop. HAGL operates in the digital and physical spheres through two ways: the HAGL app and the HAGL post.
 
-# Extras
+The HAGL app faciliates peer to peer communication and individual storefronts for HAGLers and Buyers. As a HAGLer, you can post your items of the app and connect with avid buyers to converter your items into funds. Buyers can follow their favourite HAGLers and make purchases through contactless payment. 
+
+The HAGL post is the physical store comes to play. Harkening back to the Trading Posts of yore, this is where buyers and HAGLers can drop off and pick up their items from the HAGL boxes. Once a HAGL has been confirmed, the HAGLer drops the item into their preferred HAGL Post where one of the staff then confirms the item is what is being sold and then transports the item into the appropriate HAGL boxes (which come in 4 specific sizes). 
+
+Once the HAGL box is sorted, the buyer can then head into the Post and collect their item/s. The buyer users their phone to unlock the HAGL box the buyer can then inspect the item and confirm the transaction complete. Using geolocation services from the buyers phone, once they leave the HAGL post, the funds are then sent to the HAGLer. 
+
+---
+
+So why all the changes? Let's work down the list and show our workings.
+
+#### Name
+
+Cash is less prevalent in Australia, and while Cash Converters as a brand has been around for nearly 40 years, detaching this fresher brand away from the former brand will invigorate the customer base.
+
+We went down the direction of CC, or Converter but their felt right to what we were trying to evoke. We looked into just going to Trader's Post as we dug into using the brick and mortar stores as... trading posts. We wanted the evocation of the verb in buying and selling in which we found haggle. It's a age old tradition in the digital sphere to drop the vowels but it kind of fit with HAGL. Spoken HAGL is also similar in pronounciation (by design) to Georg Wilhelm Friedrich Hegel and the actions within the HAGL app forming synthesis.
+
+#### Colour Scheme
+
+One of the previous marketing campaigns 
+
