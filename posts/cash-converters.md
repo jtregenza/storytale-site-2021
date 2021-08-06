@@ -54,16 +54,15 @@ We have now reached the point in our tale for our hero to reach Apotheosis, the 
 
 ![HAGL Fonts](/images/case-studies/cash-converters/HAGL-Fonts.png "HAGL Fonts")
 
-![HAGL Tags](/images/case-studies/cash-converters/HAGL-Tags.png "HAGL Tags")
-
-
-![HAGL Posters](/images/case-studies/cash-converters/HAGL-Posters.png "HAGL Posters")
+![HAGL Colour Scheme](/images/case-studies/cash-converters/HAGL-Colour-Schemes.png "HAGL Color Scheme")
 
 HAGL creates a pointed departure from the Cash Converters brand and pawn shop aesthetic into the trendy space that is only really occupied by Depop. Cash is less prevalent in Australia, and while Cash Converters as a brand has been around for nearly 40 years, detaching HAGL for a fresher brand away from the former brand will invigorate the customer base. With this brand we increase from just instruments, electronics and jewelry and allows individuals to make more possible.
 
-![HAGL Colour Scheme](/images/case-studies/cash-converters/HAGL-Colour-Schemes.png "HAGL Color Scheme")
+![HAGL Tags](/images/case-studies/cash-converters/HAGL-Tags.png "HAGL Tags")
 
 We took out the maroon and yellow colours and make HAGL black and white, to draw attention to the HAGLers and their items for sale. 
+
+![HAGL Posters](/images/case-studies/cash-converters/HAGL-Posters.png "HAGL Posters")
 
  HAGL operates in the digital and physical spheres through two ways: the HAGL app and the HAGL post.
 
