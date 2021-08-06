@@ -6,7 +6,7 @@ type: "story"
 image: "/images/photo-1574672280600-4accfa5b6f98.webp"
 ---
 
-# Intro
+## Intro
 
 Growing up in Australia most people would remember the Sunday night family dinner. 9/10 times it being a big roast lamb with baked vegies and a lake of gravy over it all. The peas drowning like little sailors. The Sunday roast is a tradition that throws back to our English colonial roots from before the first settlers landed on our shores. For many this idea of a big family meal also spilled across to other nights of the week. Friday fish and chips was always a welcome treat that carried the same bonding time.
 
@@ -18,7 +18,7 @@ What is bad is just what these places are serving us and our children. Burgers, 
 
 While we can't solve giving families time to cook for themselves. We can provide them an alternative option that provides a healthy dinner that they won't feel guilty about.  
 
-# The current story
+## The current story
 
 Anyone from Brisbane and Queensland in general has been to the local competitor to Red Rooster; Brodies. I remember going their after school with my friends to grab a box of chips. Unlike the clinically modern Red Roosters, Brodie stores always had a touch of that country town aesthetic without trying. It felt local, even if it was a chain. The menu was full of that good roast chicken and homemade sides that no other takeaway store sold. A good alternative to the others.
 
@@ -28,8 +28,42 @@ I had completely forgotten about it until recently when I had a sudden urge for 
 
 It was now a second rate burger shop that even was too late to the already diverse boutique burger scene. When I got the meal, I was still greeted with the same old packaging as I was 15 years ago. What had changed wasn't for the better and what remained the same wasn't helpful. It's soul was gone. 
 
-# Changing things up
+## Changing things up
 
 This situation might seen dire, but its not the end. What separates a fast food store to a good old family take away shop is the story. We might have stories of ourselves at Maccas. But you could replace that location with any other one and still get the same story. Places like old Brodies were part of the story. Stories of dinner with the family or rolling on in your school uniform to try and impress the girls in your class with chips after school (This never worked!). 
 
 So how do we bring the story back to Brodies?
+
+### Logo
+![Brodies Logo](/images/case-studies/brodies/brodies-core.png "Brodies Proposed Logo")
+
+![Alternative Colours](/images/case-studies/brodies/brodies-2.png "Alternative Colours Logo")
+
+### Branding
+![Brodies Poster](/images/case-studies/brodies/brodies-poster.png "Brodies Poster")
+
+![Brodies Sign](/images/case-studies/brodies/brodies-sign.png "Brodies Sign")
+
+![Brodies Bus Stop](/images/case-studies/brodies/brodies-busstop.png "Brodies Bus Stop")
+
+### Packaging 
+![Brodies Menu](/images/case-studies/brodies/brodies-menu-out.png "Brodies Menu Out")
+
+![Brodies Menu Inside](/images/case-studies/brodies/brodies-menu-in.png "Brodies Menu In")
+
+![Brodies Boxes](/images/case-studies/brodies/brodies-boxes.png "Brodies Boxes")
+
+### Stores
+
+![Brodies Sign](/images/case-studies/brodies/brodies-sign.png "Brodies Sign")
+
+![Brodies Store](/images/case-studies/brodies/brodies-store.png "Brodies Store Mock Up")
+
+### Website
+
+
+### Extras
+
+![Brodies Characters / Carroters](/images/case-studies/brodies/brodies-carroters.png "Brodies Characters")
+
+![Brodies Fonts](/images/case-studies/brodies/brodies-fonts.png "Brodies Fonts")
