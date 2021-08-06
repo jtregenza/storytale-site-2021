@@ -40,9 +40,7 @@ Cash Converters as a second-hand retailer has some openings though, especially o
 
 The main competition to the likes of Cash Converters second-hand market are products like Facebook Marketplace and Gumtree. The peer to peer marketplace for second hand goods has grown rapidly from with Ebay being a precursor and depop starting to make second hand clothing resale very trendy.
 
-How would Cash Converters keep up with the this marketplace and make a case for itself? By providing greater safety to the buyers and sellers.
-
-A core part of the peer to peer is the collection of the goods at the end of the transaction, either through post or going to the sellers home.
+How would Cash Converters keep up with the this marketplace and make a case for itself? By providing greater safety to the buyers and sellers. A core part of the peer to peer is the collection of the goods at the end of the transaction, either through post or going to the sellers home.
 
 Whether imagined or not, there are safety concerns about going ot a persons home to then collect goods and exchange cash for, you've probably only known this person through your brief conversation and don't fully know the person you are going to meet. 
 
@@ -54,6 +52,8 @@ We have now reached the point in our tale for our hero to reach Apotheosis, the 
 
 ---
 
+
+
 HAGL creates a pointed departure from the Cash Converters brand and pawn shop aesthetic into the trendy space that is only really occupied by Depop. Cash is less prevalent in Australia, and while Cash Converters as a brand has been around for nearly 40 years, detaching HAGL for a fresher brand away from the former brand will invigorate the customer base. With this brand we increase from just instruments, electronics and jewelry and allows individuals to make more possible.
 
 We took out the maroon and yellow colours and make HAGL black and white, to draw attention to the HAGLers and their items for sale. 
@@ -64,5 +64,5 @@ The HAGL app faciliates peer to peer communication and individual storefronts fo
 
 The HAGL post is the physical store comes to play. Harkening back to the Trading Posts of yore, this is where buyers and HAGLers can drop off and pick up their items from the HAGL boxes. Once a HAGL has been confirmed, the HAGLer drops the item into their preferred HAGL Post where one of the staff then confirms the item is what is being sold and then transports the item into the appropriate HAGL boxes (which come in 4 specific sizes). By transforming the stores into trading posts that only have stock when sales have occurred, this seeks to decrease the depreciating or lost stock that Cash Converters accumulates year on year. The consumer then has piece of mind when collecting from the HAGL post in their own safety, with check in facilities and lock posts for their items. 
 
-The proposed metamorphosis to take the second-hand retailer to a peer-to-peer marketplace with brick and mortar collection establishment so that more focus can 
+The proposed metamorphosis to take the second-hand retailer to a peer-to-peer marketplace with brick and mortar collection establishments prioritises safety and transparency while diminishing points of revenue loss for the business. 
 
