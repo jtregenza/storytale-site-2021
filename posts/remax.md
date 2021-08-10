@@ -29,7 +29,7 @@ The colours wouldn't need to be changed as they have become such a rich part of 
 
 ![Remax Colours](/images/case-studies/remax/REMAX-Colours.png "Remax ALT Colours")
 
-The new logo is complimented with the balloon component being added to the brand, the peak of a baloon emerging from below and rising into promience.
+The new logo is complimented with the balloon component being added to the brand, the peak of a balloon emerging from below and rising into prominence.
 
 ![Remax Balloon Component](/images/case-studies/remax/REMAX-Balloon-Component.png "Remax Balloon Component")
 
