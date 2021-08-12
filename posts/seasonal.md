@@ -6,9 +6,18 @@ type: "product"
 image: "/images/photo-1573499931826-293a9722a62d.webp"
 ---
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+Seasonal wants to help you save a few dollars and maybe help the world while you are at it. As much as we all enjoy a good Strawberry, when is the right time to get the 3 dollar punit bursting with flavour. Better still, where can you buy the best strawberries where you are located. 
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+My world's on fire and buying practices need to change in order to create corporate culture shifts so it's less on fire and more livable. 
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+The roadmap is cultivated into six questions that Seasonal will answer: 
+1. When to buy?
+2. Where to buy?
+3. How to Cook?
+4. What to Grow?
+5. How to Grow?
+6. How to Support Others?
+
+Ambitious in it's goal but simple in premise, by building Seasonal we want to help you cook more locally and sustainably with fresher produce.
+
+Keep an eye out for the Seasonal App to help you in the grocer aisle soon.
