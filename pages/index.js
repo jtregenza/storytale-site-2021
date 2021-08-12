@@ -109,7 +109,9 @@ export default function Home({ allPostsData }) {
       </section>
       <section id="aboutUs" className={styles.aboutUs}>
             <h2 className={styles.display}>Studio</h2>
-            <p>Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. </p>
+            <p>Welcome. Storytale began with friends and storytellers, Isaac Joe Kong and Josh Tregenza wanted to empower other peoples stories. Is that creating websites? Sometimes. Is the branding a new product or company? More than likely. Is it painting murals? We've done that in the past. Is it making furniture for succulent meals? Only if this is design manifest.
+            <br/> What we are trying to say is we are a full service design studio for people and products that have a story to tell.
+              <br/>Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. </p>
             <div className={styles.imageGroup}>
               <Image src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1" placeholder="blur" width="" height="" />
               <Image src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2" placeholder="blur" width="" height="" />
