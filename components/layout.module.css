@@ -586,16 +586,21 @@
 }
 
 
+.aboutUs .heading {
+  grid-area: Heading;
+
+  z-index: 2;
+}
 
 .aboutUs h2 {
   font-family: var(--font-bold);
   font-size: 29rem;
   margin: 0;
-  line-height: 1;
   margin-left: -9rem;
   margin-bottom: -7rem;
-  z-index: 2;
-  grid-area: Heading;
+  line-height: 1;
+
+  
 }
 
 @media screen and (max-width: 1200px) {
@@ -619,7 +624,7 @@
   }
 }
 
-.aboutUs p {
+.aboutUs .content {
   grid-area: Blurb;
   padding: 5rem 3rem;
 

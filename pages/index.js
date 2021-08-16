@@ -10,6 +10,7 @@ import Year from '../components/year'
 import Notepad from '../components/notepad'
 import StoryStarter from '../components/story-starter'
 import { AnimatePresence, motion } from 'framer-motion'
+import FadeInWhenVisible from '../components/fadeInVisible'
 
 export default function Home({ allPostsData }) {
   return (
@@ -75,7 +76,8 @@ export default function Home({ allPostsData }) {
       <section id="ourStories" className={styles.ourStories}>
         <h3 className={styles.listItem}>Our <br/>Stories</h3>
           {allPostsData.map(({ id, date, title, type, byline,image }) => (
-            <motion.div className={styles.listItem} key={id}>
+
+            <FadeInWhenVisible className={styles.listItem} key={id}>
               <div className={styles.content}>
               <Link href={`/posts/${id}`}>
                 <a>
@@ -100,22 +102,32 @@ export default function Home({ allPostsData }) {
               </Link> 
             </div>
             <div className={styles.storyImage}>
+              
             <Image  
              src={image} width="" height="" placeholder="blur" layoutId="image" layout="responsive"/>
              </div>
-            </motion.div>
+            </FadeInWhenVisible>
             
           ))}
       </section>
       <section id="aboutUs" className={styles.aboutUs}>
+        <FadeInWhenVisible className={styles.heading}>
             <h2 className={styles.display}>Studio</h2>
+          </FadeInWhenVisible>
+          <FadeInWhenVisible className={styles.content}>
             <p>Welcome. Storytale began with friends and storytellers, Isaac Joe Kong and Josh Tregenza wanted to empower other peoples stories. Is that creating websites? Sometimes. Is the branding a new product or company? More than likely. Is it painting murals? We've done that in the past. Is it making furniture for succulent meals? Only if this is design manifest.
-            <br/> What we are trying to say is we are a full service design studio for people and products that have a story to tell.
-              <br/>Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. Here goes a story-powered about us section for us and the studio. </p>
+            <br/> What we are trying to say is we are a full service design studio for people and products that have a story to tell.</p>
+            </FadeInWhenVisible>
             <div className={styles.imageGroup}>
+            <FadeInWhenVisible>
               <Image src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1" placeholder="blur" width="" height="" />
+              </FadeInWhenVisible>
+              <FadeInWhenVisible>
               <Image src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2" placeholder="blur" width="" height="" />
+              </FadeInWhenVisible>
+              <FadeInWhenVisible>
               <Image src="/images/photo-1625378163049-d1ca880237c7.webp" alt="image-3" placeholder="blur" width="" height="" />
+              </FadeInWhenVisible>
             </div>
 
       </section>
