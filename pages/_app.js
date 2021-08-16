@@ -11,9 +11,9 @@ export default function App({ Component, pageProps, router }) {
        <motion.div key={router.route} initial="pageInitial" animate="pageAnimate" exit="pageExit" variants={{
         pageInitial: {
           opacity: 0,
-          scale: 1,
+          scale: 0.8,
           x: 0,
-          y: 200
+          y: -200
         },
         pageAnimate: {
           opacity: 1,
@@ -22,10 +22,11 @@ export default function App({ Component, pageProps, router }) {
           y: 0
         },
         pageExit: {
-          backgroundColor: 'var(--color-light)',
+          backgroundColor: 'var(--color-dark)',
           opacity: 0,
+          scale: 0.8,
           x: 0, 
-          y: -100
+          y: -200
         }
       }}>
       <Component {...pageProps} />

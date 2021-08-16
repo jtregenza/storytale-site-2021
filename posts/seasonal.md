@@ -7,28 +7,8 @@ image: "/images/photo-1573499931826-293a9722a62d.webp"
 ---
 
 
+Food ties us together, it shows who we are, where we came from and what may come to us. Food matters. 
 
-1. Start off with the story to hook attention
+At Storytale we want to help with what matters. That's why we are making Seasonal, a tool to help cook with fresher produce and maybe even grow the freshest produce. We want to give you the knowledge and know how to be more in touch with the food you eat and when is best to buy it. Shopping fresher means you will know when you can or cannot make certain meals and help save you money ($2 punnets of strawberries taste much better than $10 punnets).
 
-
-2. Intro to the project
-3. Current status + designs/ prototype
-4. Next stage. Leaving out the future plans and instead focus on that problem statement we came up with for each.
-
-
-
-Seasonal wants to help you save a few dollars and maybe help the world while you are at it. As much as we all enjoy a good Strawberry, when is the right time to get the 3 dollar punit bursting with flavour. Better still, where can you buy the best strawberries where you are located. 
-
-My world's on fire and buying practices need to change in order to create corporate culture shifts so it's less on fire and more livable. 
-
-The roadmap is cultivated into six questions that Seasonal will answer: 
-1. When to buy?
-2. Where to buy?
-3. How to Cook?
-4. What to Grow?
-5. How to Grow?
-6. How to Support Others?
-
-Ambitious in it's goal but simple in premise, by building Seasonal we want to help you cook more locally and sustainably with fresher produce.
-
-Keep an eye out for the Seasonal App to help you in the grocer aisle soon.
+The seedlings of Seasonal have only just broken through the soil and the studio is building out the app for your glorious consumption. We want to help you know when is best to buy, when is best to grow but also how to cook the produce you now have at your disposal. That is going to grow organically from there. Food ties us together, it matters and so do you.

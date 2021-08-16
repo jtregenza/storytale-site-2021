@@ -38,82 +38,49 @@ It’s healthy, its simple, it’s a little bit fancy and you can make it your w
 
 To give this new direction a stamp we created a new logo. Taking the big Brodies B we merged that with the recommended food proportion plate top create a new B in the shape of the meal boxes we envision the store being based around. Pairing that with a hand painted word mark to give it a more handcrafted feel.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/68f5665d-145e-4f65-9a91-9fa132cb7853/brodies_logos.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/68f5665d-145e-4f65-9a91-9fa132cb7853/brodies_logos.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6f955b2a-088d-439d-92a8-f5fe15567065/brodies_logo-theory.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6f955b2a-088d-439d-92a8-f5fe15567065/brodies_logo-theory.png)
+![Brodies Logo](/images/case-studies/brodies/brodies-core-logo.png "Brodies Proposed Logo")
+
+![Logo Theory](/images/case-studies/brodies/brodies_logo-theory.png "Logo Theory")
 
 ### Little bit cheeky
 
 Part of refreshing the brand was to look at how we can tell a story of good food. Along with a striking colour palette and more modern font we added in illustrations of food with a bit of a cheeky twist to them. Mascots for the brand that are nothing more than fresh food instead of animals or characters. We wanted them along with the copy to have a classic Aussie cheekiness to them.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/823e76bf-ee5a-48cd-96b9-043cb0410f3f/brodies_fonts.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/823e76bf-ee5a-48cd-96b9-043cb0410f3f/brodies_fonts.png)
+![Brodies Font](/images/case-studies/brodies/brodies_fonts.png "Brodies Fonts")
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9e4eb59-b922-4fbb-b2ca-c1a91931cad5/brodies_colours.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b9e4eb59-b922-4fbb-b2ca-c1a91931cad5/brodies_colours.png)
+![Brodies Colours](/images/case-studies/brodies/brodies_colours.png "Brodies Colours")
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a8f3e8cd-67d4-48b8-9335-da255366dfab/brodies_illustrations.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a8f3e8cd-67d4-48b8-9335-da255366dfab/brodies_illustrations.png)
+![Brodies Illustrations](/images/case-studies/brodies/brodies_illustrations.png "Brodies Illustrations")
 
 For marketing we kept things simple and wanted to reinforce the main message of Brodies. Food made good. The whole process has been stripped down to something akin to the subway or kebab making experience.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/716de386-06dc-4299-a94e-2e4495cf5f7c/brodies-poster.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/716de386-06dc-4299-a94e-2e4495cf5f7c/brodies-poster.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19e1dfcb-3d7e-491a-8828-788c9a962787/brodies-sign.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19e1dfcb-3d7e-491a-8828-788c9a962787/brodies-sign.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e42169c-10e7-4942-9505-d0faf27228a8/brodies-busstop.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e42169c-10e7-4942-9505-d0faf27228a8/brodies-busstop.png)
-
-Pick your vegies, pick a side and added a protein. That’s it. Three steps. We also chose to make the vegies the first and biggest choice instead of the more standard meat to encourage people to think about greens being the hero of the meal instead of the protein. Helping to form better eating habits.
-
-We wanted to reduce the menu of Brodies down to few, but better options. Then allow the customer to pick what combinations they wanted from there.  Everything is reduced down to a vegetable, side or protein to go in the box. The only other options being a traditional roast gravy sandwich or some pork crackling. Those guilty pleasures that hit the sweet spot that you can’t get anywhere else.
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/774638c5-e6c7-43fb-b48c-9f68def95221/brodies-menu-out.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/774638c5-e6c7-43fb-b48c-9f68def95221/brodies-menu-out.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7d841cd9-5dc3-4637-b435-be606c97fb47/brodies-menu-in.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7d841cd9-5dc3-4637-b435-be606c97fb47/brodies-menu-in.png)
-
-Then all of that is put together into colourful recyclable packaging. Whether it be for dinner or for lunch. You know you’re getting a good meal.
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef1a586a-3e5f-4554-a760-dfced9266275/brodies-boxes.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef1a586a-3e5f-4554-a760-dfced9266275/brodies-boxes.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e1d0548-2f58-468a-a0b2-6b521d91bb28/brodies-logo.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e1d0548-2f58-468a-a0b2-6b521d91bb28/brodies-logo.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dff508f5-52a6-4446-ac38-884754081ffa/brodies-store.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dff508f5-52a6-4446-ac38-884754081ffa/brodies-store.png)
-
-Along with that we simplified the website. Encouraging users to go right to ordering via one of the delivery partners or getting pick up. There is also a menu on the site to entice users with the delicious meals.
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d12a382-6088-489c-a507-e4341fa755b1/website.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0d12a382-6088-489c-a507-e4341fa755b1/website.png)
-
-## Keeping it simple
-
-When it comes to telling stories it’s important to keep that central theme strong. For brands that means sticking in that niche that makes you who you are. Don’t be afraid of it and then try and branch out into things that detract from that theme. Make that theme your personality and people will love you for it.
-
-### Logo
-![Brodies Logo](/images/case-studies/brodies/brodies-core.png "Brodies Proposed Logo")
-
-![Alternative Colours](/images/case-studies/brodies/brodies-2.png "Alternative Colours Logo")
-
-### Branding
 ![Brodies Poster](/images/case-studies/brodies/brodies-poster.png "Brodies Poster")
 
 ![Brodies Sign](/images/case-studies/brodies/brodies-sign.png "Brodies Sign")
 
 ![Brodies Bus Stop](/images/case-studies/brodies/brodies-busstop.png "Brodies Bus Stop")
 
-### Packaging 
+Pick your vegies, pick a side and added a protein. That’s it. Three steps. We also chose to make the vegies the first and biggest choice instead of the more standard meat to encourage people to think about greens being the hero of the meal instead of the protein. Helping to form better eating habits.
+
+We wanted to reduce the menu of Brodies down to few, but better options. Then allow the customer to pick what combinations they wanted from there.  Everything is reduced down to a vegetable, side or protein to go in the box. The only other options being a traditional roast gravy sandwich or some pork crackling. Those guilty pleasures that hit the sweet spot that you can’t get anywhere else.
+
 ![Brodies Menu](/images/case-studies/brodies/brodies-menu-out.png "Brodies Menu Out")
 
 ![Brodies Menu Inside](/images/case-studies/brodies/brodies-menu-in.png "Brodies Menu In")
 
-![Brodies Boxes](/images/case-studies/brodies/brodies-boxes.png "Brodies Boxes")
+Then all of that is put together into colourful recyclable packaging. Whether it be for dinner or for lunch. You know you’re getting a good meal.
 
-### Stores
+![Brodies Boxes](/images/case-studies/brodies/brodies-boxes.png "Brodies Boxes")
 
 ![Brodies Sign](/images/case-studies/brodies/brodies-sign.png "Brodies Sign")
 
 ![Brodies Store](/images/case-studies/brodies/brodies-store.png "Brodies Store Mock Up")
 
-### Website
+Along with that we simplified the website. Encouraging users to go right to ordering via one of the delivery partners or getting pick up. There is also a menu on the site to entice users with the delicious meals.
 
+![Brodies Website](/images/case-studies/brodies/brodies-website.png "Brodies Website")
 
-### Extras
+## Keeping it simple
 
-![Brodies Characters / Carroters](/images/case-studies/brodies/brodies-carroters.png "Brodies Characters")
-
-![Brodies Fonts](/images/case-studies/brodies/brodies-fonts.png "Brodies Fonts")
+When it comes to telling stories it’s important to keep that central theme strong. For brands that means sticking in that niche that makes you who you are. Don’t be afraid of it and then try and branch out into things that detract from that theme. Make that theme your personality and people will love you for it.

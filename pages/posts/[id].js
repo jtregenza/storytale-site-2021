@@ -30,7 +30,7 @@ export default function Post({ postData }) {
       <article className={utilStyles.articleContent} key={postData.key}>
         <header>
         <motion.h1 className={utilStyles.headingXl}>{postData.title}</motion.h1>
-        <motion.h2 initial={false}  >
+        <motion.h2 initial={false} className={utilStyles.headingXLSub}>
           {postData.byline}
         </motion.h2>
         <div className={utilStyles.lightText}>
