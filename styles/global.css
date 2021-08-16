@@ -50,6 +50,8 @@ p:empty {
   opacity: 0.7;
 }
 
+
+
 @media screen and (min-width: 800px) {
   html {
     font-size: calc(0.25rem + 6 * ((100vw - 320px) / 680));
@@ -87,3 +89,14 @@ button {
 }
 
 
+
+
+[theme="dark"] img[title="Brodies Fonts"],
+[theme="dark"] img[title="Brodies Illustrations"] {
+  filter: invert(100%);
+}
+
+[theme="dark"] img[title="Logo Theory"],
+[theme="dark"] img[title="Brodies Colours"] {
+  background: white;
+}

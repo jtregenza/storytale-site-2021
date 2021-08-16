@@ -38,7 +38,6 @@ It’s healthy, its simple, it’s a little bit fancy and you can make it your w
 
 To give this new direction a stamp we created a new logo. Taking the big Brodies B we merged that with the recommended food proportion plate top create a new B in the shape of the meal boxes we envision the store being based around. Pairing that with a hand painted word mark to give it a more handcrafted feel.
 
-
 ![Brodies Logo](/images/case-studies/brodies/brodies-core-logo.png "Brodies Proposed Logo")
 
 ![Logo Theory](/images/case-studies/brodies/brodies_logo-theory.png "Logo Theory")
@@ -46,6 +45,7 @@ To give this new direction a stamp we created a new logo. Taking the big Brodies
 ### Little bit cheeky
 
 Part of refreshing the brand was to look at how we can tell a story of good food. Along with a striking colour palette and more modern font we added in illustrations of food with a bit of a cheeky twist to them. Mascots for the brand that are nothing more than fresh food instead of animals or characters. We wanted them along with the copy to have a classic Aussie cheekiness to them.
+
 
 ![Brodies Font](/images/case-studies/brodies/brodies_fonts.png "Brodies Fonts")
 
