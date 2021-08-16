@@ -656,6 +656,7 @@
   "footer Notepad";
   min-height: 50rem;
   height: 100%;
+  min-height: 100vh;
 }
 
 .notepad {
@@ -854,6 +855,11 @@
 
 .contentMain {
   padding: 1rem;
+  
+}
+
+.contentMain p {
+  max-width: 50em;
 }
 
 

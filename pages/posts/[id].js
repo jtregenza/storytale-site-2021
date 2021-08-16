@@ -12,6 +12,7 @@ import {
   useSpring,
   useTransform
 } from "framer-motion";
+import FadeInWhenVisible from '../../components/fadeInVisible'
 
 
 export default function Post({ postData }) {
@@ -40,7 +41,9 @@ export default function Post({ postData }) {
         <Image className="img" layout="responsive" width="100" height="100%" src={postData.image}/>
         <section className={styles.contentMain}>
         
+        
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        
         </section>
         <svg className={styles.progressIcon} viewBox="0 0 60 60">
         <motion.path

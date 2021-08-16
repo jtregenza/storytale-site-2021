@@ -140,7 +140,7 @@ export default function Home({ allPostsData }) {
             </svg>
           </header>
           <main>
-            <p>A story about business</p>
+            <p>A story about your business</p>
             <p>A tale about yourself</p>
             <p>A yarn about something fun</p>
           </main>
