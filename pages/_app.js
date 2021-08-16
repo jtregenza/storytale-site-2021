@@ -11,7 +11,7 @@ export default function App({ Component, pageProps, router }) {
        <motion.div key={router.route} initial="pageInitial" animate="pageAnimate" exit="pageExit" variants={{
         pageInitial: {
           opacity: 0,
-          scale: 0.8,
+          scale: 1,
           x: 0,
           y: 200
         },

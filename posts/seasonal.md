@@ -6,6 +6,17 @@ type: "product"
 image: "/images/photo-1573499931826-293a9722a62d.webp"
 ---
 
+
+
+1. Start off with the story to hook attention
+
+
+2. Intro to the project
+3. Current status + designs/ prototype
+4. Next stage. Leaving out the future plans and instead focus on that problem statement we came up with for each.
+
+
+
 Seasonal wants to help you save a few dollars and maybe help the world while you are at it. As much as we all enjoy a good Strawberry, when is the right time to get the 3 dollar punit bursting with flavour. Better still, where can you buy the best strawberries where you are located. 
 
 My world's on fire and buying practices need to change in order to create corporate culture shifts so it's less on fire and more livable. 

@@ -1,9 +1,9 @@
 ---
-title: "Canopy"
+title: "Crumple"
 byline: "Manage your budget"
 date: "2021-08-01"
 type: "product"
-image: "/images/photo-1502252430442-aac78f397426.webp"
+image: "/images/photo-1535083252457-6080fe29be45.webp"
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
