@@ -47,7 +47,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container} theme={themeMode}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/storytale_logomark.svg" />
         <link
             rel="stylesheet"
             href="/fonts/Silka/Silka-Roman-Webfont/stylesheet.css"
