@@ -1,6 +1,6 @@
 ---
 title: "Crumple"
-byline: "Manage your budget"
+byline: "Hassle-free money matters"
 date: "2021-08-01"
 type: "product"
 image: "/images/photo-1535083252457-6080fe29be45.webp"

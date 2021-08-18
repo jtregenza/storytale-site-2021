@@ -1,6 +1,6 @@
 ---
 title: "Seasonal"
-byline: "Growing your own pantry"
+byline: "Helping you cook sustainably"
 date: "2021-09-01"
 type: "product"
 image: "/images/photo-1573499931826-293a9722a62d.webp"

@@ -46,9 +46,6 @@ body {
   font-size: 1rem;
 }
 
-p:empty {
-  opacity: 0.7;
-}
 
 
 
@@ -99,4 +96,13 @@ button {
 [theme="dark"] img[title="Logo Theory"],
 [theme="dark"] img[title="Brodies Colours"] {
   background: white;
+}
+
+blockquote {
+  position: relative;
+  margin: 80px auto;
+  font-size: 2rem;
+  line-height: 56px;
+  padding-left: 40px;
+  border-left: 2px solid;
 }

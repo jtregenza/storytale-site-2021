@@ -34,9 +34,7 @@ export default function Post({ postData }) {
         <motion.h2 initial={false} className={utilStyles.headingXLSub}>
           {postData.byline}
         </motion.h2>
-        <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
-        </div>
+
         </header>
         <Image className="img" layout="responsive" width="100" height="100%" src={postData.image}/>
         <section className={styles.contentMain}>

@@ -7,22 +7,23 @@
 }
 
 .headingXl {
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 1.3;
-  font-family: var(--font-bold);
+  font-family: var(--font-regular);
   letter-spacing: -0.05rem;
   margin: 1rem 0;
   margin-bottom: 0.25rem;
+  margin-top: auto;
 }
 
 .headingXLSub {
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 1.3;
   font-family: var(--font-regular);
   letter-spacing: -0.05rem;
   opacity: 0.6;
   margin: 0;
-  margin-bottom: 0.25rem;
+  margin-bottom: auto;
 }
 
 
@@ -82,6 +83,8 @@
 
 .articleContent header {
   height: calc(50vh - 49px);
+  display: grid;
+  place-items: left space-around;
 }
 
 .articleContent header + div {

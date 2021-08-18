@@ -38,48 +38,49 @@ It’s healthy, its simple, it’s a little bit fancy and you can make it your w
 
 To give this new direction a stamp we created a new logo. Taking the big Brodies B we merged that with the recommended food proportion plate top create a new B in the shape of the meal boxes we envision the store being based around. Pairing that with a hand painted word mark to give it a more handcrafted feel.
 
-![Brodies Logo](/images/case-studies/brodies/brodies-core-logo.png "Brodies Proposed Logo")
 
-![Logo Theory](/images/case-studies/brodies/brodies_logo-theory.png "Logo Theory")
+<img src="/images/case-studies/brodies/brodies-core-logo.png" alt="Brodies Logo" title="Brodies Proposed Logo"/>
+<br/>
+<img src="/images/case-studies/brodies/brodies_logo-theory.png" alt="Logo Theory" title="Logo Theory"/>
+
 
 ### Little bit cheeky
 
 Part of refreshing the brand was to look at how we can tell a story of good food. Along with a striking colour palette and more modern font we added in illustrations of food with a bit of a cheeky twist to them. Mascots for the brand that are nothing more than fresh food instead of animals or characters. We wanted them along with the copy to have a classic Aussie cheekiness to them.
 
-
-![Brodies Font](/images/case-studies/brodies/brodies_fonts.png "Brodies Fonts")
-
-![Brodies Colours](/images/case-studies/brodies/brodies_colours.png "Brodies Colours")
-
-![Brodies Illustrations](/images/case-studies/brodies/brodies_illustrations.png "Brodies Illustrations")
+<img src="/images/case-studies/brodies/brodies_fonts.png" alt="Brodies Fonts" title="Brodies Fonts"/>
+<br/>
+<img src="/images/case-studies/brodies/brodies_colours.png" alt="Brodies Colours" title="Brodies Colours"/>
+<br/>
+<img src="/images/case-studies/brodies/brodies_illustrations.png" alt="Brodies Illustration" title="Brodies Illustrations"/>
 
 For marketing we kept things simple and wanted to reinforce the main message of Brodies. Food made good. The whole process has been stripped down to something akin to the subway or kebab making experience.
 
-![Brodies Poster](/images/case-studies/brodies/brodies-poster.png "Brodies Poster")
-
-![Brodies Sign](/images/case-studies/brodies/brodies-sign.png "Brodies Sign")
-
-![Brodies Bus Stop](/images/case-studies/brodies/brodies-busstop.png "Brodies Bus Stop")
+<img src="/images/case-studies/brodies/brodies-poster.png" alt="Brodies Poster" title="Brodies Poster"/>
+<br/>
+<img src="/images/case-studies/brodies/brodies-sign.png" alt="Brodies Sign" title="Brodies Sign"/>
+<br/>
+<img src="/images/case-studies/brodies/brodies-busstop.png" alt="Brodies Bus Stop" title="Brodies Bus Stop"/>
 
 Pick your vegies, pick a side and added a protein. That’s it. Three steps. We also chose to make the vegies the first and biggest choice instead of the more standard meat to encourage people to think about greens being the hero of the meal instead of the protein. Helping to form better eating habits.
 
 We wanted to reduce the menu of Brodies down to few, but better options. Then allow the customer to pick what combinations they wanted from there.  Everything is reduced down to a vegetable, side or protein to go in the box. The only other options being a traditional roast gravy sandwich or some pork crackling. Those guilty pleasures that hit the sweet spot that you can’t get anywhere else.
 
-![Brodies Menu](/images/case-studies/brodies/brodies-menu-out.png "Brodies Menu Out")
-
-![Brodies Menu Inside](/images/case-studies/brodies/brodies-menu-in.png "Brodies Menu In")
+<img src="/images/case-studies/brodies/brodies-menu-out.png" alt="Brodies Menu Out" title="Brodies Menu Out"/>
+<br/>
+<img src="/images/case-studies/brodies/brodies-menu-out.png" alt="Brodies Inside Menu" title="Brodies Menu In"/>
 
 Then all of that is put together into colourful recyclable packaging. Whether it be for dinner or for lunch. You know you’re getting a good meal.
 
-![Brodies Boxes](/images/case-studies/brodies/brodies-boxes.png "Brodies Boxes")
-
-![Brodies Sign](/images/case-studies/brodies/brodies-sign.png "Brodies Sign")
-
-![Brodies Store](/images/case-studies/brodies/brodies-store.png "Brodies Store Mock Up")
+<img src="/images/case-studies/brodies/brodies-boxes.png" alt="Brodies Boxes" title="Brodies Boxes"/>
+<br/>
+<img src="/images/case-studies/brodies/brodies-sign.png" alt="Brodies Sign" title="Brodies Sign"/>
+<br/>
+<img src="/images/case-studies/brodies/brodies-store.png" alt="Brodies Store Mock Up" title="Brodies Store Mock Up"/>
 
 Along with that we simplified the website. Encouraging users to go right to ordering via one of the delivery partners or getting pick up. There is also a menu on the site to entice users with the delicious meals.
 
-![Brodies Website](/images/case-studies/brodies/brodies-website.png "Brodies Website")
+<img src="/images/case-studies/brodies/brodies-website.png" alt="Brodies Website" title="Brodies Website"/>
 
 ## Keeping it simple
 

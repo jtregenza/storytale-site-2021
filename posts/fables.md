@@ -1,6 +1,6 @@
 ---
 title: "Fables"
-byline: "Tell your own story"
+byline: "Meaningful stories, your way"
 date: "2021-06-01"
 type: "product"
 image: "/images/photo-1529981188441-8a2e6fe30103.webp"
@@ -20,7 +20,7 @@ You can try it out right now, roll up your new character.
     width="400"
     height="800"
     src="https://fables.storytale.design/"
-	style="margin:0 auto; display: block;">
+	style="margin: 0 auto; display: block;">
 </iframe>
 
 
