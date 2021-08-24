@@ -9,10 +9,21 @@ import Date from '../components/date'
 import Year from '../components/year'
 import Notepad from '../components/notepad'
 import Arc from '../components/arc'
-import { AnimatePresence, motion } from 'framer-motion'
+import {   useViewportScroll, useTransform, motion } from 'framer-motion'
 import FadeInWhenVisible from '../components/fadeInVisible'
+import { useInView } from 'react-intersection-observer';
 
 export default function Home({ allPostsData }) {
+  const { scrollY } = useViewportScroll();
+  const y1 = useTransform(scrollY, [0, 300], [0, 200]);
+  const y2 = useTransform(scrollY, [0, 300], [0, -200]);
+
+  const [ref, inView, entry] = useInView({
+    /* Optional options */
+    threshold: 0.5,
+    triggerOnce: false
+  });
+
   return (
     <Layout home>
       <Head>
@@ -20,10 +31,10 @@ export default function Home({ allPostsData }) {
       </Head>
       <article className={styles.homeContent}>
       <section className={styles.intro}>
-        <h1 className={styles.your}>your</h1>
+        <motion.h1 style={{ y: y2, x: 0}} className={styles.your}>your</motion.h1>
         <div className={styles.wordMark}>
-          <h1 className={styles.full}>storytale</h1>
-          <h1 className={styles.layered}>
+          <motion.h1 style={{ y: y2, x: 0}} className={styles.full}>storytale</motion.h1>
+          <motion.h1 style={{ y: y2, x: 0}}  className={styles.layered}>
           <span className={styles.first}>s</span>
           <span className={styles.second}>t</span>
           <span className={styles.third}>o</span>
@@ -33,10 +44,10 @@ export default function Home({ allPostsData }) {
           <span className={styles.seventh}>a</span>
           <span className={styles.eighth}>l</span>
           <span className={styles.ninth}>e</span>
-          </h1>
+          </motion.h1>
           <Arc/>
         </div>
-        <h1 className={styles.begins}>begins</h1>
+        <motion.h1 style={{ y: y2, x: 0}}className={styles.begins}>begins</motion.h1>
         
       </section>
       
