@@ -8,7 +8,7 @@ import Image from 'next/image'
 import Date from '../components/date'
 import Year from '../components/year'
 import Notepad from '../components/notepad'
-import Arc from '../components/arc'
+import StoryStarter from '../components/story-starter'
 import { AnimatePresence, motion } from 'framer-motion'
 import FadeInWhenVisible from '../components/fadeInVisible'
 
@@ -20,24 +20,57 @@ export default function Home({ allPostsData }) {
       </Head>
       <article className={styles.homeContent}>
       <section className={styles.intro}>
-        <h1 className={styles.your}>your</h1>
-        <div className={styles.wordMark}>
-          <h1 className={styles.full}>storytale</h1>
-          <h1 className={styles.layered}>
-          <span className={styles.first}>s</span>
-          <span className={styles.second}>t</span>
-          <span className={styles.third}>o</span>
-          <span className={styles.fourth}>r</span>
-          <span className={styles.fifth}>y</span>
-          <span className={styles.sixth}>t</span>
-          <span className={styles.seventh}>a</span>
-          <span className={styles.eighth}>l</span>
-          <span className={styles.ninth}>e</span>
-          </h1>
-          <Arc/>
+        <div className={styles.blurb}>
+        <motion.h1
+        initial={{ scale: 0, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1, }}
+        transition={{staggerChildren: 0.5,}}
+        >Story-powered solutions for products, brands and businesses.</motion.h1>
         </div>
-        <h1 className={styles.begins}>begins</h1>
-        
+        <motion.div initial={{ scale: 0.8, opacity: 0 }}
+  animate={{ scale: 1, opacity: 1, }}
+  transition={{staggerChildren: 0.5, delay: 0.4}}
+
+        className={styles.heroText}>
+          <div>S</div>
+          <div>T</div>
+          <motion.div     
+
+          drag
+    
+          dragConstraints={{
+            top: -50,
+            left: -50,
+            right: 50,
+            bottom: 50,
+          }}
+          dragTransition={{ bounceStiffness: 200, bounceDamping: 10 }}
+
+    className={styles.heroImage}></motion.div>
+          <div>R</div>
+          <div>Y</div>
+          <div>T</div>
+          <div>A</div>
+          <div>L</div>
+          <div>E</div>
+        </motion.div>
+        <nav className={styles.homeNav}>
+          <Link href="#ourStories"><motion.a
+          whileHover={{ scale: 1.1}}
+          whileTap={{ scale: 0.95}}>Case studies</motion.a></Link>
+          <Link href="#ourStories"><motion.a
+          whileHover={{ scale: 1.1}}
+          whileTap={{ scale: 0.95}}>View products</motion.a></Link>
+          <Link href="#ourStories"><motion.a
+          whileHover={{ scale: 1.1}}
+          whileTap={{ scale: 0.95}}>Our stories</motion.a></Link>
+          <Link href="#aboutUs"><motion.a
+          whileHover={{ scale: 1.1}}
+          whileTap={{ scale: 0.95}}>About us both</motion.a></Link>
+          <Link href="#contactUs"><motion.a
+          whileHover={{ scale: 1.1}}
+          whileTap={{ scale: 0.95}}>Let's work together</motion.a></Link>
+        </nav>
       </section>
       
       <section id="ourStories" className={styles.ourStories}>
@@ -116,7 +149,7 @@ export default function Home({ allPostsData }) {
       <Notepad/>
       <footer>
             <p>Storytale</p>
-            <a href="mailto:fables@stortale.design">fables (at)</a>
+            <a href="javascript:location='mailto:\u0066\u0061\u0062\u006c\u0065\u0073\u0040\u0073\u0074\u006f\u0072\u0079\u0074\u0061\u006c\u0065\u002e\u0064\u0065\u0073\u0069\u0067\u006e';void 0">fables (at)</a>
             <p><Year/> Storytale Studio</p>
           </footer>
       </section>

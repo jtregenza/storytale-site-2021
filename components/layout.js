@@ -64,30 +64,22 @@ export default function Layout({ children, home }) {
         />
         <meta
           property="og:image"
-          content={`https://og-image.vercel.app/${encodeURI(
-            siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          content={`Change this`}
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+<>
+      {!home && (
+                <header className={styles.header}>
         <div className={styles.borderHeader}>
-        {home ? (
-          <>
-            Storytale Studio
-          </>
-        ) : (
-          <>
             <Link href="/">
               <a>
               Storytale Studio
               </a>
             </Link>
-          </>
-        )}
-        <span className={styles.center}>
-        Brisbane, Australia
+            <span className={styles.center}>
+        
         </span>
         <motion.nav
       initial={false}
@@ -105,6 +97,8 @@ export default function Layout({ children, home }) {
       </motion.nav>
       </div>
       </header>
+        )}
+</>
       <main className={styles.content}>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
