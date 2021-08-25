@@ -87,7 +87,7 @@ export default function Home({ allPostsData }) {
         <motion.h2>they speak of their <span className={styles.highlight}>sagas</span> in</motion.h2>
         <ul>
           <li>Brand Storytelling</li>
-          <li>Mobile & Web Apps</li>
+          <li>Mobile &nbsp; Web Apps</li>
           <li>Marketing Sites</li>
           <li>Team Building</li>
           <li>Design Consulting</li>

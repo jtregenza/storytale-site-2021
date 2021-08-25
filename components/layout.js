@@ -108,7 +108,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-      {/* <Footer/> */}
+      <Footer/>
     </div>
     
   )
