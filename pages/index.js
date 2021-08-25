@@ -146,13 +146,13 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section className={styles.ventures}>
-        <img/>
+      <img src="#"/>
         <ul>
           <li>Seasonal</li>
           <li>Fables</li>
           <li>Crumple</li>
         </ul>
-        <img/>
+        <img src="#"/>
       </section>
       <section>
         <h2>on the road they speak of <span className={styles.highlight}>news</span> from afar</h2>
