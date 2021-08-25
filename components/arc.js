@@ -1,6 +1,4 @@
-import {   useViewportScroll, useTransform, motion } from 'framer-motion'
-import FadeInWhenVisible from '../components/fadeInVisible'
-import { useInView } from 'react-intersection-observer';
+import { motion } from 'framer-motion'
 
 const Arc = () => {
 
