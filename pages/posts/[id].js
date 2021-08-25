@@ -10,8 +10,10 @@ import {
   motion,
   useViewportScroll,
   useSpring,
-  useTransform
+  useTransform,
+  AnimatePresence
 } from "framer-motion";
+import FadeInWhenVisible from '../../components/fadeInVisible'
 
 
 export default function Post({ postData }) {
