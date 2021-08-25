@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
@@ -162,28 +161,6 @@ export default function Home({ allPostsData }) {
       <section className={styles.contact}>
       <Notepad/>
       </section>
-      {/* <section id="contactUs" className={styles.contactUs}>
-        <div className={styles.yourStory}>
-          <header>
-            <h2>Tell us <br/>your story</h2>
-            <svg width="119" height="25" viewBox="0 0 119 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path fillRule="evenodd" clipRule="evenodd" d="M97.8911 0.538397L117.999 11.8962L98.1089 23.6314L98.0189 14.0848L1.01891 14.9999L0.981175 11.0001L97.9811 10.085L97.8911 0.538397Z" fill="var(--color-dark)"/>
-            </svg>
-          </header>
-          <main>
-            <p>A story about your business</p>
-            <p>A tale about yourself</p>
-            <p>A yarn about something fun</p>
-          </main>
-
-      </div>
-      <Notepad/>
-      <footer>
-            <p>Storytale</p>
-            <a href="mailto:fables@stortale.design">fables (at)</a>
-            <p><Year/> Storytale Studio</p>
-          </footer>
-      </section> */}
 
       </article>
     </Layout>

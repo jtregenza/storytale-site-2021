@@ -1,5 +1,4 @@
 import '../styles/global.css'
-
 import { AnimatePresence, AnimateSharedLayout, motion } from "framer-motion"
 
 export default function App({ Component, pageProps, router }) {
@@ -11,25 +10,18 @@ export default function App({ Component, pageProps, router }) {
        <motion.div key={router.route} initial="pageInitial" animate="pageAnimate" exit="pageExit" variants={{
         pageInitial: {
           opacity: 0,
-          scale: 0.8,
-          x: 0,
-          y: -200
+          scale: 0.8
         },
         pageAnimate: {
           opacity: 1,
-          scale: 1,
-          x: 0,
-          y: 0
+          scale: 1
         },
         pageExit: {
-          backgroundColor: 'var(--color-dark)',
           opacity: 0,
-          scale: 0.8,
-          x: 0, 
-          y: -200
+          scale: 0.8
         }
       }}>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
       </motion.div>
     </AnimatePresence>
   )
