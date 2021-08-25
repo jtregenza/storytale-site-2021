@@ -8,7 +8,7 @@ import Date from '../components/date'
 import Year from '../components/year'
 import Notepad from '../components/notepad'
 import Arc from '../components/arc'
-import {   useViewportScroll, useTransform, motion } from 'framer-motion'
+import { useViewportScroll, useTransform, motion } from 'framer-motion'
 import FadeInWhenVisible from '../components/fadeInVisible'
 import { useInView } from 'react-intersection-observer';
 
@@ -161,7 +161,6 @@ export default function Home({ allPostsData }) {
       <section className={styles.contact}>
       <Notepad/>
       </section>
-
       </article>
     </Layout>
   )
