@@ -42,7 +42,7 @@ export default function Layout({ children, home }) {
   const { height } = useDimensions(containerRef);
   const [theme, toggleTheme, componentMounted] = useDarkMode();
 
-  const themeMode = theme === 'light' ? 'light' : 'dark';
+  const themeMode = theme === 'dark' ? 'dark' : 'light';
 
 
   return (
