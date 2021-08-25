@@ -48,9 +48,66 @@ export default function Home({ allPostsData }) {
           <Arc/>
         </div>
         <motion.h1 style={{ y: y2, x: 0}}className={styles.begins}>begins</motion.h1>
-        
       </section>
-      
+      <section id="aboutUs" className={styles.aboutUs}>
+        <FadeInWhenVisible className={styles.heading}>
+            <h2 className={styles.display}>with two storytellers</h2>
+          </FadeInWhenVisible>
+            <div className={styles.imageGroup}>
+            
+              <Image src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1" placeholder="blur" width="" height="" />
+
+              <Image src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2" placeholder="blur" width="" height="" />
+
+              <Image src="/images/photo-1625378163049-d1ca880237c7.webp" alt="image-3" placeholder="blur" width="" height="" />
+
+            </div>
+            <div className={styles.wordMarkIsaac}>
+              <motion.h3 style={{ y: y1, x: 0}} className={styles.full}>isaac</motion.h3>
+              {/* <ArcIsaac/> */}
+              <motion.h3 style={{ y: y1, x: 0}} className={styles.layered}>
+                <span>i</span>
+                <span>s</span>
+                <span>a</span>
+                <span>a</span>
+                <span>c</span>
+                </motion.h3>
+            </div>
+            <div className={styles.wordMarkJosh}>
+              <motion.h3 style={{ y: y1, x: 0}} className={styles.full}>josh</motion.h3>
+              {/* <ArcJosh/> */}
+              <motion.h3 style={{ y: y1, x: 0}} className={styles.layered}>
+                <span>j</span>
+                <span>o</span>
+                <span>s</span>
+                <span>h</span>
+                </motion.h3>
+            </div>
+      </section>
+      <section className={styles.sagas}>
+        <motion.h2>they speak of their <span className={styles.highlight}>sagas</span> in</motion.h2>
+        <ul>
+          <li>Brand Storytelling</li>
+          <li>Mobile & Web Apps</li>
+          <li>Marketing Sites</li>
+          <li>Team Building</li>
+          <li>Design Consulting</li>
+          <li>Korean BBQ</li>
+        </ul>
+      </section>
+      <section className={styles.wheel}>
+      <h2>you all travel with aid of the <span className={styles.highlight}>heroic wheel</span></h2>
+      {/* <HeroicWheel/> */}
+      </section>
+      <section className={styles.campfire}>
+        <h2>
+          ...at night
+          <span>the storytellers</span>
+          would tell you
+          of what <span>came before</span>
+        </h2>
+      </section>
+
       <section id="ourStories" className={styles.ourStories}>
         <h3 className={styles.listItem}>Our <br/>Stories</h3>
           {allPostsData.map(({ id, date, title, type, byline,image }) => (
@@ -88,27 +145,17 @@ export default function Home({ allPostsData }) {
             
           ))}
       </section>
-      <section id="aboutUs" className={styles.aboutUs}>
-        <FadeInWhenVisible className={styles.heading}>
-            <h2 className={styles.display}>Studio</h2>
-          </FadeInWhenVisible>
-          <FadeInWhenVisible className={styles.content}>
-            <p>Welcome. Storytale began with friends and storytellers, Isaac Joe Kong and Josh Tregenza wanted to empower other peoples stories. Is that creating websites? Sometimes. Is the branding a new product or company? More than likely. Is it painting murals? We've done that in the past. Is it making furniture for succulent meals? Only if this is design manifest.
-            <br/> What we are trying to say is we are a full service design studio for people and products that have a story to tell.</p>
-            </FadeInWhenVisible>
-            <div className={styles.imageGroup}>
-            <FadeInWhenVisible>
-              <Image src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1" placeholder="blur" width="" height="" />
-              </FadeInWhenVisible>
-              <FadeInWhenVisible>
-              <Image src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2" placeholder="blur" width="" height="" />
-              </FadeInWhenVisible>
-              <FadeInWhenVisible>
-              <Image src="/images/photo-1625378163049-d1ca880237c7.webp" alt="image-3" placeholder="blur" width="" height="" />
-              </FadeInWhenVisible>
-            </div>
 
+      <section className={styles.ventures}>
+        <img/>
+        <ul>
+          <li>Seasonal</li>
+          <li>Fables</li>
+          <li>Crumple</li>
+        </ul>
+        <img/>
       </section>
+      
       <section id="contactUs" className={styles.contactUs}>
         <div className={styles.yourStory}>
           <header>

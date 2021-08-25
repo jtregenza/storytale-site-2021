@@ -10,7 +10,8 @@ import {
   motion,
   useViewportScroll,
   useSpring,
-  useTransform
+  useTransform,
+  AnimatePresence
 } from "framer-motion";
 import FadeInWhenVisible from '../../components/fadeInVisible'
 
@@ -22,6 +23,16 @@ export default function Post({ postData }) {
   const pathLength = useSpring(yRange, { stiffness: 400, damping: 90 });
 
   useEffect(() => yRange.onChange(v => setIsComplete(v >= 1)), [yRange]);
+
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.5
+      }
+    }
+  }
 
   return (
     <Layout>
@@ -37,12 +48,16 @@ export default function Post({ postData }) {
 
         </header>
         <Image className="img" layout="responsive" width="100" height="100%" src={postData.image}/>
-        <section className={styles.contentMain}>
+        <motion.section 
+        variants={container}
+        initial="hidden"
+        animate="show"
+        className={styles.contentMain}
+        >
         
-        
+
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-        
-        </section>
+        </motion.section>
         <svg className={styles.progressIcon} viewBox="0 0 60 60">
         <motion.path
           fill="none"

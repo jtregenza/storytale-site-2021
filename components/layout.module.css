@@ -62,7 +62,7 @@
 .intro h1 {
   font-size: 18rem;
   font-family: var(--font-bold);
-  opacity: 0.7;
+  opacity: 1;
   font-weight: normal;
   line-height: 1;
   margin: 0;
@@ -90,6 +90,7 @@
   grid-row-end: -1;
   margin-left: -7vw;
 }
+
 
 .wordMark .full {
   grid-column-start: 1;
@@ -640,31 +641,31 @@ align-self: center;
 
 .aboutUs {
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
+  /* grid-template-columns: 0.5fr 1fr;
   grid-template-areas: "Heading Heading"
-  "Blurb Images";
+  "Blurb Images"; */
   margin: 2rem 0 ;
 }
 
 
 .aboutUs .heading {
-  grid-area: Heading;
+  /* grid-area: Heading; */
 
   z-index: 2;
 }
 
 .aboutUs h2 {
-  font-family: var(--font-bold);
-  font-size: 29rem;
+  font-family: var(--font-regular);
+  font-size: 8rem;
+  text-transform: uppercase;
+  text-align: center;
   margin: 0;
-  margin-left: -9rem;
-  margin-bottom: -7rem;
   line-height: 1;
 
   
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .aboutUs {
     grid-template-areas: "Heading Heading"
     "Blurb Blurb"
@@ -674,25 +675,25 @@ align-self: center;
     font-size: 15rem;
     margin-left: -4rem;
   }
-}
+} */
 
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .aboutUs h2 {
     font-size: 6rem;
     margin-left: -1rem;
     margin-bottom: -5rem;
   }
-}
+} */
 
-.aboutUs .content {
+/* .aboutUs .content {
   grid-area: Blurb;
   padding: 5rem 3rem;
 
-}
+} */
 
 .aboutUs .imageGroup {
-  grid-area: Images;
+  /* grid-area: Images; */
   display: grid;
   /* width: 50%; */
   grid-auto-flow: column;
@@ -917,6 +918,11 @@ align-self: center;
 .contentMain {
   padding: 1rem;
   
+}
+
+.contentMain p,
+.contentMain li {
+  font-size: 1.5rem;
 }
 
 .contentMain p,
