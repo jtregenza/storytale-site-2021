@@ -1,4 +1,5 @@
 import Layout from "../components/layout";
+import link from "next/link";
 
 export default function Ventures() {
 
