@@ -12,7 +12,6 @@ import Arc from '../components/arc'
 import {   useViewportScroll, useTransform, motion } from 'framer-motion'
 import FadeInWhenVisible from '../components/fadeInVisible'
 import { useInView } from 'react-intersection-observer';
-import { Footer } from '../components/footer'
 
 export default function Home({ allPostsData }) {
   const { scrollY } = useViewportScroll();
@@ -163,7 +162,6 @@ export default function Home({ allPostsData }) {
       <section className={styles.contact}>
       <Notepad/>
       </section>
-      <Footer/>
       {/* <section id="contactUs" className={styles.contactUs}>
         <div className={styles.yourStory}>
           <header>

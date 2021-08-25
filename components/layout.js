@@ -9,6 +9,7 @@ import { MenuToggle } from "./MenuToggle";
 import { Navigation } from "./Navigation";
 import { useDarkMode } from './darkMode';
 import Toggle from './Toggle';
+import { Footer } from './footer';
 
 const name = 'storytale'
 export const siteTitle = 'Story-powered solutions for products, brands and businesses'
@@ -107,6 +108,8 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <Footer/>
     </div>
+    
   )
 }
