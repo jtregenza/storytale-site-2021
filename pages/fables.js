@@ -5,7 +5,7 @@ export default function Fables() {
 return(
 	<Layout>
 		<h1>Fables</h1>
-
+<p>
 		We believe in storytelling, not sure if you have caught on yet. We also want to empower people to tell their own stories and easily as possible. That's why we are making Fables, a story creation and management tool. 
 
 We started Fables before Storytale was a thing and us working on it set the stage for the inception, so it's just as much a Storytale creation tool. 
@@ -13,7 +13,7 @@ We started Fables before Storytale was a thing and us working on it set the stag
 We are both game masters for tabletop role playing games and one of the things that derails improvisational storytelling is having to come up with a name for the the character you off handedly mentioned while painting the scene for your players. This is where we have started with Fables, character name generation. 
 
 You can try it out right now, roll up your new character.
-
+</p>
 <iframe id="Fables NPC Generator"
     title="Fables NPC Generator"
     width="400"
@@ -22,7 +22,7 @@ You can try it out right now, roll up your new character.
 	style="margin: 0 auto; display: block;">
 </iframe>
 
-
+<p>
 This is great for off the cuff naming that feel real to the world you are creating or even coming up with Random Names for placeholder names in designs (in the HAGL mockups, the names found were generator using Fables).
 
 This just the start of Fables, when we build things we want each step to be valuable and focus on creating meaningful stories. So what's on the Roadmap? We current have two areas of Fables, Telling the Story and Building the Story. Telling the Story helps with in the moment storytelling, when you are orating to others or in the zone and need to have quick influence to stay on a roll. 
@@ -90,6 +90,7 @@ General wiki entries for your fable
 
 
 Keep Fables on hand by going to [fables.storytale.design](https://fables.storytale.design)
+</p>
 	</Layout>
 )
 }
