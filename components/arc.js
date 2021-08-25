@@ -6,9 +6,9 @@ const Arc = () => {
 		<motion.svg 
 		variants={{
 			visible: { strokeDashoffset: 0 },
-			hidden: { strokeDasharray: 8000, strokeDashoffset: 8000 }
+			start: { strokeDasharray: 8000, strokeDashoffset: 8000 }
 		  }}
-		initial="hidden"
+		initial="start"
 		animate="visible"
 		transition={{ duration: 6, delay: 0.8}}
 		viewBox="0 0 1673 661" fill="none" xmlns="http://www.w3.org/2000/svg">
