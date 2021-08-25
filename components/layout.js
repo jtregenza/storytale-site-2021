@@ -70,7 +70,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-<>
+
       {!home && (
                 <header className={styles.header}>
         <div className={styles.borderHeader}>
@@ -99,7 +99,7 @@ export default function Layout({ children, home }) {
       </div>
       </header>
         )}
-</>
+
       <main className={styles.content}>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
