@@ -5,6 +5,7 @@
   color: var(--color-dark);
   background: var(--color-light);
   overflow: hidden;
+  min-height:100vh;
 }
 
 
