@@ -47,13 +47,13 @@ body {
   scroll-behavior: smooth;
 }
 
-#app:empty {
+#__next:empty {
   background: red;
   height: 100vh;
   width: 100vw;
 }
 
-#app:empty:before {
+#___next:empty:before {
   content: "Once Upon a Time";
 }
 
