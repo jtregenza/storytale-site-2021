@@ -156,7 +156,7 @@ export default function Home({ allPostsData }) {
         <img/>
       </section>
       <section>
-        <h2>on the road theY speak of <span className={styles.highlight}>news</span> from afar</h2>
+        <h2>on the road they speak of <span className={styles.highlight}>news</span> from afar</h2>
         {/* <Blog/> */}
       </section>
       <section className={styles.contact}>

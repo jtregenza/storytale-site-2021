@@ -5,9 +5,6 @@
   color: var(--color-dark);
   background: var(--color-light);
   overflow: hidden;
-  /* background: url('/images/Indieground_FoldedPaper_Textures_02.jpg'), black;
-  background-size: cover;
-  background-blend-mode: luminosity; */
 }
 
 
@@ -1124,7 +1121,7 @@ align-self: center;
 
 .ventureForth ul {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   padding: 0;
   list-style: none;
 }

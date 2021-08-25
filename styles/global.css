@@ -47,15 +47,6 @@ body {
   scroll-behavior: smooth;
 }
 
-#app:empty {
-  background: red;
-  height: 100vh;
-  width: 100vw;
-}
-
-#app:empty:before {
-  content: "Once Upon a Time";
-}
 
 
 

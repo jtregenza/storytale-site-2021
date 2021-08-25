@@ -10,7 +10,7 @@ export default function App({ Component, pageProps, router }) {
     <AnimatePresence exitBeforeEnter>
        <motion.div key={router.route} initial="pageInitial" animate="pageAnimate" exit="pageExit" variants={{
         pageInitial: {
-          opacity: 0.8,
+          opacity: 0,
           scale: 1,
           x: 0,
           y: 0
