@@ -748,14 +748,7 @@ align-self: center;
 }
 
 .notepad {
-  grid-area: Notepad;
-  border-left: 2px solid;
   padding: 2.5rem;
-  background: url(/images/photocopy-edge.jpg), var(--color-light);
-  background-size: auto;
-  background-repeat: repeat-y;
-  background-blend-mode: darken;
-  background-size: 2.5rem;
   overflow-y: auto;
 }
 
@@ -770,8 +763,8 @@ align-self: center;
   border: unset;
   border-bottom: 2px solid;
   font-size: 1rem;
-  color: var(--color-dark);
-  background: var(--color-light);
+  color: var(--color-light);
+  background: var(--color-dark);
   font-family: var(--font-regular);
   padding: 0.25rem;
 }

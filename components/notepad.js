@@ -6,9 +6,6 @@ import TextareaAutosize from 'react-autosize-textarea';
 
 export default function Notepad() {
 
-
-
-
   return (
     <div className={styles.notepad}>
       <form name="story" action="/success" method="POST" data-netlify="true" netlify-honeypot="bot-field">
