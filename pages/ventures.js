@@ -6,9 +6,9 @@ export default function Ventures() {
 return(
 	<Layout>
 		<ul>
-			<li><Link href="./seasonal">Seasonal</Link></li>
-			<li><Link href="./fables">Fables</Link></li>
-			<li><Link href="./crumple">Crumple</Link></li>
+			<li>Seasonal</li>
+			<li>Fables</li>
+			<li>Crumple</li>
 		</ul>
 	</Layout>
 )
