@@ -12,6 +12,7 @@ import Arc from '../components/arc'
 import {   useViewportScroll, useTransform, motion } from 'framer-motion'
 import FadeInWhenVisible from '../components/fadeInVisible'
 import { useInView } from 'react-intersection-observer';
+import { Footer } from '../components/footer'
 
 export default function Home({ allPostsData }) {
   const { scrollY } = useViewportScroll();
@@ -101,9 +102,9 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={styles.campfire}>
         <h2>
-          ...at night
-          <span>the storytellers</span>
-          would tell you
+          ...at night<br/>
+          <span>the storytellers</span><br/>
+          would tell you<br/>
           of what <span>came before</span>
         </h2>
       </section>
@@ -149,14 +150,21 @@ export default function Home({ allPostsData }) {
       <section className={styles.ventures}>
         <img/>
         <ul>
-          <li>Seasonal</li>
-          <li>Fables</li>
-          <li>Crumple</li>
+          <li><Link href="/seasonal">Seasonal</Link></li>
+          <li><Link href="/fables">Fables</Link></li>
+          <li><Link href="/crumple">Crumple</Link></li>
         </ul>
         <img/>
       </section>
-      
-      <section id="contactUs" className={styles.contactUs}>
+      <section>
+        <h2>on the road theY speak of <span className={styles.highlight}>news</span> from afar</h2>
+        {/* <Blog/> */}
+      </section>
+      <section className={styles.contact}>
+      <Notepad/>
+      </section>
+      <Footer/>
+      {/* <section id="contactUs" className={styles.contactUs}>
         <div className={styles.yourStory}>
           <header>
             <h2>Tell us <br/>your story</h2>
@@ -177,7 +185,7 @@ export default function Home({ allPostsData }) {
             <a href="mailto:fables@stortale.design">fables (at)</a>
             <p><Year/> Storytale Studio</p>
           </footer>
-      </section>
+      </section> */}
 
       </article>
     </Layout>

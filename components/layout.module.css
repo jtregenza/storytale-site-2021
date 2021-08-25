@@ -84,6 +84,7 @@
 .intro svg {
   width: 110vw;
   z-index: 1;
+  align-self: center;
   grid-column-start: 1;
   grid-column-end: -1;
   grid-row-start: 1;
@@ -139,6 +140,38 @@ align-self: center;
 
 
 
+
+.sagas h2 {
+  font-size: 2rem;
+  letter-spacing: 6.5%;
+}
+.sagas ul{
+  font-family: var(--font-bold);
+  font-size: 7.5rem;
+  list-style: none;
+  line-height: 0.8;
+  text-transform: uppercase;
+  padding-right: 1rem;
+}
+
+.sagas li:nth-of-type(2),
+.sagas li:last-of-type {
+  text-align: right;
+}
+.sagas li:nth-of-type(3) {
+  text-align: center;
+}
+
+.sagas li:nth-of-type(4) {
+  margin-left: 1ch;
+}
+
+
+.highlight {
+  background: var(--color-dark);
+  color: var(--color-light);
+  padding: 0.25rem;
+}
 
 
 .heroText {
@@ -229,7 +262,7 @@ align-self: center;
   }
 }
 
-@media screen and (max-width: 800px) { 
+/* @media screen and (max-width: 800px) { 
   .intro {
     grid-template-columns: auto ;
     grid-template-rows: auto auto auto;
@@ -240,9 +273,6 @@ align-self: center;
   .blurb {
     grid-area: Blurb;
   }
-  .intro h1 {
-    font-size: 2rem;
-  }
   .homeNav {
     grid-area: Menu;
   }
@@ -251,7 +281,7 @@ align-self: center;
     justify-self: flex-start;
     font-size: 8rem;
   }
-}
+} */
 
 
 
