@@ -149,9 +149,9 @@ export default function Home({ allPostsData }) {
       <section className={styles.ventures}>
         <img/>
         <ul>
-          <li><Link href="/seasonal">Seasonal</Link></li>
-          <li><Link href="/fables">Fables</Link></li>
-          <li><Link href="/crumple">Crumple</Link></li>
+          <li><Link href="./seasonal">Seasonal</Link></li>
+          <li><Link href="./fables">Fables</Link></li>
+          <li><Link href="./crumple">Crumple</Link></li>
         </ul>
         <img/>
       </section>
