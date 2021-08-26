@@ -16,7 +16,7 @@ export default function Notepad() {
         <img src="#"/>
         <p>to join the storytellers</p>
         <img src="#"/>
-        <TextareaAutosize placeholder="Start your story..." name="message" rows="3" required/>
+        <TextareaAutosize placeholder="Start your story..." name="message" rows={3} required/>
         <motion.button className={styles.cta} type="submit" 
         transition={{ duration: 0.8 }}
         whileHover={{ scale: 1.1 }}

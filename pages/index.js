@@ -121,7 +121,7 @@ export default function Home({ allPostsData }) {
 
               <div className={styles.lowerHalf}>
                 <div>
-              <motion.p layoutId="title" className={styles.title}>{title}</motion.p>
+              <motion.p className={styles.title}>{title}</motion.p>
               <p className={styles.storyMeta}>
               <Date dateString={date}/> <i>{type}</i>
               </p>
@@ -138,7 +138,7 @@ export default function Home({ allPostsData }) {
             <div className={styles.storyImage}>
               
             <Image  
-             src={image} width="" height="" placeholder="blur" layoutId="image" layout="responsive"/>
+             src={image} width="" height="" placeholder="blur" layout="responsive"/>
              </div>
             </FadeInWhenVisible>
             
