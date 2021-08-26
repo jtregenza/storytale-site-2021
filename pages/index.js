@@ -54,34 +54,38 @@ export default function Home({ allPostsData }) {
           </FadeInWhenVisible>
             <div className={styles.imageGroup}>
             
-              <Image src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1" placeholder="blur" width="" height="" />
+              <img src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1" className={styles.secondaryImage} placeholder="blur" width="" height="" />
 
-              <Image src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2" placeholder="blur" width="" height="" />
+              <img src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2" className={styles.primaryImage}  placeholder="blur" width="" height="" />
 
-              <Image src="/images/photo-1625378163049-d1ca880237c7.webp" alt="image-3" placeholder="blur" width="" height="" />
-
-            </div>
-            <div className={styles.wordMarkIsaac}>
-              <motion.h3 style={{ y: y1, x: 0}} className={styles.full}>isaac</motion.h3>
-              {/* <ArcIsaac/> */}
-              <motion.h3 style={{ y: y1, x: 0}} className={styles.layered}>
+              <img src="/images/photo-1625378163049-d1ca880237c7.webp" alt="image-3" className={styles.tertiaryImage}  placeholder="blur" width="" height="" />
+              <div className={styles.isaacWordMark}>
+              <motion.h3 className={styles.full}>isaac</motion.h3>
+              <svg viewBox="0 0 382 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 57.5649C12 57.5649 44.5 57.5649 56 57.5649C67.5 57.5649 65.5939 12 84.5 12C107.5 12 91.5 79.0649 116.5 79.0649C141.5 79.0649 152 23.0649 175.5 23.0649C199 23.0649 212 79.0649 231.5 79.0649C251 79.0649 263.5 23.0649 288.5 23.0649C313.5 23.0649 315 56.5649 327 56.5649C339 56.5649 355 56.5649 370 56.5649" style={{stroke: "var(--color-dark)"}} strokeWidth="24" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              <motion.h3  className={styles.layered}>
                 <span>i</span>
-                <span>s</span>
+                <span className={styles.second}>s</span>
                 <span>a</span>
-                <span>a</span>
+                <span className={styles.forth}>a</span>
                 <span>c</span>
                 </motion.h3>
             </div>
-            <div className={styles.wordMarkJosh}>
-              <motion.h3 style={{ y: y1, x: 0}} className={styles.full}>josh</motion.h3>
-              {/* <ArcJosh/> */}
-              <motion.h3 style={{ y: y1, x: 0}} className={styles.layered}>
+            <div className={styles.joshWordMark}>
+              <motion.h3  className={styles.full}>josh</motion.h3>
+              <svg  viewBox="0 0 382 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 64.523C19.3333 64.523 38 64.523 54 64.523C74 64.523 83 105.5 100.5 105.5C118 105.5 130.5 35.523 156 35.523C182.019 35.523 185 81.0231 207 81.023C228.523 81.0228 235.5 12.0231 262 12.0229C288.542 12.0228 292.5 58.5229 313 58.5229C329.4 58.5229 357.833 58.5229 370 58.5229" style={{stroke: "var(--color-dark)"}} strokeWidth="24" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              <motion.h3  className={styles.layered}>
                 <span>j</span>
-                <span>o</span>
+                <span className={styles.second}>o</span>
                 <span>s</span>
                 <span>h</span>
                 </motion.h3>
             </div>
+            </div>
+            
       </section>
       <section className={styles.sagas}>
         <motion.h2>they speak of their <span className={styles.highlight}>sagas</span> in</motion.h2>
