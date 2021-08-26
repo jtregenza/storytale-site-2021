@@ -6,13 +6,13 @@
   --font-bold: 'silkabold', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   --color-dark: rgb(10, 10, 10);
-  --color-light: rgb(255,249,243);
+  --color-light: rgb(245,245,245);
 }
 
 
 @media (prefers-color-scheme: dark) {
   :root {
-   --color-dark: rgb(255,249,243); 
+   --color-dark: rgb(245,245,245); 
    --color-light: rgb(10, 10, 10);
   }
 }
@@ -20,18 +20,18 @@
 @media (prefers-color-scheme: light) {
   :root {
     --color-dark: rgb(10, 10, 10);
-    --color-light: rgb(255,249,243);
+    --color-light: rgb(245,245,245);
   }
 }
 
 
 [theme="light"] {
   --color-dark: rgb(10, 10, 10);
-  --color-light: rgb(255,249,243);
+  --color-light: rgb(245,245,245);
 }
 
 [theme="dark"] {
-  --color-dark: rgb(255,249,243); 
+  --color-dark: rgb(245,245,245); 
   --color-light: rgb(10, 10, 10);
 }
 

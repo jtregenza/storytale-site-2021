@@ -18,10 +18,10 @@ export default function FadeInWhenVisible({ children, className }) {
         ref={ref}
         animate={controls}
         initial="hidden"
-        transition={{ duration: 0.8}}
+        transition={{ duration: 0.6}}
         variants={{
-          visible: { opacity: 1, scale: 1, y: 0, transition: {delayChildren: 0.5} },
-          hidden: { opacity: 0, scale: 0, y: 200 }
+          visible: { visibility: "visible", scale: 1, y: 0, transition: {delayChildren: 0.5} },
+          hidden: { visibility: "hidden", scale: 0, y: 100 }
         }}
       >
         {children}
