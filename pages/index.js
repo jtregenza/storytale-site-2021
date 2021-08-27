@@ -151,6 +151,7 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section className={styles.ventures}>
+        <h2>and what they <span className={styles.highlight}>venture</span> towards</h2>
       <img src="#"/>
         <ul>
           <li>Seasonal</li>
@@ -159,7 +160,7 @@ export default function Home({ allPostsData }) {
         </ul>
         <img src="#"/>
       </section>
-      <section>
+      <section className={styles.blog}>
         <h2>on the road they speak of <span className={styles.highlight}>news</span> from afar</h2>
         {/* <Blog/> */}
       </section>

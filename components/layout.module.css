@@ -823,6 +823,33 @@ align-self: center;
   background: lightgrey;
 }
 
+.wheel {
+  min-height: 90vh;
+}
+
+.campfire {
+  min-height: 90vh;
+  display: grid;
+  place-items: flex-end;
+}
+
+.campfire h2 {
+  font-size: 4rem;
+  line-height: 1;
+  text-align: right;
+  font-family: var(--font-bold);
+  width: 100%;
+}
+
+.campfire h2::first-line {
+  font-size: 3rem;
+}
+
+.campfire h2 span {
+  font-size: 8rem;
+}
+
+
 
 
 .contactUs {
