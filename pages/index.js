@@ -11,6 +11,7 @@ import Arc from '../components/arc'
 import { useViewportScroll, useTransform, motion } from 'framer-motion'
 import FadeInWhenVisible from '../components/fadeInVisible'
 import { useInView } from 'react-intersection-observer';
+import { ParallaxImage } from '../components/parralaxImage'
 
 export default function Home({ allPostsData }) {
   const { scrollY } = useViewportScroll();
@@ -54,11 +55,11 @@ export default function Home({ allPostsData }) {
           </FadeInWhenVisible>
             <div className={styles.imageGroup}>
             
-              <img src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1" className={styles.secondaryImage} placeholder="blur" width="" height="" />
+              <ParallaxImage src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1" className={styles.secondaryImage} placeholder="blur" width="" height="" />
 
-              <img src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2" className={styles.primaryImage}  placeholder="blur" width="" height="" />
+              <ParallaxImage src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2" className={styles.primaryImage}  placeholder="blur" width="" height="" />
 
-              <img src="/images/photo-1625378163049-d1ca880237c7.webp" alt="image-3" className={styles.tertiaryImage}  placeholder="blur" width="" height="" />
+              <ParallaxImage src="/images/photo-1625378163049-d1ca880237c7.webp" alt="image-3" className={styles.tertiaryImage}  placeholder="blur" width="" height="" />
               <div className={styles.isaacWordMark}>
               <motion.h3 className={styles.full}>isaac</motion.h3>
               <svg viewBox="0 0 382 92" fill="none" xmlns="http://www.w3.org/2000/svg">

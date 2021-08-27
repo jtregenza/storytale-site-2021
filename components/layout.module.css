@@ -725,12 +725,19 @@ align-self: center;
   gap: 0px 0px;
   grid-auto-flow: row;
   min-height: 90vh;
-  height: 60rem;
+  height: 85rem;
+  margin-top: -3rem;
 }
 
-.primaryImage { grid-area: 1 / 4 / 6 / 7; }
+.primaryImage { 
+  grid-area: 1 / 4 / 6 / 7;
+  position:relative;
+ }
 
-.secondaryImage { grid-area: 4 / 2 / 9 / 5; }
+.secondaryImage { 
+  grid-area: 4 / 2 / 9 / 5;
+  position:relative;
+ }
 
 .isaacWordMark { 
   grid-area: 3 / 1 / 5 / 5;
@@ -739,7 +746,10 @@ align-self: center;
   width: 90%;
  }
 
-.tertiaryImage { grid-area: 4 / 6 / 7 / 10; }
+.tertiaryImage { 
+  grid-area: 4 / 6 / 7 / 10;
+  position:relative;
+ }
 
 .joshWordMark {
    grid-area: 7 / 7 / 9 / 10;
