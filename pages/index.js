@@ -13,6 +13,7 @@ import FadeInWhenVisible from '../components/fadeInVisible'
 import { useInView } from 'react-intersection-observer';
 import { ParallaxImage } from '../components/parralaxImage'
 
+
 export default function Home({ allPostsData }) {
   const { scrollY } = useViewportScroll();
   const y1 = useTransform(scrollY, [0, 300], [0, 200]);
@@ -114,39 +115,34 @@ export default function Home({ allPostsData }) {
 
       <section id="ourStories" className={styles.ourStories}>
           {allPostsData.map(({ id, date, title, type, byline,image }) => (
-
-            <FadeInWhenVisible className={styles.listItem} key={id}>
-              <div className={styles.content}>
+            <FadeInWhenVisible key={id}>
               <Link href={`/posts/${id}`}>
-                <a>
-                  <motion.p className={styles.byline}>
-                  {byline}
-                  </motion.p>
-
-              <div className={styles.lowerHalf}>
-                <div>
-              <motion.p className={styles.title}>{title}</motion.p>
-              <p className={styles.storyMeta}>
-              <Date dateString={date}/> <i>{type}</i>
-              </p>
+              <div className={styles.listItem}>
+                <div className={styles.content}>
+                  <a>
+                    <motion.p className={styles.byline}>
+                    {byline}
+                    </motion.p>
+                    <div className={styles.lowerHalf}>
+                      <div>
+                        <motion.p className={styles.title}>{title}</motion.p>
+                        <p className={styles.storyMeta}>
+                          <Date dateString={date}/> <br/>
+                          <i>{type}</i>
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className={styles.storyImage}>
+                  <Image  
+                  src={image} width="" height="" placeholder="blur" layout="responsive"/>
+                </div>
               </div>
-              <div className={styles.arrow}>
-              <svg width="119" height="25" viewBox="0 0 119 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fillRule="evenodd" clipRule="evenodd" d="M97.8911 0.538397L117.999 11.8962L98.1089 23.6314L98.0189 14.0848L1.01891 14.9999L0.981175 11.0001L97.9811 10.085L97.8911 0.538397Z" fill="var(--color-light)"/>
-          </svg>
-              </div>
-              </div>
-              </a>
-              </Link> 
-            </div>
-            <div className={styles.storyImage}>
-              
-            <Image  
-             src={image} width="" height="" placeholder="blur" layout="responsive"/>
-             </div>
+             </Link>
             </FadeInWhenVisible>
-            
           ))}
+          {/* <CaseStudies/> */}
       </section>
 
       <section className={styles.ventures}>
