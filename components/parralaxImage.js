@@ -1,5 +1,5 @@
 import { useViewportScroll, useTransform, motion } from 'framer-motion'
-import { useState, useRef, useLayoutEffect } from "react"
+import { useState, useRef, useEffect } from "react"
 import styles from './layout.module.css'
 
 export const ParallaxImage = ({ src, className, placeholder, alt, ...style }) => {
@@ -7,11 +7,11 @@ export const ParallaxImage = ({ src, className, placeholder, alt, ...style }) =>
 	const ref = useRef(null);
 	const { scrollY } = useViewportScroll();
   
-	const y = useTransform(scrollY, [elementTop, elementTop - 200], [0, +25], {
+	const y = useTransform(scrollY, [elementTop, elementTop - 200], [0, + 25], {
 	  clamp: false
 	});
   
-	useLayoutEffect(() => {
+	useEffect(() => {
 	  const element = ref.current;
 	  setElementTop(element.offsetTop);
 	}, [ref]);

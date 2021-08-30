@@ -113,7 +113,6 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section id="ourStories" className={styles.ourStories}>
-        <h3 className={styles.listItem}></h3>
           {allPostsData.map(({ id, date, title, type, byline,image }) => (
 
             <FadeInWhenVisible className={styles.listItem} key={id}>
