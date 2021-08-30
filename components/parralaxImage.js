@@ -8,7 +8,7 @@ export const ParallaxImage = ({ src, className, placeholder, alt, ...style }) =>
 	const { scrollY } = useViewportScroll();
   
 	const y = useTransform(scrollY, [elementTop, elementTop - 200], [0, + 25], {
-	  clamp: false
+	  clamp: true
 	});
   
 	useEffect(() => {
