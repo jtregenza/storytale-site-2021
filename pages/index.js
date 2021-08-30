@@ -6,7 +6,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Date from '../components/date'
 import Year from '../components/year'
-import Notepad from '../components/notepad'
+import Contact from '../components/contact'
 import Arc from '../components/arc'
 import { useViewportScroll, useTransform, motion } from 'framer-motion'
 import FadeInWhenVisible from '../components/fadeInVisible'
@@ -108,12 +108,12 @@ export default function Home({ allPostsData }) {
           ...at night<br/>
           <span>the storytellers</span><br/>
           would tell you<br/>
-          of what <span>came before</span>
+          of what <span>came before,</span>
         </h2>
       </section>
 
       <section id="ourStories" className={styles.ourStories}>
-        <h3 className={styles.listItem}>Our <br/>Stories</h3>
+        <h3 className={styles.listItem}></h3>
           {allPostsData.map(({ id, date, title, type, byline,image }) => (
 
             <FadeInWhenVisible className={styles.listItem} key={id}>
@@ -151,21 +151,21 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section className={styles.ventures}>
-        <h2>and what they <span className={styles.highlight}>venture</span> towards</h2>
+        <h2>what they <span className={styles.highlight}>venture</span> towards</h2>
       <img src="#"/>
         <ul>
-          <li>Seasonal</li>
-          <li>Fables</li>
-          <li>Crumple</li>
+          <li><Link href="/seasonal">Seasonal</Link></li>
+          <li><Link href="/fables">Fables</Link></li>
+          <li><Link href="/crumple">Crumple</Link></li>
         </ul>
         <img src="#"/>
       </section>
       <section className={styles.blog}>
-        <h2>on the road they speak of <span className={styles.highlight}>news</span> from afar</h2>
+        <h2>and idle <span className={styles.highlight}>chit chat</span> from afar</h2>
         {/* <Blog/> */}
       </section>
       <section className={styles.contact}>
-      <Notepad/>
+      <Contact/>
       </section>
       </article>
     </Layout>
