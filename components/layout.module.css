@@ -390,7 +390,7 @@ display: grid;
 
 .joshWordMark {
    grid-area: 7 / 7 / 9 / 10;
-   color: #20435B; 
+   color: #555555; 
    width: 110%;
    margin-right: -2rem;
   }
@@ -506,6 +506,7 @@ display: grid;
 
 .ventures h2 {
   width: 100%;
+  padding: 2.5rem;
 }
 
 .ventures ul {
@@ -515,6 +516,7 @@ display: grid;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  background-color: var(--color-light);
 }
 .ventures ul li a {
   color: transparent;
@@ -548,6 +550,7 @@ display: grid;
 
 
 .contact {
+  margin-top: 2rem;
   padding: 2.5rem;
   width: 100%;
   
@@ -611,6 +614,7 @@ display: grid;
   line-height: 0.8;
   margin: 0 auto; 
   place-self: center center;
+  margin-top: -9rem;
  }
 
  .join span {
@@ -627,6 +631,7 @@ display: grid;
   text-transform: uppercase;
   font-size: 1.5rem;
   min-height: 5rem;
+  margin-top: -2rem;
  }
 .cta { 
   grid-area: 4 / 1 / 5 / 4;
@@ -637,6 +642,7 @@ display: grid;
   font-family: var(--font-bold);
   font-size: 4rem;
   z-index: 4;
+  margin-top: 2rem;
 }
 
 
@@ -675,7 +681,6 @@ display: grid;
 
 
 .contact textarea {
-  margin-top: 0.5ch;
   border: unset;
   font-size: 1.5rem;
   margin-bottom: 0;
@@ -917,6 +922,7 @@ display: grid;
 
 .ventureForth li {
   margin:0 0.5rem;
+  cursor: pointer;
 }
 
 .ventureForth ul svg{
