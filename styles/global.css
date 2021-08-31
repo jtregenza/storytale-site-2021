@@ -116,3 +116,8 @@ blockquote {
   padding-left: 40px;
   border-left: 2px solid;
 }
+
+
+h2 {
+  font-size: 2rem;
+}

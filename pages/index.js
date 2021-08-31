@@ -150,18 +150,17 @@ export default function Home({ allPostsData }) {
 
       <section className={styles.ventures}>
         <h2>what they <span className={styles.highlight}>venture</span> towards</h2>
-      <img src="#"/>
+      <img src="https://picsum.photos/300/700"/>
         <ul>
           <li><Link href="/seasonal">Seasonal</Link></li>
           <li><Link href="/fables">Fables</Link></li>
           <li><Link href="/crumple">Crumple</Link></li>
         </ul>
-        <img src="#"/>
+        <img src="https://picsum.photos/300/700"/>
       </section>
-      <section className={styles.blog}>
+      {/* <section className={styles.blog}>
         <h2>and idle <span className={styles.highlight}>chit chat</span> from afar</h2>
-        {/* <Blog/> */}
-      </section>
+      </section> */}
       <section className={styles.contact}>
       <Contact/>
       </section>
