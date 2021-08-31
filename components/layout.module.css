@@ -201,6 +201,19 @@ align-self: center;
   height: 100vh;
 }
 
+.ourStories > div:nth-of-type(4) {
+  grid-column-start: 5;
+}
+
+.ourStories [type="coming soon"] {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+
+.listItem {
+  cursor: pointer;
+}
 
 .byline {
   font-family: var(--font-regular);
@@ -219,13 +232,15 @@ align-self: center;
 
 .storyMeta {
   margin-top: 0;
-  color: var(--color-dark);
+  color: var(--color-light);
+  display: flex;
+  justify-content: space-between;
 }
 
 
 .listItem {
-  background: var(--color-light);
-  color: var(--color-dark);
+  background: var(--color-dark);
+  color: var(--color-light);
   display: grid;
   min-height: 100vh;
   height: 100%;
@@ -262,7 +277,7 @@ align-self: center;
 }
 
 .listItem a {
-  color: var(--color-dark);
+  color: var(--color-light);
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -276,6 +291,8 @@ align-self: center;
   min-height: 20vw;
   height: 100%;
   overflow: hidden;
+  margin-top: auto;
+display: grid;
 }
 
 .listItem .storyImage img {
@@ -294,7 +311,7 @@ align-self: center;
 
 .ourStories h3 {
   font-family: var(--font-bold);
-  color: var(--color-dark);
+  color: var(--color-light);
   background: var(--color-light);
   font-size: 2.5rem;
   align-self: center;
@@ -848,4 +865,47 @@ align-self: center;
 
 .ventureForth ul svg{
  height: 1.5rem;
+}
+
+
+
+
+
+.scrollContainer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  will-change: transform;
+
+}
+
+.ghost {
+  width: 100vw;
+}
+
+.thumbnailsContainer {
+  position: relative;
+  height: 100vh;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 0px 160px;
+  border: 40px solid yellow;
+}
+
+.thumbnails {
+  position: relative;
+  display: flex;
+  border: 20px solid green; 
+}
+
+.thumbnails > *:not(:last-child) {
+  margin-right: 45px;
+}
+
+.thumbnail {
+  height: 40vh;
+  width: 700px;
+  background-color: blue;
+  border: 15px solid magenta;
 }

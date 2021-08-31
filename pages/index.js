@@ -12,6 +12,7 @@ import { useViewportScroll, useTransform, motion } from 'framer-motion'
 import FadeInWhenVisible from '../components/fadeInVisible'
 import { useInView } from 'react-intersection-observer';
 import { ParallaxImage } from '../components/parralaxImage'
+import CaseStudies from '../components/caseStudies'
 
 
 export default function Home({ allPostsData }) {
@@ -112,14 +113,16 @@ export default function Home({ allPostsData }) {
           of what <span>came before,</span>
         </h2>
       </section>
-
+   
       <section id="ourStories" className={styles.ourStories}>
+      
           {allPostsData.map(({ id, date, title, type, byline,image }) => (
-            <FadeInWhenVisible key={id}>
-              <Link href={`/posts/${id}`}>
-              <div className={styles.listItem}>
+              <FadeInWhenVisible key={id}>
+              <Link href={`/posts/${id}`} className={styles.link}>
+              <div className={styles.listItem} type={type}>
                 <div className={styles.content}>
-                  <a>
+                  
+
                     <motion.p className={styles.byline}>
                     {byline}
                     </motion.p>
@@ -127,12 +130,11 @@ export default function Home({ allPostsData }) {
                       <div>
                         <motion.p className={styles.title}>{title}</motion.p>
                         <p className={styles.storyMeta}>
-                          <Date dateString={date}/> <br/>
                           <i>{type}</i>
                         </p>
                       </div>
                     </div>
-                  </a>
+                 
                 </div>
                 <div className={styles.storyImage}>
                   <Image  
@@ -140,10 +142,12 @@ export default function Home({ allPostsData }) {
                 </div>
               </div>
              </Link>
-            </FadeInWhenVisible>
+             </FadeInWhenVisible>
           ))}
-          {/* <CaseStudies/> */}
       </section>
+     
+      
+        
 
       <section className={styles.ventures}>
         <h2>what they <span className={styles.highlight}>venture</span> towards</h2>
