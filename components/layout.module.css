@@ -231,7 +231,7 @@ align-self: center;
 }
 
 .storyMeta {
-  margin-top: 0;
+  margin-top: auto;
   color: var(--color-light);
   display: flex;
   justify-content: space-between;
@@ -872,10 +872,8 @@ display: grid;
 
 
 .scrollContainer {
-  position: fixed;
-  left: 0;
-  right: 0;
-  will-change: transform;
+width: 100%;
+overflow-x: auto;
 
 }
 
