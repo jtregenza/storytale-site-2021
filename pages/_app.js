@@ -12,8 +12,7 @@ export default function App({ Component, pageProps, router }) {
        animate="pageAnimate" 
        exit="pageExit" variants={{
         pageInitial: {
-          opacity: 0,
-          scale: 0.8
+          opacity: 0
         },
         pageAnimate: {
           opacity: 1,
@@ -21,7 +20,10 @@ export default function App({ Component, pageProps, router }) {
         },
         pageExit: {
           opacity: 0,
-          scale: 0.8
+          y: "-100vh",
+          transition: {
+            ease: "easeInOut"
+          }
         }
       }}>
         <Component {...pageProps} />

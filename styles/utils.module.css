@@ -75,6 +75,7 @@
   display: grid;
   grid-template-columns: 1fr;
   min-height: 90vh;
+  position: relative;
 }
 
 .articleContent > *:not(.img) {

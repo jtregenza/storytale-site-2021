@@ -19,7 +19,7 @@ export default function Contact() {
         <ParallaxImage src="https://picsum.photos/600/400" alt="image-1" className={styles.imageOne} placeholder="blur" width="" height="" />
         <p className={styles.join}><span>to join</span>the storytellers</p>
         <ParallaxImage src="https://picsum.photos/500/600" alt="image-1" className={styles.imageTwo} placeholder="blur" width="" height="" />
-        <TextareaAutosize placeholder="Your message" name="message" className={styles.message} rows={5} required/>
+        <TextareaAutosize placeholder="Your message" name="message" className={styles.message} rows={7} required/>
         <motion.button className={styles.cta} type="submit" 
         transition={{ duration: 0.8 }}
         whileHover={{ scale: 1 }}

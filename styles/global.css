@@ -121,3 +121,18 @@ blockquote {
 h2 {
   font-size: 2rem;
 }
+
+
+.scrollArea {
+  width: 100%;
+  height: 200px;
+  overflow: auto;
+}
+
+.meter {
+  width: 100px;
+  display: block;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}

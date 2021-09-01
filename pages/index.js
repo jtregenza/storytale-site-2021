@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
+import { useState, React, useRef } from 'react'
 import styles from '../components/layout.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
@@ -13,6 +14,7 @@ import FadeInWhenVisible from '../components/fadeInVisible'
 import { useInView } from 'react-intersection-observer';
 import { ParallaxImage } from '../components/parralaxImage'
 import CaseStudies from '../components/caseStudies'
+import HeroicWheel from '../components/heroicWheel'
 
 
 export default function Home({ allPostsData }) {
@@ -25,6 +27,10 @@ export default function Home({ allPostsData }) {
     threshold: 0.5,
     triggerOnce: false
   });
+
+  const [scrollProgress, setScrollProgress] = useState(0),
+  onScroll = ({ target: { scrollTop, scrollHeight } }) =>
+    setScrollProgress(scrollTop / scrollHeight)
 
   return (
     <Layout home>
@@ -78,7 +84,7 @@ export default function Home({ allPostsData }) {
             <div className={styles.joshWordMark}>
               <motion.h3  className={styles.full}>josh</motion.h3>
               <svg  viewBox="0 0 382 118" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12 64.523C19.3333 64.523 38 64.523 54 64.523C74 64.523 83 105.5 100.5 105.5C118 105.5 130.5 35.523 156 35.523C182.019 35.523 185 81.0231 207 81.023C228.523 81.0228 235.5 12.0231 262 12.0229C288.542 12.0228 292.5 58.5229 313 58.5229C329.4 58.5229 357.833 58.5229 370 58.5229" style={{stroke: "var(--color-dark)"}} strokeWidth="24" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M12 64.523C19.3333 64.523 38 64.523 54 64.523C74 64.523 83 105.5 100.5 105.5C118 105.5 130.5 35.523 156 35.523C182.019 35.523 185 81.0231 207 81.023C228.523 81.0228 235.5 12.0231 262 12.0229C288.542 12.0228 292.5 58.5229 313 58.5229C329.4 58.5229 357.833 58.5229 370 58.5229" style={{stroke: "#D82E17"}} strokeWidth="24" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
               <motion.h3  className={styles.layered}>
                 <span>j</span>
@@ -104,6 +110,7 @@ export default function Home({ allPostsData }) {
       <section className={styles.wheel}>
       <h2>you all travel with aid of the <span className={styles.highlight}>heroic wheel</span></h2>
       {/* <HeroicWheel/> */}
+      <HeroicWheel/>
       </section>
       <section className={styles.campfire}>
         <h2>
