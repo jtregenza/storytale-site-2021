@@ -15,6 +15,7 @@ import { useInView } from 'react-intersection-observer';
 import { ParallaxImage } from '../components/parralaxImage'
 import CaseStudies from '../components/caseStudies'
 import HeroicWheel from '../components/heroicWheel'
+import Typewriter from '../components/typewriter'
 
 
 export default function Home({ allPostsData }) {
@@ -58,9 +59,7 @@ export default function Home({ allPostsData }) {
         <motion.h1 style={{ y: y2, x: 0}}className={styles.begins}>begins</motion.h1>
       </section>
       <section id="aboutUs" className={styles.aboutUs}>
-        <FadeInWhenVisible className={styles.heading}>
-            <h2 className={styles.display}>with two storytellers</h2>
-          </FadeInWhenVisible>
+            <h2 className={styles.display}><Typewriter>with two storytellers</Typewriter></h2>
             <div className={styles.imageGroup}>
             
               <ParallaxImage src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1" className={styles.secondaryImage} placeholder="blur" width="" height="" />
@@ -97,7 +96,7 @@ export default function Home({ allPostsData }) {
             
       </section>
       <section className={styles.sagas}>
-        <motion.h2>they speak of their <span className={styles.highlight}>sagas</span> in</motion.h2>
+        <motion.h2><Typewriter>they speak of their </Typewriter><span className={styles.highlight}>sagas</span></motion.h2>
         <ul>
           <li>Brand Storytelling</li>
           <li>Mobile &nbsp; Web Apps</li>
@@ -108,7 +107,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <section className={styles.wheel}>
-      <h2>you all travel with aid of the <span className={styles.highlight}>heroic wheel</span></h2>
+      <h2><Typewriter>you all travel with aid of the </Typewriter><span className={styles.highlight}>heroic wheel</span></h2>
       {/* <HeroicWheel/> */}
       <HeroicWheel/>
       </section>
@@ -156,7 +155,7 @@ export default function Home({ allPostsData }) {
         
 
       <section className={styles.ventures}>
-        <h2>what they <span className={styles.highlight}>venture</span> towards</h2>
+        <h2><Typewriter>and where they </Typewriter><span className={styles.highlight}>venture</span></h2>
       <img src="https://picsum.photos/300/700"/>
         <ul>
           <li><Link href="/seasonal">Seasonal</Link></li>

@@ -39,15 +39,15 @@
 
 
 .homeContent {
-  display: grid;
-  grid-template-rows: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .intro {
   margin: 3rem 0;
   margin-bottom: 0; 
   padding: 0 2.5rem;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
   overflow: hidden;
   display: grid;
   grid-gap: 2rem;
@@ -462,17 +462,19 @@ display: grid;
 
 .wheel {
   min-height: 100vh;
-  padding: 0 2.5rem;
+  padding: 0 3.5rem;
 }
 
 .campfire {
   padding: 0 2.5rem;
-  min-height: 90vh;
+  min-height: 100vh;
   display: grid;
   place-items: flex-end;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center left;
+  height: 100%;
+  margin: 2rem 0;
 }
 
 .campfire h2 {
@@ -940,6 +942,7 @@ display: grid;
   height: 100%;
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: 1fr;
+  grid-gap: 2rem;
 }
 
 .Wheel > div {
@@ -984,4 +987,5 @@ display: grid;
   grid-column-end: -1;
   grid-row-start: 1;
   grid-row-end: -1;
+  text-align: center;
 }
