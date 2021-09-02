@@ -7,6 +7,7 @@ import {
   AnimatePresence
 } from "framer-motion";
 import styles from './layout.module.css'
+import FadeInWhenVisible from "./fadeInVisible";
 
 export default function HeroicWheel()  {
 	
@@ -46,7 +47,6 @@ export default function HeroicWheel()  {
 			byline: 'We need to know more about you',
 			nodePostion: '0deg',
 			isDone: false,
-			component: firstComponent 
 		},
 		{ 
 			key: 2,
@@ -54,7 +54,6 @@ export default function HeroicWheel()  {
 			byline: 'We need to know more about you',
 			nodePostion: '45deg',
 			isDone: false,
-			component: secondComponent 
 		},
 		{ 
 			key: 3,
@@ -62,7 +61,6 @@ export default function HeroicWheel()  {
 			byline: 'We need to know more about you',
 			nodePostion: '90deg',
 			isDone: false,
-			component: thirdComponent 
 		},
 		{ 
 			key: 4, 
@@ -70,7 +68,6 @@ export default function HeroicWheel()  {
 			byline: 'We need to know more about you',
 			nodePostion: '135deg',
 			isDone: false, 
-			component: finalComponent 
 		},
 		{ 
 			key: 5, 
@@ -78,7 +75,6 @@ export default function HeroicWheel()  {
 			byline: 'We need to know more about you',
 			nodePostion: '180deg',
 			isDone: false, 
-			component: finalComponent 
 		},
 		{ 
 			key: 6, 
@@ -86,7 +82,6 @@ export default function HeroicWheel()  {
 			byline: 'We need to know more about you',
 			nodePostion: '225deg',
 			isDone: false, 
-			component: finalComponent 
 		},
 		{ 
 			key: 7, 
@@ -94,15 +89,13 @@ export default function HeroicWheel()  {
 			byline: 'We need to know more about you',
 			nodePostion: '270deg',
 			isDone: false, 
-			component: finalComponent 
 		},
 		{ 
 			key: 8, 
 			label: 'Change', 
 			byline: 'We need to know more about you',
 			nodePostion: '315deg',
-			isDone: true, 
-			component: finalComponent 
+			isDone: false, 
 		},
 	  ]);	
 
@@ -137,7 +130,7 @@ export default function HeroicWheel()  {
 
 	return (
 		<div className={styles.Wheel}>
-			<section className={styles.wheelBackground}>
+			<FadeInWhenVisible className={styles.wheelBackground}>
 			<svg viewBox="0 0 694 694" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M15.2776 340.46C6.87723 340.294 0.16695 333.345 0.700371 324.96C5.81189 244.611 38.7349 168.353 94.0708 109.438C152.886 46.8184 232.838 8.24273 318.456 1.17597C404.074 -5.89078 489.27 19.0539 557.556 71.1825C621.803 120.228 666.783 190.055 685 268.48C686.901 276.664 681.42 284.619 673.161 286.16V286.16C664.901 287.7 656.994 282.242 655.058 274.066C638.246 203.046 597.352 139.841 539.093 95.3672C476.795 47.8094 399.07 25.052 320.959 31.4991C242.848 37.9462 169.906 73.1394 116.249 130.268C66.0703 183.692 36.0929 252.747 31.1526 325.562C30.5839 333.945 23.6779 340.626 15.2776 340.46V340.46Z" style={{fill: "var(--color-dark)"}}/>
 				<path d="M678.204 327.336C686.591 326.839 693.829 333.237 693.959 341.637C695.23 423.718 667.343 503.788 614.985 567.439C559.398 635.014 480.334 679.095 393.627 690.853C306.92 702.611 218.972 681.177 147.397 630.845C79.9792 583.435 31.776 513.684 11.1425 434.229C9.03061 426.097 14.3033 418.002 22.5202 416.249V416.249C30.7371 414.495 38.7834 419.747 40.9295 427.87C59.9387 499.823 103.758 562.961 164.899 605.956C230.198 651.875 310.435 671.429 389.539 660.703C468.643 649.976 540.774 609.76 591.487 548.11C638.97 490.384 664.393 417.858 663.554 343.441C663.459 335.039 669.817 327.834 678.204 327.336V327.336Z" style={{fill: "var(--color-dark)"}}/>
@@ -147,24 +140,23 @@ export default function HeroicWheel()  {
 					transform: 'rotateZ(' + activeStep.nodePostion + 
 				')'
 				}}>
-				<svg className={styles.wheelNode} viewBox="0 0 85 85" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="42.5" cy="42.5" r="42.5" style={{fill: "var(--color-dark)"}}/>
-</svg>
+				<div className={styles.wheelNode} ></div>
 </div>
 				
 
-			</section>
-			<section className={styles.steps}>
-				<h3>Step {activeStep.key}</h3>
-				<h2>{activeStep.label}</h2>
+</FadeInWhenVisible>
+<FadeInWhenVisible className={styles.steps}>
 				<h3>{activeStep.byline}</h3>
-					{activeStep.component()}
+				<div>
+				<h2>{activeStep.label}</h2>
+				<h4>Step {activeStep.key}</h4>
 
 				<div className={styles.stepGroup}>
 				<input type="button" value="Back" onClick={handleBack} disabled={steps[0].key === activeStep.key} />
           <input type="button" value={steps[steps.length - 1].key !== activeStep.key ? 'Next' : 'Submit'} onClick={handleNext} />
 				</div>
-			</section>
+				</div>
+				</FadeInWhenVisible>
 		</div>
 	)
   }     

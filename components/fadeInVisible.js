@@ -20,8 +20,16 @@ export default function FadeInWhenVisible({ children, className }) {
         initial="hidden"
         transition={{ duration: 0.6}}
         variants={{
-          visible: { visibility: "visible", scale: 1, y: 0, transition: {delayChildren: 0.5} },
-          hidden: { visibility: "hidden", scale: 0, y: 100 }
+          visible: { 
+            visibility: "visible",
+             opacity: 1,
+              y: 0, 
+              transition: {
+                delay: 0.5,
+                staggerChildren: 0.08,
+              } 
+            },
+          hidden: { visibility: "hidden", opacity: 0, y: 50 }
         }}
       >
         {children}

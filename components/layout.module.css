@@ -144,7 +144,9 @@ align-self: center;
 }
 
 
-
+.sagas {
+  padding: 0 2.5rem;
+}
 
 .sagas h2 {
   font-size: 2rem;
@@ -201,7 +203,7 @@ align-self: center;
   list-style: none;
   padding: 0;
   margin: 0;
-  height: 100vh;
+  height: 100%;
 }
 
 .ourStories > div:nth-of-type(4) {
@@ -489,7 +491,7 @@ display: grid;
   font-size: 3rem;
 }
 
-.campfire h2 span {
+.campfire h2 .large {
   font-size: 8rem;
 }
 
@@ -712,7 +714,8 @@ display: grid;
 
 
 
-.cta {
+.cta,
+.wheel input[type="button"] {
   border: unset;
   background: var(--color-dark);
   color: var(--color-light);
@@ -943,16 +946,17 @@ display: grid;
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: 1fr;
   grid-gap: 2rem;
+  margin: 5rem 0;
 }
 
-.Wheel > div {
+/* .Wheel > div {
   place-self: center center;
   border: 2px solid;
   width: 100%;
   height: 100%;
   display: grid;
   place-items: center center;
-}
+} */
 
 .wheelBackground {
   grid-column-start: 1;
@@ -969,16 +973,75 @@ display: grid;
   grid-column-end: -1;
   grid-row-start: 1;
   grid-row-end: -1;
-  width:100%;
-  height: 100%;
+  place-self: center center;
+  width:90%;
+  height: 90%;
 }
 
 
+
+.steps {
+  place-self: center center;
+  font-family: var(--font-bold);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+}
+
+.steps h3 {
+  font-size: 2rem;
+  font-family: var(--font-light);
+  margin: 0;
+  line-height: 1;
+}
+
+.steps h2 {
+
+  font-size: 6rem;
+  text-align: right;
+  margin: 0;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  line-height: 0.8;
+  text-transform: uppercase;
+}
+
+.steps h4 {
+  margin: 0;
+  font-size: 2rem;
+  text-align: right;
+  line-height: 0.8;
+}
+
+
+.steps input {
+  font-family: var(--font-bold);
+  font-size: 1rem;
+}
+
+.stepGroup {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.stepGroup input + input {
+  margin-left: 1rem;
+}
+
+.stepGroup input:disabled {
+  opacity: 0.2;
+}
 
 .wheelNode{
   z-index: 2;
   width: 85px;
   height: 85px;
+  background: var(--color-dark);
+  border-radius: 100%;
+  margin: 0 auto;
+  border: 0.25rem solid var(--color-light);
 }
 .nodeParent {
   width:100%;
