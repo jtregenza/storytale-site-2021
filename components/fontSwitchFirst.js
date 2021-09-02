@@ -49,7 +49,7 @@ const fonts = [
   export default function FontSwitch({ children }) {
 	const rand = fonts[Math.floor(Math.random() * fonts.length)];
 	return (
-		<span style={{fontFamily:  rand }}>{children}</span>
+		<span style={{fontFamily: "'" + rand + "'" }}>{children}</span>
 	)
   }
 
