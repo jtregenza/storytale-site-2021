@@ -156,7 +156,7 @@ align-self: center;
   font-family: var(--font-bold);
   font-size: 7.5rem;
   list-style: none;
-  line-height: 0.8;
+  line-height: 0.85;
   text-transform: uppercase;
   padding-right: 1rem;
 }
