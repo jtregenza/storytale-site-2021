@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
 import styles from './layout.module.css'
+import FontSwitch from "./fontSwitchFirst";
 
 export default function Campfire({ children, className }) {
     const controls = useAnimation();
@@ -47,14 +48,18 @@ export default function Campfire({ children, className }) {
         initial="hidden"
 		animate={controls}
       >
+		  <FontSwitch>
         {line1.split("").map((char, index)  => {
 			return (
 				<motion.span key={char + "-" + index} variants={letter}>
 					{char}
 				</motion.span>
+				
 			)
 		})}
+		</FontSwitch>
 		<br/>
+		<FontSwitch>
 		{line2.split("").map((char, index)  => {
 			return (
 				<motion.span className={styles.large} key={char + "-" + index} variants={letter}>
@@ -62,7 +67,9 @@ export default function Campfire({ children, className }) {
 				</motion.span>
 			)
 		})}
+		</FontSwitch>
 		<br/>
+		<FontSwitch>
 		{line3.split("").map((char, index)  => {
 			return (
 				<motion.span key={char + "-" + index} variants={letter}>
@@ -70,7 +77,9 @@ export default function Campfire({ children, className }) {
 				</motion.span>
 			)
 		})}
+		</FontSwitch>
 		<br/>
+		<FontSwitch>
 		{line4a.split("").map((char, index)  => {
 			return (
 				<motion.span key={char + "-" + index} variants={letter}>
@@ -78,6 +87,8 @@ export default function Campfire({ children, className }) {
 				</motion.span>
 			)
 		})}
+		</FontSwitch>
+		<FontSwitch>
 		{line4b.split("").map((char, index)  => {
 			return (
 				<motion.span className={styles.large} key={char + "-" + index} variants={letter}>
@@ -85,14 +96,9 @@ export default function Campfire({ children, className }) {
 				</motion.span>
 			)
 		})}
+		</FontSwitch>
       </motion.h2>
     );
   }
 
 
-  <h2>
-          ...at night<br/>
-          <span>the storytellers</span><br/>
-          would tell you<br/>
-          of what <span>came before,</span>
-        </h2>

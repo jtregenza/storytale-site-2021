@@ -254,7 +254,7 @@ align-self: center;
 .listItem .content {
   padding: 2rem;
   width: 100%;
-  height: 19.5rem;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

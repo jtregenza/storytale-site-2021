@@ -17,6 +17,7 @@ import CaseStudies from '../components/caseStudies'
 import HeroicWheel from '../components/heroicWheel'
 import Typewriter from '../components/typewriter'
 import Campfire from '../components/campfire'
+import FontSwitch from '../components/fontSwitchFirst'
 
 
 export default function Home({ allPostsData }) {
@@ -100,12 +101,12 @@ export default function Home({ allPostsData }) {
         <motion.h2><Typewriter>they speak of their </Typewriter><span className={styles.highlight}>sagas</span></motion.h2>
         <FadeInWhenVisible>
         <ul>
-          <li>Brand Storytelling</li>
-          <li>Mobile &#38; Web Apps</li>
-          <li>Marketing Sites</li>
-          <li>Team Building</li>
-          <li>Design Consulting</li>
-          <li>Korean BBQ</li>
+          <li><FontSwitch>Storytelling</FontSwitch></li>
+          <li><FontSwitch>Mobile &#38; Web Apps</FontSwitch></li>
+          <li><FontSwitch>Marketing Sites</FontSwitch></li>
+          <li><FontSwitch>Team Building</FontSwitch></li>
+          <li><FontSwitch>Design Consulting</FontSwitch></li>
+          <li><FontSwitch>Korean BBQ</FontSwitch></li>
         </ul>
         </FadeInWhenVisible>
       </section>
