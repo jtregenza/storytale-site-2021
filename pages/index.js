@@ -131,12 +131,10 @@ export default function Home({ allPostsData }) {
                     {byline}
                     </motion.p>
                     <div className={styles.lowerHalf}>
-                      <div>
                         <motion.p className={styles.title}>{title}</motion.p>
                         <p className={styles.storyMeta}>
                           <i>{type}</i>
                         </p>
-                      </div>
                     </div>
                  
                 </div>

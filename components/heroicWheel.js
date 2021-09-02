@@ -104,7 +104,7 @@ export default function HeroicWheel()  {
  
 	  const handleNext = () => {
 		if (steps[steps.length - 1].key === activeStep.key) {
-		  alert('You have completed all steps.');
+			setActiveStep(steps[0])
 		  return;
 		}
 	   
@@ -153,7 +153,7 @@ export default function HeroicWheel()  {
 
 				<div className={styles.stepGroup}>
 				<input type="button" value="Back" onClick={handleBack} disabled={steps[0].key === activeStep.key} />
-          <input type="button" value={steps[steps.length - 1].key !== activeStep.key ? 'Next' : 'Submit'} onClick={handleNext} />
+          <input type="button" value={steps[steps.length - 1].key !== activeStep.key ? 'Next' : 'Restart'} onClick={handleNext} />
 				</div>
 				</div>
 				</FadeInWhenVisible>
