@@ -47,7 +47,7 @@ const fonts = [
 
 
   export default function FontSwitch({ children }) {
-	var rand = fonts[Math.floor(Math.random() * fonts.length)];
+	const rand = fonts[Math.floor(Math.random() * fonts.length)];
 	return (
 		<span style={{fontFamily:  rand }}>{children}</span>
 	)
