@@ -99,16 +99,16 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={styles.sagas}>
         <motion.h2><Typewriter>they speak of their </Typewriter><span className={styles.highlight}>sagas</span></motion.h2>
-        <FadeInWhenVisible>
+       
         <ul>
-          <li><FontSwitch>Storytelling</FontSwitch></li>
-          <li><FontSwitch>Mobile &#38; Web Apps</FontSwitch></li>
-          <li><FontSwitch>Marketing Sites</FontSwitch></li>
-          <li><FontSwitch>Team Building</FontSwitch></li>
-          <li><FontSwitch>Design Consulting</FontSwitch></li>
-          <li><FontSwitch>Korean BBQ</FontSwitch></li>
+          <li> <FadeInWhenVisible><FontSwitch>Storytelling</FontSwitch></FadeInWhenVisible></li>
+          <li> <FadeInWhenVisible><FontSwitch>Mobile &#38; Web Apps</FontSwitch></FadeInWhenVisible></li>
+          <li> <FadeInWhenVisible><FontSwitch>Marketing Sites</FontSwitch></FadeInWhenVisible></li>
+          <li> <FadeInWhenVisible><FontSwitch>Team Building</FontSwitch></FadeInWhenVisible></li>
+          <li> <FadeInWhenVisible><FontSwitch>Design Consulting</FontSwitch></FadeInWhenVisible></li>
+          <li> <FadeInWhenVisible><FontSwitch>Korean BBQ</FontSwitch></FadeInWhenVisible></li>
         </ul>
-        </FadeInWhenVisible>
+        
       </section>
       <section className={styles.wheel}>
       <h2><Typewriter>you all travel with aid of the </Typewriter><span className={styles.highlight}>heroic wheel</span></h2>
