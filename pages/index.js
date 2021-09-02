@@ -101,7 +101,7 @@ export default function Home({ allPostsData }) {
         <FadeInWhenVisible>
         <ul>
           <li>Brand Storytelling</li>
-          <li>Mobile &nbsp; Web Apps</li>
+          <li>Mobile &#38; Web Apps</li>
           <li>Marketing Sites</li>
           <li>Team Building</li>
           <li>Design Consulting</li>
@@ -111,7 +111,6 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={styles.wheel}>
       <h2><Typewriter>you all travel with aid of the </Typewriter><span className={styles.highlight}>heroic wheel</span></h2>
-      {/* <HeroicWheel/> */}
       <HeroicWheel/>
       </section>
       <section className={styles.campfire}>
