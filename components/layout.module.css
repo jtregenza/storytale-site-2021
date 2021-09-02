@@ -1039,12 +1039,12 @@ display: grid;
 
 .wheelNode{
   z-index: 2;
-  width: 85px;
-  height: 85px;
+  width: 4.5rem;
+  height: 4.5rem;
   background: var(--color-dark);
   border-radius: 100%;
   margin: 0 auto;
-  border: 0.25rem solid var(--color-light);
+  border: 0.5rem solid var(--color-light);
 }
 .nodeParent {
   width:100%;
