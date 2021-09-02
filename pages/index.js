@@ -98,6 +98,7 @@ export default function Home({ allPostsData }) {
       </section>
       <section className={styles.sagas}>
         <motion.h2><Typewriter>they speak of their </Typewriter><span className={styles.highlight}>sagas</span></motion.h2>
+        <FadeInWhenVisible>
         <ul>
           <li>Brand Storytelling</li>
           <li>Mobile &nbsp; Web Apps</li>
@@ -106,6 +107,7 @@ export default function Home({ allPostsData }) {
           <li>Design Consulting</li>
           <li>Korean BBQ</li>
         </ul>
+        </FadeInWhenVisible>
       </section>
       <section className={styles.wheel}>
       <h2><Typewriter>you all travel with aid of the </Typewriter><span className={styles.highlight}>heroic wheel</span></h2>
