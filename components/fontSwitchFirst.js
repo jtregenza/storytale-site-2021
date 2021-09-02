@@ -33,7 +33,6 @@ const fonts = [
 	'MuseoModerno',
 	'Skranji',
 	'Megrim',
-	'Zilla Slab Highlight',
 	'Sulphur Point',
 	'Nova Flat',
 	'Akronim'
