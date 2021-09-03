@@ -4,8 +4,6 @@ import Webfont from "./webfontloader";
 
 
 const fonts = [
-	'Roboto', 
-	'Open Sans', 
 	'Raleway', 
 	'Georama', 
 	'Poppins', 
@@ -25,7 +23,7 @@ const fonts = [
 	'Fredericka the Great',
 	'Averia Serif Libre',
 	'Nova Round',
-	'Press+Start+2P',
+	'VT323',
 	'Audiowide',
 	'Lemonada',
 	'Jolly Lodger',
@@ -36,7 +34,20 @@ const fonts = [
 	'Megrim',
 	'Sulphur Point',
 	'Nova Flat',
-	'Akronim'
+	'Major Mono Display',
+	'Rokkitt',
+	'Special Elite',
+	'Gruppo',
+	'Tourney',
+	'Rye',
+	'Zen Tokyo Zoo',
+	'Gugi',
+	'Aladin',
+	'Balthazar',
+	'Chelsea Market',
+	'Italiana',
+
+
 ];
 
   Webfont.load({
@@ -55,6 +66,7 @@ const fonts = [
 	
 	return (
 		<span style={{fontFamily: "'" + randFont + "'" }}>{children}</span>
+		
 	)
   }
 
