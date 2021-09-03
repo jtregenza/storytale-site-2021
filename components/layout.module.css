@@ -23,9 +23,17 @@
 }
 
 .header svg {
-  width: 20%;
-  max-width: 3rem;
+  width: 25%;
+  max-width: 6rem;
+  min-width: 3rem;
   transition: 0.4s ease-in-out;
+}
+
+.header button svg {
+  width: auto;
+  height: 100%;
+  max-height: 1rem;
+  min-height:0.75rem;
 }
 
 
@@ -47,7 +55,7 @@
 }
 
 .header button{
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: var(--font-regular);
   background: unset;
   border: unset;

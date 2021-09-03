@@ -7,7 +7,7 @@ const Arc = () => {
 	const [theme, toggleTheme, componentMounted] = useDarkMode();
 	const themeMode = theme === 'dark' ? 'dark' : 'light';
 
-	if (themeMode === 'dark' || theme === 'dark'){
+	if (theme === 'dark' || themeMode === 'dark'){
 		return (
 			<motion.svg 
 			variants={{

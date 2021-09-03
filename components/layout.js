@@ -98,7 +98,18 @@ export default function Layout({ children, home }) {
       ref={containerRef}
       className={styles.headerNav}
     >      
-    <MenuToggle toggle={() => toggleOpen()}>{isOpen ? "Close" : "Menu"}</MenuToggle>
+    <MenuToggle toggle={() => toggleOpen()}>{isOpen ? 
+    <svg  viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fillRule="evenodd" clipRule="evenodd" d="M19.3845 22.2132L0.999686 3.82844L3.82811 1.00001L22.2129 19.3848L19.3845 22.2132Z" fill="var(--color-light)"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M21.6068 3.22174L3.22198 21.6065L0.393555 18.7781L18.7783 0.393311L21.6068 3.22174Z" fill="var(--color-light)"/>
+    </svg>
+     : 
+    <svg  viewBox="0 0 26 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fillRule="evenodd" clipRule="evenodd" d="M26 4L3.49691e-07 4L0 0L26 -2.27299e-06L26 4Z" fill="var(--color-dark)"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M26 13L13 13L13 9L26 9L26 13Z" fill="var(--color-dark)"/>
+</svg>
+}
+</MenuToggle>
       <motion.div className={styles.background} variants={sidebar}><Navigation />
       
       <Toggle theme={theme} toggleTheme={toggleTheme} />
