@@ -106,7 +106,7 @@ export default function Home({ allPostsData }) {
           <li> <FadeInWhenVisible><FontSwitch>Marketing Sites</FontSwitch></FadeInWhenVisible></li>
           <li> <FadeInWhenVisible><FontSwitch>Team Building</FontSwitch></FadeInWhenVisible></li>
           <li> <FadeInWhenVisible><FontSwitch>Design Consulting</FontSwitch></FadeInWhenVisible></li>
-          <li> <FadeInWhenVisible><FontSwitch>Korean BBQ</FontSwitch></FadeInWhenVisible></li>
+          <li><FadeInWhenVisible><FontSwitch>Korean BBQ</FontSwitch></FadeInWhenVisible></li>
         </ul>
         
       </section>

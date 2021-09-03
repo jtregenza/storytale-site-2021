@@ -1,4 +1,5 @@
 
+import { useEffect, useState } from "react";
 import Webfont from "./webfontloader";
 
 
@@ -47,9 +48,13 @@ const fonts = [
 
 
   export default function FontSwitch({ children }) {
-	const rand = fonts[Math.floor(Math.random() * fonts.length)];
+	  const [randFont, setFont] = useState(undefined);
+	  useEffect(() => {
+		setFont(fonts[Math.floor(Math.random() * fonts.length)]);
+	  }, []);
+	
 	return (
-		<span style={{fontFamily: "'" + rand + "'" }}>{children}</span>
+		<span style={{fontFamily: "'" + randFont + "'" }}>{children}</span>
 	)
   }
 
