@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: 1rem;
-  padding: 1rem 2.5rem;
+  padding: 1.5rem 2.5rem;
   /* border-bottom: 2px solid; */
   /* background: var(--color-light); */
   position: fixed;
@@ -23,9 +23,11 @@
 }
 
 .header svg {
-  width: 3rem;
+  width: 20%;
   transition: 0.4s ease-in-out;
 }
+
+
 
 .header a svg {
   opacity: 0.4;
@@ -44,6 +46,8 @@
 }
 
 .header button{
+  font-size: 1.5rem;
+  font-weight: var(--font-regular);
   background: unset;
   border: unset;
   color: initial;
@@ -141,7 +145,7 @@ align-self: center;
 @media screen and (max-width: 800px) {
   .header {
     margin: 0;
-    padding: 0 1.25rem;
+    padding: 1rem 1.25rem;
     justify-content: space-between;
   }
 
@@ -157,7 +161,7 @@ align-self: center;
   }
 
   .intro h1 {
-    font-size: 17rem;
+    font-size: 5.75rem;
   }
 
   .wordMark .full {
@@ -178,7 +182,6 @@ align-self: center;
 
 .sagas h2 {
   font-size: 2rem;
-  letter-spacing: 6.5px;
 }
 .sagas ul{
   font-family: var(--font-bold);
@@ -187,7 +190,10 @@ align-self: center;
   line-height: 0.85;
   text-transform: uppercase;
   padding-right: 1rem;
+  padding-left: 0;
 }
+
+
 
 .sagas li:nth-of-type(2),
 .sagas li:last-of-type {
@@ -199,6 +205,15 @@ align-self: center;
 
 .sagas li:nth-of-type(4) {
   margin-left: 1ch;
+}
+
+@media screen and (max-width: 800px) {
+  .sagas ul{
+    font-size: 3.5rem;
+  }
+  .sagas li + li{
+    margin-top: 1rem;
+  }
 }
 
 
@@ -234,8 +249,23 @@ align-self: center;
   height: 100%;
 }
 
+@media screen and (max-width: 800px) {
+  .ourStories {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+  }
+}
+
+
+
 .ourStories > div:nth-of-type(4) {
   grid-column-start: 5;
+}
+
+@media screen and (max-width: 800px) {
+  .ourStories > div:nth-of-type(4) {
+    grid-column-start: unset;
+  }
 }
 
 .ourStories [type="coming soon"] {
@@ -277,6 +307,12 @@ align-self: center;
   display: grid;
   min-height: 100vh;
   height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .listItem {
+    min-height: 50vh;
+  }
 }
 
 .listItem .content {
@@ -328,8 +364,8 @@ align-self: center;
   height: 100%;
   overflow: hidden;
   margin-top: auto;
-display: grid;
-position: relative;
+  display: grid;
+  position: relative;
 }
 
 .listItem .storyImage img {
@@ -384,6 +420,13 @@ position: relative;
   line-height: 1;
   z-index: 4;
   
+}
+
+
+@media screen and (max-width: 800px) {
+  .aboutUs h2 {
+    font-size: 4rem;
+  }
 }
 
 
@@ -511,6 +554,8 @@ position: relative;
   margin: 2rem 0;
 }
 
+
+
 .campfire h2 {
   font-size: 4rem;
   line-height: 1;
@@ -526,6 +571,28 @@ position: relative;
 .campfire h2 .large {
   font-size: 8rem;
   font-weight:normal;
+}
+
+@media screen and (max-width: 800px) {
+  .campfire {
+    place-items: center center;
+  }
+
+  .campfire h2 {
+    font-size: 3rem;
+    line-height: 1;
+    text-align: right;
+    font-family: var(--font-bold);
+    width: 100%;
+  }
+  
+  .campfire h2::first-line {
+    font-size: 2rem;
+  }
+  .campfire h2 .large {
+    font-size: 4rem;
+    font-weight:normal;
+  }
 }
 
 
@@ -683,6 +750,50 @@ position: relative;
   margin-top: 2rem;
 }
 
+
+@media screen and (max-width: 800px) {
+  .contact form {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto; 
+  }
+
+  .contact form img {
+    width: 100%;
+  }
+  .reach { 
+    grid-area: unset;
+   }
+  
+  .name { 
+    grid-area: unset;
+   }
+
+  .imageOne { 
+    grid-area: unset;
+   }
+  .join { 
+    grid-area: unset;
+    font-size: 4rem;
+   }
+   .join span {
+    font-size: 9rem;
+   }
+  
+
+  
+  .imageTwo { 
+    grid-area: unset;
+   }
+  .message { 
+    grid-area: unset;
+   }
+  .cta { 
+    grid-area: unset;
+    font-size: 2rem;
+  }
+
+
+}
 
 .contact {
   font-family: var(--font-bold);
@@ -848,6 +959,8 @@ position: relative;
   width: 230px;
 }
 
+
+
 .headerNav li {
   list-style: none;
   margin-bottom: 20px;
@@ -919,6 +1032,15 @@ position: relative;
   line-height: 1.1;
 }
 
+@media screen and (max-width: 800px) {
+  .headerNav ul {
+    padding: 4rem;
+  }
+  .headerNav a {
+    font-size: 3rem;
+  }
+}
+
 
 .progressIcon {
   position: fixed;
@@ -940,6 +1062,7 @@ position: relative;
   justify-content: space-between;
   align-items: flex-end;
 }
+
 
 .ventureForth .logoArea {
   display: flex;
@@ -968,7 +1091,18 @@ position: relative;
  height: 1.5rem;
 }
 
-
+@media screen and (max-width: 800px) {
+  .ventureForth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ventureForth ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 
 
 
@@ -1032,7 +1166,8 @@ position: relative;
   place-self: center center;
   font-family: var(--font-bold);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-gap: 1rem;
   width: 80%;
 }
 
@@ -1091,6 +1226,17 @@ position: relative;
   border-radius: 100%;
   margin: 0 auto;
   border: 0.5rem solid var(--color-light);
+}
+@media screen and (max-width: 800px) {
+  .wheelNode{
+    z-index: 2;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: var(--color-dark);
+    border-radius: 100%;
+    margin: 0 auto;
+    border: 0.5rem solid var(--color-light);
+  }
 }
 .nodeParent {
   width:100%;

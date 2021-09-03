@@ -44,7 +44,7 @@ export default function HeroicWheel()  {
 		{ 
 			key: 1,
 			label: 'You',
-			byline: 'Understanding your current story',
+			byline: 'Understand your current story',
 			nodePostion: '0deg',
 			isDone: false,
 		},

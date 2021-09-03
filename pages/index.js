@@ -125,8 +125,6 @@ export default function Home({ allPostsData }) {
               <Link href={`/posts/${id}`} className={styles.link}>
               <div className={styles.listItem} type={type}>
                 <div className={styles.content}>
-                  
-
                     <motion.p className={styles.byline}>
                     {byline}
                     </motion.p>
@@ -140,7 +138,7 @@ export default function Home({ allPostsData }) {
                 </div>
                 <div className={styles.storyImage}>
                   <Image  
-                  src={image} placeholder="blur" blurDataURL="/images/backgroundblur.png" layout="fill"/>
+                  src={image} placeholder="blur" blurDataURL="data:..." layout="fill"/>
                 </div>
               </div>
              </Link>

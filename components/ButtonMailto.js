@@ -12,7 +12,8 @@ export default function ButtonMailto({mailto, label }) {
         initial={{ background: 'var(--color-dark)',
         color: 'var(--color-light)' }}
         whileHover={{ background: 'var(--color-light)',
-         color: 'var(--color-dark)' }}
+         color: 'var(--color-dark)',
+        y: '-5' }}
         whileTap={{ scale: 0.9 }}
             href='#'
             onClick={(e) => {

@@ -67,7 +67,7 @@ body {
 
 @media screen and (max-width: 800px) {
   html {
-    font-size: calc(0.5rem + 6 * ((100vw - 320px) / 680));
+    font-size: calc(0.725rem + 6 * ((100vw - 320px) / 680));
   }
 }
 

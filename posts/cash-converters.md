@@ -1,6 +1,6 @@
 ---
 title: "Cash Converters"
-byline: "Convert the Converters"
+byline: "Haggle a better deal"
 date: "2021-04-01"
 type: "fantasy case study"
 image: "/images/photo-1474666488182-66ec723476c6.webp"
