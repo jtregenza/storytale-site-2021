@@ -11,9 +11,9 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 1rem;
-  padding: 0 2.5rem;
+  padding: 1rem 2.5rem;
   /* border-bottom: 2px solid; */
   /* background: var(--color-light); */
   position: fixed;
@@ -24,6 +24,11 @@
 
 .header svg {
   width: 3rem;
+  opacity: 0.4;
+  transition: 0.4s ease-in-out;
+}
+.header svg:hover {
+  opacity: 1;
 }
 
 .borderHeader {
