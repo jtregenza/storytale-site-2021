@@ -140,7 +140,7 @@ export default function Home({ allPostsData }) {
                 </div>
                 <div className={styles.storyImage}>
                   <Image  
-                  src={image} width="" height="" placeholder="blur" layout="responsive"/>
+                  src={image} placeholder="blur" blurDataURL="/images/backgroundblur.png" layout="fill"/>
                 </div>
               </div>
              </Link>
