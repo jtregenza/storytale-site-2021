@@ -15,17 +15,22 @@
   font-size: 1rem;
   padding: 0 2.5rem;
   /* border-bottom: 2px solid; */
-  background: var(--color-light);
-  position: sticky;
+  /* background: var(--color-light); */
+  position: fixed;
+  width: 100%;
   top: 0;
   z-index: 999;
+}
+
+.header svg {
+  width: 3rem;
 }
 
 .borderHeader {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 2px solid;
+  /* border-bottom: 2px solid; */
   padding: 0.5rem 0;
   width: 100%;
 }
