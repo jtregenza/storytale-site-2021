@@ -160,9 +160,7 @@ export default function Home({ allPostsData }) {
         </ul>
         <img src="https://picsum.photos/300/700"/>
       </section>
-      {/* <section className={styles.blog}>
-        <h2>and idle <span className={styles.highlight}>chit chat</span> from afar</h2>
-      </section> */}
+
       <section className={styles.contact}>
       <Contact/>
       </section>

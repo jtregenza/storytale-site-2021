@@ -4,7 +4,6 @@ export default function Fables() {
 
 return(
 	<Layout>
-		
 		<h1>Fables</h1>
 	</Layout>
 )

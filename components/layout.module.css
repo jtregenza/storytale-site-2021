@@ -27,7 +27,7 @@
   opacity: 0.4;
   transition: 0.4s ease-in-out;
 }
-.header svg:hover {
+.header a svg:hover {
   opacity: 1;
 }
 
@@ -160,7 +160,7 @@ align-self: center;
 
 .sagas h2 {
   font-size: 2rem;
-  letter-spacing: 6.5%;
+  letter-spacing: 6.5px;
 }
 .sagas ul{
   font-family: var(--font-bold);
@@ -277,12 +277,12 @@ align-self: center;
   justify-content: space-between; */
 }
 
-.arrow {
+/* .arrow {
   display: flex;
   justify-content: center;
   align-self: flex-end;
   transform: rotate(90deg);
-}
+} */
 
 .arrow svg {
   width: 50%;
@@ -537,7 +537,7 @@ display: grid;
   background-color: var(--color-light);
 }
 .ventures ul li a {
-  color: transparent;
+  color: var(--color-light);
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: var(--color-dark);
   font-size: 6rem;
