@@ -157,6 +157,7 @@ align-self: center;
   }
 
   .intro {
+    margin: 6rem 0;
     min-height: 40vh;
   }
 
@@ -633,7 +634,23 @@ align-self: center;
   position: relative;
   line-height: 1;
   z-index: 1;
-  
+}
+
+@media screen and (max-width: 800px) {
+
+  .ventures {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ventures ul li a {
+    -webkit-text-stroke-width: 2px;
+    font-size: 4rem;
+
+  }
+
+  .ventures img {
+    max-height: 50vh;
+  }
 }
 
 .ventures ul li:hover a::before {
@@ -762,7 +779,22 @@ align-self: center;
   }
   .reach { 
     grid-area: unset;
+    font-size: 5rem;
    }
+
+   .reach::first-line {
+    font-size: 8rem;
+  }
+  
+  .reach span:first-of-type {
+    font-size: 8rem;
+    display: block;
+  }
+  
+  .reach span:last-of-type {
+    font-size: 3.5rem;
+    display: block;
+  }
   
   .name { 
     grid-area: unset;
@@ -773,13 +805,11 @@ align-self: center;
    }
   .join { 
     grid-area: unset;
-    font-size: 4rem;
+    font-size: 2.625rem;
    }
    .join span {
-    font-size: 9rem;
+    font-size: 6rem;
    }
-  
-
   
   .imageTwo { 
     grid-area: unset;
@@ -789,7 +819,7 @@ align-self: center;
    }
   .cta { 
     grid-area: unset;
-    font-size: 2rem;
+    font-size: 1.85rem;
   }
 
 
@@ -1180,7 +1210,6 @@ align-self: center;
 }
 
 .steps h2 {
-
   font-size: 6rem;
   text-align: right;
   margin: 0;
@@ -1197,6 +1226,12 @@ align-self: center;
   line-height: 0.8;
 }
 
+@media screen and (max-width: 800px) {
+  .steps h2 {
+    font-size: 4rem;
+
+  }
+}
 
 .steps input {
   font-family: var(--font-bold);
