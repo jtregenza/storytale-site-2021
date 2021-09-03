@@ -121,7 +121,7 @@ export default function HeroicWheel()  {
 		{ 
 			key: 12, 
 			label: 'Return', 
-			byline: 'Return to normal with the reward',
+			byline: 'Return with reward',
 			nodePostion: '330deg',
 			isDone: false, 
 		},

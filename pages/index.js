@@ -152,17 +152,22 @@ export default function Home({ allPostsData }) {
 
       <section className={styles.ventures}>
         <h2><Typewriter>and where they </Typewriter><span className={styles.highlight}>venture</span></h2>
-      <img src="https://picsum.photos/300/700"/>
+      <FadeInWhenVisible><img src="https://picsum.photos/300/700"/></FadeInWhenVisible>
+      <FadeInWhenVisible>
         <ul>
           <li><Link href="/seasonal">Seasonal</Link></li>
           <li><Link href="/fables">Fables</Link></li>
           <li><Link href="/crumple">Crumple</Link></li>
         </ul>
-        <img src="https://picsum.photos/300/700"/>
+        </FadeInWhenVisible>
+        <FadeInWhenVisible><img src="https://picsum.photos/300/700"/></FadeInWhenVisible>
       </section>
 
+      
       <section className={styles.contact}>
+      <FadeInWhenVisible>
       <Contact/>
+      </FadeInWhenVisible>
       </section>
       </article>
     </Layout>
