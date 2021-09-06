@@ -60,7 +60,7 @@ export default function Home({ allPostsData }) {
         </div>
         <motion.h1 style={{ y: y2, x: 0}}className={styles.begins}>begins</motion.h1>
       </section>
-      <section id="aboutUs" className={styles.aboutUs}>
+      <section id="aboutUs" name="aboutUs" className={styles.aboutUs}>
             <h2 className={styles.display}><Typewriter>with two storytellers</Typewriter></h2>
             <div className={styles.imageGroup}>
             
@@ -118,7 +118,7 @@ export default function Home({ allPostsData }) {
         <Campfire/>
       </section>
    
-      <section id="ourStories" className={styles.ourStories}>
+      <section id="ourStories" name="ourStories" className={styles.ourStories}>
       
           {allPostsData.map(({ id, date, title, type, byline,image }) => (
               <FadeInWhenVisible key={id}>
@@ -148,7 +148,7 @@ export default function Home({ allPostsData }) {
       
         
 
-      <section id="#ventures" className={styles.ventures}>
+      <section id="ventures" name="ventures" className={styles.ventures}>
         <h2><Typewriter>and where they </Typewriter><span className={styles.highlight}>venture</span></h2>
       <FadeInWhenVisible><img src="https://picsum.photos/300/700"/></FadeInWhenVisible>
       <FadeInWhenVisible>
@@ -162,7 +162,7 @@ export default function Home({ allPostsData }) {
       </section>
 
       
-      <section id="contactUs" className={styles.contact}>
+      <section id="contactUs" name="contactUs" className={styles.contact}>
       <FadeInWhenVisible>
       <Contact/>
       </FadeInWhenVisible>
