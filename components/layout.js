@@ -37,7 +37,7 @@ const sidebar = {
   }
 };
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, type }) {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const containerRef = useRef(null);
   const { height } = useDimensions(containerRef);
@@ -47,7 +47,7 @@ export default function Layout({ children, home }) {
 
 
   return (
-    <div className={styles.container} theme={themeMode}>
+    <div className={styles.container} type ={type} theme={themeMode}>
       <Head>
         <link rel="icon" href="/images/storytale_logomark.svg" />
         <link

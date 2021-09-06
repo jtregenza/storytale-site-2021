@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 export default function Fables() {
 
 return(
-	<Layout>
+	<Layout type="venture">
 		<article className={utilStyles.articleContent}>
 		<h1>Fables</h1>
 		<h2>Meaningful stories, your way</h2>

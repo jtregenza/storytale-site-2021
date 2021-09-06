@@ -174,13 +174,31 @@ align-self: center;
     font-size: 5.75rem;
   }
 
+
+  .intro svg {
+    overflow: hidden;
+    width: 120vw;
+    z-index: 1;
+    align-self: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    margin-left: -12vw;
+  }
+
+  /* .wordMark {
+    margin-left: -7vw;
+  } */
+
+
+
   .wordMark .full {
-    margin-left: 0vw;
+    margin-left: 2vw;
   }
   
   .wordMark .layered {
-
-    margin-left: 0vw;
+    margin-left: 2vw;
 
   }
 }
@@ -945,7 +963,8 @@ align-self: center;
 .contentMain h2,
 .contentMain h3,
 .contentMain h4,
-.contentMain blockquote {
+.contentMain blockquote,
+.contentMain ul {
   margin-left: auto;
   margin-right: auto;
   max-width: 50rem;
