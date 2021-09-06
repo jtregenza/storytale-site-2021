@@ -68,7 +68,7 @@ export default function Home({ allPostsData }) {
 
               <ParallaxImage src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2" className={styles.primaryImage}  placeholder="blur" width="" height="" />
 
-              <ParallaxImage src="/images/photo-1625378163049-d1ca880237c7.webp" alt="image-3" className={styles.tertiaryImage}  placeholder="blur" width="" height="" />
+              <ParallaxImage src="/images/PXL_20201017_065731831.jpg" alt="image-3" className={styles.tertiaryImage}  placeholder="blur" width="" height="" />
               <FadeInWhenVisible  className={styles.isaacWordMark}>
               <motion.h3 className={styles.full}>isaac</motion.h3>
               <svg viewBox="0 0 382 92" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -162,7 +162,7 @@ export default function Home({ allPostsData }) {
       </section>
 
       
-      <section className={styles.contact}>
+      <section id="contactUs" className={styles.contact}>
       <FadeInWhenVisible>
       <Contact/>
       </FadeInWhenVisible>

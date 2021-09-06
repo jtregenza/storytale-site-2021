@@ -99,14 +99,14 @@ export default function Layout({ children, home }) {
       className={styles.headerNav}
     >      
     <MenuToggle toggle={() => toggleOpen()}>{isOpen ? 
-    <svg  viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path fillRule="evenodd" clipRule="evenodd" d="M19.3845 22.2132L0.999686 3.82844L3.82811 1.00001L22.2129 19.3848L19.3845 22.2132Z" fill="var(--color-light)"/>
-    <path fillRule="evenodd" clipRule="evenodd" d="M21.6068 3.22174L3.22198 21.6065L0.393555 18.7781L18.7783 0.393311L21.6068 3.22174Z" fill="var(--color-light)"/>
+    <svg viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fillRule="evenodd" clipRule="evenodd" d="M20.1922 20.1924C19.4112 20.9735 18.1449 20.9735 17.3638 20.1924L1.80747 4.63607C1.02642 3.85502 1.02642 2.58869 1.80747 1.80765V1.80765C2.58851 1.0266 3.85484 1.0266 4.63589 1.80765L20.1922 17.364C20.9733 18.145 20.9733 19.4114 20.1922 20.1924V20.1924Z" fill="var(--color-light)"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M20.1925 1.80751C20.9736 2.58856 20.9736 3.85489 20.1925 4.63594L4.6362 20.1923C3.85515 20.9733 2.58882 20.9733 1.80777 20.1923V20.1923C1.02672 19.4112 1.02672 18.1449 1.80777 17.3639L17.3641 1.80751C18.1452 1.02647 19.4115 1.02647 20.1925 1.80751V1.80751Z" fill="var(--color-light)"/>
     </svg>
      : 
-    <svg  viewBox="0 0 26 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fillRule="evenodd" clipRule="evenodd" d="M26 4L3.49691e-07 4L0 0L26 -2.27299e-06L26 4Z" fill="var(--color-dark)"/>
-<path fillRule="evenodd" clipRule="evenodd" d="M26 13L13 13L13 9L26 9L26 13Z" fill="var(--color-dark)"/>
+<svg viewBox="0 0 26 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fillRule="evenodd" clipRule="evenodd" d="M26 2C26 3.10457 25.1046 4 24 4L2 4C0.895431 4 2.7141e-07 3.10457 1.74846e-07 2V2C7.8281e-08 0.895431 0.89543 -7.8281e-08 2 -1.74846e-07L24 -2.09815e-06C25.1046 -2.19471e-06 26 0.895428 26 2V2Z" fill="var(--color-dark)"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M26 11C26 12.1046 25.1046 13 24 13L15 13C13.8954 13 13 12.1046 13 11V11C13 9.89543 13.8954 9 15 9L24 9C25.1046 9 26 9.89543 26 11V11Z" fill="var(--color-dark)"/>
 </svg>
 }
 </MenuToggle>

@@ -3,7 +3,7 @@ title: "Cash Converters"
 byline: "Haggle a better deal"
 date: "2021-04-01"
 type: "fantasy case study"
-image: "/images/photo-1474666488182-66ec723476c6.webp"
+image: "/images/PXL_20210904_014135557.MP.jpg"
 
 ---
 
