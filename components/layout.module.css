@@ -8,6 +8,10 @@
   /* min-height: 100vh; */
 }
 
+.container[type="venture"]  .content{
+  padding: 1.5rem;
+}
+
 .header {
   display: flex;
   align-items: center;

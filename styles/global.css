@@ -143,3 +143,7 @@ h2 {
   position: sticky;
   top: 0;
 }
+
+[type="venture"] .content {
+  padding: 2rem 0 ;
+}
