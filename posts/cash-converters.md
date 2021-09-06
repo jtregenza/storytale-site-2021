@@ -27,27 +27,29 @@ So we would disregard the personal lending side of Cash Converters and focus on 
 
 In order to do this we're going to need to take some big swings and take a departure from the Cash Converters original brand. Allow us to introduce you to the new peer to peer second marketplace, HAGL.
 
-![HAGL Logo](/images/case-studies/cash-converters/HAGL-Logo.png "HAGL Logo")
+<img src="/images/case-studies/cash-converters/HAGL-Logo.png" alt="HAGL Logo" title="HAGL Logo"/>
 
-![HAGL Fonts](/images/case-studies/cash-converters/HAGL-Fonts.png "HAGL Fonts")
+<img src="/images/case-studies/cash-converters/HAGL-Fonts.png" alt="HAGL Fonts" title="HAGL Fonts"/>
 
-![HAGL Colour Scheme](/images/case-studies/cash-converters/HAGL-Colour-Schemes.png "HAGL Color Scheme")
+<img src="/images/case-studies/cash-converters/HAGL-Colour-Schemes.png" alt="HAGL Color Scheme" title="HAGL Color Scheme"/>
 
 HAGL is the pointed departure from the Cash Converters brand and its 90's pawn shop aesthetic into the trendy space that is only really occupied by Depop. Cash is less prevalent in Australia, and while Cash Converters as a brand has been around for nearly 40 years, detaching HAGL for a fresher brand away from the former brand will invigorate the customer base. With this brand we increase from just instruments, electronics and jewellery and allows individuals to make more possible.
 
-![HAGL Tags](/images/case-studies/cash-converters/HAGL-Tags.png "HAGL Tags")
+<img src="/images/case-studies/cash-converters/HAGL-Tags.png" alt="HAGL Tags" title="HAGL Tags"/>
+
+HAGL Color Scheme
 
 We took out the maroon and yellow colours and make HAGL black and white, to draw attention to the HAGLers and their items for sale. 
 
-![HAGL Posters](/images/case-studies/cash-converters/HAGL-Posters.png "HAGL Posters")
+<img src="/images/case-studies/cash-converters/HAGL-Posters.png" alt="HAGL Posters" title="HAGL Posters"/>
 
  HAGL operates in the digital and physical spheres through two ways: the HAGL app and the HAGL post.
-
- ![HAGL App](/images/case-studies/cash-converters/HAGL-App.png "HAGL App")
+ 
+<img src="/images/case-studies/cash-converters/HAGL-App.png" alt="HAGL App" title="HAGL App"/>
 
 The HAGL app faciliates peer to peer communication and individual storefronts for HAGLers and Buyers. As a HAGLer, you can post your items of the app and connect with avid buyers to convert your items into funds. Buyers can follow their favourite HAGLers and make purchases through contactless payment. By having the core area of business to the app, it creates a ecosystem of haggling at any time of the day and not just when the stores are open.
 
-![HAGL Post Concept](/images/case-studies/cash-converters/HAGL-Post-Concept.png "HAGL Post Concept")
+<img src="/images/case-studies/cash-converters/HAGL-Post-Concept.png" alt="HAGL Post Concept" title="HAGL Post Concept"/>
 
 The HAGL post is the physical store comes to play. Harkening back to the Trading Posts of yore, this is where buyers and HAGLers can drop off and pick up their items from the HAGL boxes. Once a HAGL has been confirmed, the HAGLer drops the item into their preferred HAGL Post where one of the staff then confirms the item is what is being sold and then transports the item into the appropriate HAGL boxes. By transforming the stores into trading posts that only have stock when sales have occurred, this seeks to decrease the depreciating or lost stock that Cash Converters accumulates year on year. The consumer then has piece of mind when collecting from the HAGL post in their own safety, with check in facilities and lock boxes for their items.
 
