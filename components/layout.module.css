@@ -9,7 +9,8 @@
 }
 
 .container[type="venture"]  .content{
-  padding: 1.5rem;
+  padding: 2rem 2.5rem;
+  min-height: 100vh;
 }
 
 .header {
