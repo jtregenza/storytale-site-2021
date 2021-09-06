@@ -314,11 +314,7 @@ align-self: center;
   line-height: 1.2;
 }
 
-@media screen and (max-width: 800px) {
-  .byline {
-    width: 70%;
-  }
-}
+
 
 .title {
   font-family: var(--font-bold);
@@ -344,10 +340,20 @@ align-self: center;
 }
 
 @media screen and (max-width: 800px) {
+
+
   .listItem {
     min-height: 50vh;
+    grid-template-rows: 1fr 1fr;
+  }
+  .byline {
+    font-size: 1.75rem;
+  }
+  .title {
+    font-size: 1.5rem;
   }
 }
+
 
 .listItem .content {
   padding: 2rem;
