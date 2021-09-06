@@ -16,7 +16,7 @@ export const Navigation = () => (
   <motion.ul variants={variants}>
           <MenuItem><Link href="/#aboutUs">About</Link></MenuItem>
           <MenuItem><Link href="/#ourStories">Case Studies</Link></MenuItem>
-          <MenuItem><Link href="/ventures">Ventures</Link></MenuItem>
+          <MenuItem><Link href="/#ventures">Ventures</Link></MenuItem>
           <MenuItem><Link href="/#contactUs">Contact</Link></MenuItem>
   </motion.ul>
 );

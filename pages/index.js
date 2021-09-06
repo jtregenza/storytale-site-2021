@@ -148,7 +148,7 @@ export default function Home({ allPostsData }) {
       
         
 
-      <section className={styles.ventures}>
+      <section id="#ventures" className={styles.ventures}>
         <h2><Typewriter>and where they </Typewriter><span className={styles.highlight}>venture</span></h2>
       <FadeInWhenVisible><img src="https://picsum.photos/300/700"/></FadeInWhenVisible>
       <FadeInWhenVisible>
