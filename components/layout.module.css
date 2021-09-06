@@ -32,8 +32,8 @@
 .header button svg {
   width: auto;
   height: 100%;
-  max-height: 1rem;
-  min-height:0.75rem;
+  width: 1.5rem;
+  min-width: 1.5rem;
 }
 
 
@@ -294,6 +294,12 @@ align-self: center;
   margin-top: 0;
   width: 100%;
   line-height: 1.2;
+}
+
+@media screen and (max-width: 800px) {
+  .byline {
+    width: 70%;
+  }
 }
 
 .title {
