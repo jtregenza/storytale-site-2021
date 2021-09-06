@@ -124,6 +124,13 @@ blockquote {
   border-left: 2px solid;
 }
 
+caption {
+  font-size: 0.4em;
+  width: 100%;
+  text-align: right;
+  font-style: italic;
+}
+
 
 h2 {
   font-size: 2rem;

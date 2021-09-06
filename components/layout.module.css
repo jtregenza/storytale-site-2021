@@ -1335,3 +1335,42 @@ align-self: center;
   display: block;
   font-size: 0.5em;
 }
+
+
+.ventureContent {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1.5rem;
+}
+
+.ventureContent main {
+  margin-top: 10em;
+}
+
+@media screen and (max-width: 800px) {
+  .ventureContent {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-gap: 1.5rem;
+  }
+}
+
+
+.ventureContent h1,
+.ventureContent h2,
+.ventureContent h3 {
+  font-family: var(--font-bold);
+}
+
+.ventureContent h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+}
+.ventureContent h2 {
+  opacity: 0.6;
+  text-transform: uppercase;
+  margin-top: 0;
+}
