@@ -12,11 +12,11 @@ const Arc = () => {
 		<motion.svg 
 		variants={{
 			visible: { strokeDashoffset: 0 },
-			start: { strokeDasharray: 8000, strokeDashoffset: 8000 }
+			start: { strokeDasharray: 6000, strokeDashoffset: 6000 }
 		  }}
 		initial="start"
 		animate="visible"
-		transition={{ duration: 6, delay: 0.8}}
+		transition={{ duration: 5, delay: 1.4, ease: 'easeInOut'}}
 		viewBox="0 0 1673 661" fill="none" xmlns="http://www.w3.org/2000/svg">
 		<g>
 		<path xmlns="http://www.w3.org/2000/svg" d="M65 260.2s55.692 37.271 123.749 37.271c68.057 0 49.496 105.6 105.171 105.6 55.674 0 57.025-233.89 160.87-229.836 101.114 3.948 61.869 229.836 136.105 229.836 67.696 0 37.491-155.294 105.187-155.294 86.61 0 18.561 329.223 105.171 329.223 111.373 0 30.951-428.612 129.935-428.612 74.252 0 61.869 254.683 142.292 254.683 86.63 0 30.94-354.071 129.93-354.071 98.98 0 55.67 329.224 111.36 329.224 33.2 0 88.38-40.613 148.5-65 40.74-16.524 123.73-9.542 123.73-9.542" stroke={'var(--color-light)'} strokeWidth="81" strokeLinecap="round" strokeLinejoin="round"/>

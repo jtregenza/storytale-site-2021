@@ -1412,7 +1412,8 @@ align-self: center;
 }
 
 .ventureContent main {
-  margin-top: 10em;
+  margin-top: 15em;
+  max-width: 40em;
 }
 
 @media screen and (max-width: 800px) {
