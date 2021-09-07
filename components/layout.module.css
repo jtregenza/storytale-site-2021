@@ -129,6 +129,15 @@
   margin-left: -7vw;
 }
 
+[theme="dark"] .intro svg g{
+  filter: url(#filter0_diii);
+}
+
+[theme="light"] .intro svg g{
+  filter: url(#filter0_dii);
+}
+
+
 
 .wordMark .full {
   grid-column-start: 1;
@@ -191,6 +200,8 @@ align-self: center;
     grid-row-end: -1;
     margin-left: -12vw;
   }
+
+
 
   /* .wordMark {
     margin-left: -7vw;

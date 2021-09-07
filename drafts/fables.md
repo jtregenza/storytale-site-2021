@@ -6,88 +6,14 @@ type: "product"
 image: "/images/photo-1529981188441-8a2e6fe30103.webp"
 
 ---
-
-We believe in storytelling, not sure if you have caught on yet. We also want to empower people to tell their own stories and easily as possible. That's why we are making Fables, a story creation and management tool. 
-
-We started Fables before Storytale was a thing and us working on it set the stage for the inception, so it's just as much a Storytale creation tool. 
-
-We are both game masters for tabletop role playing games and one of the things that derails improvisational storytelling is having to come up with a name for the the character you off handedly mentioned while painting the scene for your players. This is where we have started with Fables, character name generation. 
-
-You can try it out right now, roll up your new character.
-
-<iframe id="Fables NPC Generator"
-    title="Fables NPC Generator"
-    width="400"
-    height="800"
-    src="https://fables.storytale.design/"
-	style="margin: 0 auto; display: block;">
-</iframe>
-
-
-This is great for off the cuff naming that feel real to the world you are creating or even coming up with Random Names for placeholder names in designs (in the HAGL mockups, the names found were generator using Fables).
-
-This just the start of Fables, when we build things we want each step to be valuable and focus on creating meaningful stories. So what's on the Roadmap? We current have two areas of Fables, Telling the Story and Building the Story. Telling the Story helps with in the moment storytelling, when you are orating to others or in the zone and need to have quick influence to stay on a roll. 
-
-## Tell the Story 
-
-Tell the story is all about the creation of on the fly characters and how they interact in real time. This allows people to run games and add to the story without needing to go back and forth through notes, post-its and dense lore bibles. 
-
-### Generators
-
-Here the storyteller can quickly spin up a new item, group or character to add to an encounter or the story.
-
-### Weighted Generators
-
-True chaos isn't how you 
-
-### Music player
-
-Allows the group to play, listen to and add to playlists of music during the session
-
-### Encounters
-
-This allows the storyteller to track the events, actions and consequences of an encounter.
-
-### Session summary
-
-During a session the storyteller can record notes, see event logs, create/ view wiki entries and see companion character stats.
-
-### DM screen
-
-This single page screen allows the storyteller to swiftly interact with different parts of the Tell the story module.
-
-
-## Build the story
-
-Build the story is all about plotting out the state and future of your story. Adding wiki entries to your story and seeing the relationship between your characters.
-
-### Character relationship map
-
-An interactive diagram of how each character interacts with and is affected by the story and actions of other characters.
-
-### Character profiles
-
-A detailed entry with a history list of actions this character has taken. Character profiles are for any being in your story that would be considered an 'actor' in the narrative.
-
-### Group profiles
-
-A detailed entry for any non-tangible grouping or relationship of characters and items. These include: Factions, locations, cultures, species etc. 
-
-### Item profiles
-
-A detailed entry for an object in the story that is connected to characters or groups
-
-### World map
-
-A place to plot where encounters and sessions happen as well as locations of profiles
-
-### Chapters
-
-A place to view, create and see session summaries as a chapters in your fable
-
-### Story wiki
-
-General wiki entries for your fable
-
-
-Keep Fables on hand by going to [fables.storytale.design](https://fables.storytale.design)
+When it comes to storytelling. There are two main factions.
+ There is what comes in the present, that it's usually telling the story. And then there are the parts of building the world. Those are all of the things outside of it. fables, is a story management creation fables, is a storytelling creation and management tool.
+ 
+  What it does is it allows you to do two separate things. Tell the story in the now, and build the world, either before or after. But what does it really mean. Let's take Dungeons and Dragons. Now Isaac and I are both dungeon master's, we'd love playing d&d We'd love the cooperative storytelling that comes about when you have a group of people together, telling the story. all in unison. There's nothing worse than when that can be when it breaks down. One of the things that happens most is when you walk into a atmospheric tavern. There are. 
+  
+  There are the hustle bustle of the the dinnertime, people getting off work, sitting down for a few beers with friends to regale each other on the day you walk in. The party is there and they go up to the bartender, and they ask, What is your name. Are you. Patrick is the Dungeon Master, you don't have the the name off the top of the head, you didn't even know that they were going to come into the tap and so you scramble you call that guy. Bob the bartender. Great, who've gotten through that, and they go over to a table off the side where there is raucous laughter and slamming down of ales as they tell a story about a fish that got away. You asked for the name of the, the man talking, and then his friend, and then his friend. And then her friend and you come up with Matt Augustus, Bob, temperance, and these are all way wood. It's hard to keep track of those things.
+  
+   So that's what faibles sought to fix, initially, to take on board the improvisation part, and start building out tools to help. So we've built a couple of prototypes from that. We built a MPC generator. And at first it created out name, their, their, their, their pronouns with gender, their occupation, where they are in the world. Let's take that again. So, we started out with building out a NPC generator. Start with their name, their pronouns their race, their profession. And that's great for pure randomness, but with that it doesn't give you everything, or it certainly doesn't give you the control you needed. So that's why we started to tweak things where we see fables, especially the telling of stories that the generations is giving things wait character created in a vacuum is lifeless. It is a simulacrum of panic. So what fables, is trying to do is to give confidence to allow storytellers, to be able to tell meaningful stories. And so we try and white things. So let's run that back. 
+   You go into a tavern. Well, that taverns gonna have a couple of people that are always there, there's going to be the cook.
+    There's going to be the bartender. 
+    And there's going to be a service person, a waiter, waiter waitstaff. So we know that those things are gonna happen. There might be might be a fairly busy one so there may be more than one bartender, maybe a couple, maybe one off duty one not. That's up to the storyteller, to be able to, to work out. But there's also going to be the types of patrons. So, what type of town. Is this happening. Well we got to find, if we can wait that we'll know that this tavern is actually full of fishermen to fishing town fishing Hamlet. And so you want to bring in that sort of emotion, you want to rapidly create 20 People that live in this town that they're not always going to be in this tavern. Right now they are. And so that's what we're trying to accomplish. Meaning, meaningful storytelling requires meaningful generations. This is where we're starting. fables right now is an NPC generator that create that helps tell stories. But in order to do that, appropriately. We're also going to have to do a bit of building the world. In order to create weighted random generators. We have to be able to create those that world, that it's based in. We need to understand we need to flesh out the towns. The Tavin, the families all within there. We need to build out what they are. So right now we've got the name. The name is built up from the race. The culture, the gender. We've got fantastical races. We've got human ones, and from specifically humans, we have the many different dialects. We have Croatian Danish. We have romantic names. We have hypothetical ones, ones that may not be in this world, but they will allow you to create out those things where this will then go is to be able to connect those random people to something more, so that once you've created these 20 people in a tavern. Well, These are also other types of people from those 20 people, you've got yourself a fishing ship of at least five people, a five person crew by just one part of telling a story. In the present, improvising with friends. You're able to start fleshing this out fleshing out a world that later on you can start giving more meaning to it. That's what faibles is trying to do. Now where it goes after that. We're not quite sure, but we are building this out to help ourselves, and to help like minded storytellers storytel beliefs in the power of storytelling. What we've built up on that, and fables is a distillation of that. It is a tool that AIDS others in the very same way that we here at storytel. Help others storytel. 
