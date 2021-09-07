@@ -762,6 +762,10 @@ align-self: center;
 
 }
 
+.ventures a:hover {
+  text-decoration: none;
+}
+
 
 
 /* COntact */
