@@ -500,7 +500,7 @@ align-self: center;
 
 .isaacWordMark { 
   grid-area: 3 / 1 / 5 / 5;
-  color: #D82E17;
+  color: dimgray;
   margin-left: -2rem;
   width: 90%;
  }
@@ -515,7 +515,9 @@ align-self: center;
    color: var(--color-dark); 
    width: 110%;
    margin-right: -2rem;
-  }
+}
+
+
 
 .isaacWordMark,
 .joshWordMark {
@@ -582,6 +584,56 @@ align-self: center;
   background: lightgrey;
 }
 
+
+
+@media screen and (max-width: 800px) {
+  .aboutUs .imageGroup {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    min-height: 90vh;
+    height: 100%;
+    margin-top: -3rem;
+  }
+  
+  .primaryImage { 
+    grid-area: 1 / 2 / 6 / 9;
+    position:relative;
+   }
+  
+  .secondaryImage { 
+    grid-area: 4 / 1 / 8 / 6;
+    position: relative;
+   }
+  
+  .isaacWordMark { 
+    grid-area: 3 / 1 / 5 / 8;
+    color: dimgray;
+    margin-left: -0.5rem;
+    width: 90%;
+   }
+  
+  .tertiaryImage { 
+    grid-area: 3 / 6 / 6 / 10;
+    position:relative;
+   }
+
+   .tertiaryImage img {
+     object-position: left;
+   }
+  
+  .joshWordMark {
+     grid-area: 7 / 5 / 9 / 10;
+     color: var(--color-dark); 
+     width: 110%;
+     margin-right: -0.5rem;
+  }
+  .aboutUs h3 {
+    font-size: 6rem;
+  }
+}
 .wheel {
   min-height: 100vh;
   padding: 0 3.5rem;
