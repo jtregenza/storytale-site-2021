@@ -13,11 +13,11 @@ export function Footer() {
 			</section>
 			<section>
 				<ul className={styles.siteLinks}>
-					<li>About</li>
-					<li>Case Studies</li>
-					<li>Ventures</li>
-					<li>Blog</li>
-					<li>Contact</li>
+					<li><Link href="/#aboutUs">About</Link></li>
+					<li><Link href="/#ourStories">Case Studies</Link></li>
+					<li><Link href="/#ventures">Ventures</Link></li>
+					{/* <li>Blog</li> */}
+					<li><Link href="/#contactUs">Contact</Link></li>
 				</ul>
 				<ul className={styles.socialLinks}>
 					<li>
