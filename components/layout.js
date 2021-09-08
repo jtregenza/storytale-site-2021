@@ -66,10 +66,11 @@ export default function Layout({ children, home, type }) {
         />
         <meta
           property="og:image"
-          content={`Change this`}
+          content="/images/storytalestudio-card.png"
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@StudioStorytale"></meta>
       </Head>
 
       
