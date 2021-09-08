@@ -35,7 +35,7 @@ export default function Post({ postData }) {
   }
 
   return (
-    <Layout>
+    <Layout type="case-study">
       <Head>
         <title>{postData.title}</title>
       </Head>

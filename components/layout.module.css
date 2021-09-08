@@ -1424,25 +1424,28 @@ align-self: center;
     grid-template-columns: 1fr;
     grid-gap: 1.5rem;
   }
+  .ventureContent main {
+    margin-top: 0;
+  }
 }
 
 
 .ventureContent h1,
 .ventureContent h2,
 .ventureContent h3,
-.content h1,
-.content h2,
-.content h3 {
+[type="case-study"] .content h1,
+[type="case-study"] .content h2,
+[type="case-study"] .content h3 {
   font-family: var(--font-bold);
 }
 
-.content h1,
+[type="case-study"] .content h1,
 .ventureContent h1 {
   font-size: 4rem;
   margin-bottom: 0.5rem;
   line-height: 1.1;
 }
-.content h2,
+[type="case-study"] .content h2,
 .ventureContent h2 {
   opacity: 0.6;
   text-transform: uppercase;
