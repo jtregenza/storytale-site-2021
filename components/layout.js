@@ -12,7 +12,7 @@ import Toggle from './Toggle';
 import { Footer } from './footer';
 import { Header } from './header';
 
-const name = 'storytale'
+const name = 'Storytale'
 export const siteTitle = 'Story-powered solutions for products, brands and businesses'
 
 const sidebar = {
@@ -66,9 +66,10 @@ export default function Layout({ children, home, type }) {
         />
         <meta
           property="og:image"
-          content="/images/storytalestudio-card.png"
+          content="https://storytale.design/images/storytalestudio-card.png"
         />
-        <meta name="og:title" content={siteTitle} />
+        <meta name="og:title" content={name + ' ' + siteTitle} />
+        <meta property="og:site_name" content={name}/>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@StudioStorytale"/>
         <meta name="twitter:image:alt" content="Stortale Studio Twitter Card Image" />
