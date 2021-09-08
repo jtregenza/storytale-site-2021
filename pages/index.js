@@ -155,7 +155,7 @@ export default function Home({ allPostsData }) {
         <ul>
           <li><Link href="/seasonal">Seasonal</Link></li>
           <li><Link href="/fables">Fables</Link></li>
-          <li><Link href="/crumple">Crumple</Link></li>
+          {/* <li><Link href="/crumple">Crumple</Link></li> */}
         </ul>
         </FadeInWhenVisible>
         <FadeInWhenVisible><img src="https://picsum.photos/300/700"/></FadeInWhenVisible>
