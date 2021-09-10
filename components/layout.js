@@ -49,6 +49,7 @@ export default function Layout({ children, home, type }) {
   return (
     <div className={styles.container} type ={type} theme={themeMode}>
       <Head>
+      <html lang="eng" />
         <link rel="icon" href="/images/storytale_logomark.svg" />
         <link
             rel="stylesheet"
