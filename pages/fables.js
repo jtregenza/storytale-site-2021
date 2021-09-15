@@ -1,6 +1,9 @@
 import Layout from "../components/layout";
 import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
+import FablesArc from "../components/fablesArc";
+import { motion } from "framer-motion";
+import FadeInWhenVisible from "../components/fadeInVisible";
 
 export default function Fables() {
 
@@ -8,8 +11,22 @@ return(
 	<Layout type="venture">
 		<article className={styles.ventureContent}>
 			<header>
-			<h1>Fables</h1>
+			<FadeInWhenVisible className={styles.ventureWordMark}>
+              <motion.h1 className={styles.full}>fables</motion.h1>
+             <FablesArc/>
+              <motion.h1  className={styles.layered}>
+                <span>f</span>
+                <span>a</span>
+                <span className={styles.hidden}>b</span>
+                <span>l</span>
+                <span>e</span>
+				<span className={styles.hidden}>s</span>
+                </motion.h1>
+                </FadeInWhenVisible>
 			<h2>Meaningful stories, your way</h2>
+			
+			</header>
+			<aside>
 			<iframe id="Fables NPC Generator"
 			title="Fables NPC Generator"
 			width="400"
@@ -17,7 +34,7 @@ return(
 			src="https://fables.storytale.design/"
 			style={{margin: '0 auto', display: 'block'}}>
 		</iframe>
-			</header>
+			</aside>
 			<main className={styles.main}>
 
 			<p>Tell the story, build the world.</p>

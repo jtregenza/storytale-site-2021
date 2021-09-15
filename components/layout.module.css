@@ -41,6 +41,15 @@
   min-width: 1.5rem;
 }
 
+@media screen and (max-width: 800px){
+  .header svg {
+    width: 100%;
+  }
+  .header button svg {
+    width: 2.5rem;
+    min-width: 2.5rem;
+  }
+}
 
 
 .header a svg {
@@ -112,7 +121,7 @@
   margin-right: 14vw;
 }
 
-.wordMark {
+.wordMark, .ventureWordMark {
   display: grid;
   z-index: 2;
 }
@@ -136,6 +145,15 @@
 [theme="light"] .intro svg g{
   filter: url(#filter0_dii);
 }
+
+[theme="dark"] .ventureWordMark svg g{
+  filter: url(#dark);
+}
+
+[theme="light"] .ventureWordMark svg g{
+  filter: url(#light);
+}
+
 
 
 
@@ -164,6 +182,8 @@ align-self: center;
 .wordMark .layered .seventh {
   visibility: hidden;
 }
+
+
 
 @media screen and (max-width: 800px) {
   .header {
@@ -341,7 +361,6 @@ align-self: center;
 
 .storyMeta {
   margin-top: auto;
-  color: var(--color-light);
   display: flex;
   justify-content: flex-end;
 }
@@ -353,6 +372,11 @@ align-self: center;
   display: grid;
   min-height: 100vh;
   height: 100%;
+}
+
+.ourStories > div:nth-of-type(2n) .listItem {
+  background: var(--color-light);
+  color: var(--color-dark);
 }
 
 @media screen and (max-width: 800px) {
@@ -405,7 +429,7 @@ align-self: center;
 }
 
 .listItem a {
-  color: var(--color-light);
+  color: inherit;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -743,23 +767,6 @@ align-self: center;
   z-index: 1;
 }
 
-@media screen and (max-width: 800px) {
-
-  .ventures {
-    flex-direction: column;
-    align-items: center;
-  }
-  .ventures ul li a {
-    -webkit-text-stroke-width: 2px;
-    font-size: 4rem;
-
-  }
-
-  .ventures img {
-    max-height: 50vh;
-  }
-}
-
 .ventures ul li:hover a::before {
   display: block;
   position: absolute;
@@ -772,6 +779,38 @@ align-self: center;
   mix-blend-mode: difference;
 
 }
+
+@media screen and (max-width: 800px) {
+
+  .ventures {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ventures ul li a {
+    -webkit-text-stroke-width: 2px;
+    font-size: 4rem;
+
+  }
+
+  .ventures ul li:hover a::before {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    content:"";
+    background: var(--color-dark);
+    width: 100%;
+    height: 2.25rem;
+    top: 0.25rem;
+    mix-blend-mode: difference;
+  
+  }
+
+  .ventures img {
+    max-height: 50vh;
+  }
+}
+
+
 
 .ventures a:hover {
   text-decoration: none;
@@ -1405,14 +1444,21 @@ align-self: center;
 
 
 .ventureContent {
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 1.5rem;
+}
+.ventureConten > aside {
+  place-self: center center;
+}
+
+.ventureContent header {
+  grid-column-start: 1;
+  grid-column-end: -1;
 }
 
 .ventureContent main {
-  margin-top: 15em;
   max-width: 40em;
 }
 
@@ -1441,7 +1487,7 @@ align-self: center;
 
 [type="case-study"] .content h1,
 .ventureContent h1 {
-  font-size: 4rem;
+  font-size: 12rem;
   margin-bottom: 0.5rem;
   line-height: 1.1;
 }
@@ -1449,5 +1495,64 @@ align-self: center;
 .ventureContent h2 {
   opacity: 0.6;
   text-transform: uppercase;
+  margin-left: auto;
   margin-top: 0;
+  font-size: 4rem;
+  line-height: 1.1;
+  text-align: right;
+}
+
+.ventureWordMark {
+  width: min-content;
+  min-width: 50%;
+}
+
+.ventureWordMark .full {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  grid-row-end: -1;
+  z-index: 0;
+  margin-left: 1vw;
+  align-self: center;
+}
+.ventureWordMark .layered {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  grid-row-end: -1;
+  z-index: 2;
+  margin-left: 1vw;
+  align-self: center;
+}
+.ventureWordMark svg {
+  z-index: 1;
+  align-self: center;
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  grid-row-end: -1;
+  margin-left: -8vw;
+  width:  auto;
+  height: auto;
+  /* max-width: 12rem; */
+}
+
+.ventureWordMark .hidden {
+  visibility: hidden;
+}
+
+.ventureWordMark h1 {
+   margin: 0;
+}
+
+
+@media screen and (max-width: 800px) {
+  [type="case-study"] .content h1,
+  .ventureContent h1 {
+    font-size: 6rem;
+  }
+  .ventureWordMark svg {
+    width: 133%;
+  }
 }

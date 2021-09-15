@@ -1,15 +1,33 @@
 import Layout from "../components/layout";
 import utilStyles from '../styles/utils.module.css'
 import styles from '../components/layout.module.css'
+import FadeInWhenVisible from "../components/fadeInVisible";
+import { motion } from "framer-motion";
+import SeasonalArc from "../components/seasonalArc";
 
 export default function Seasonal() {
 	return(
 		<Layout type="venture">
 			<article className={styles.ventureContent}>
 			<header>
-			<h1>Seasonal</h1>
-			<h2>Helping you cook sustainably</h2>
+
+			<FadeInWhenVisible className={styles.ventureWordMark}>
+              <motion.h1 className={styles.full}>seasonal</motion.h1>
+             <SeasonalArc/>
+              <motion.h1  className={styles.layered}>
+                <span>s</span>
+                <span className={styles.hidden}>e</span>
+                <span>a</span>
+                <span>s</span>
+                <span className={styles.hidden}>o</span>
+				<span>n</span>
+				<span className={styles.hidden}>a</span>
+				<span>l</span>
+                </motion.h1>
+                </FadeInWhenVisible>
+			<h2>Helping you eat sustainably</h2>
 			</header>
+			<aside></aside>
 			<main>
 			<p>Food ties us together, shows us who we are, where we come from and what may come, of us.</p> 
 			<p>Food Matters.</p> 
