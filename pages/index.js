@@ -46,15 +46,15 @@ export default function Home({ allPostsData }) {
         <div className={styles.wordMark}>
           <motion.h1 style={{ y: y2, x: 0}} className={styles.full}>storytale</motion.h1>
           <motion.h1 style={{ y: y2, x: 0}}  className={styles.layered}>
-          <span className={styles.first}>s</span>
-          <span className={styles.second}>t</span>
-          <span className={styles.third}>o</span>
-          <span className={styles.fourth}>r</span>
-          <span className={styles.fifth}>y</span>
-          <span className={styles.sixth}>t</span>
-          <span className={styles.seventh}>a</span>
-          <span className={styles.eighth}>l</span>
-          <span className={styles.ninth}>e</span>
+          <span>s</span>
+          <span className={styles.hidden}>t</span>
+          <span>o</span>
+          <span className={styles.hidden}>r</span>
+          <span>y</span>
+          <span>t</span>
+          <span className={styles.hidden}>a</span>
+          <span>l</span>
+          <span>e</span>
           </motion.h1>
           <Arc/>
         </div>
@@ -76,9 +76,9 @@ export default function Home({ allPostsData }) {
               </svg>
               <motion.h3  className={styles.layered}>
                 <span>i</span>
-                <span className={styles.second}>s</span>
+                <span className={styles.hidden}>s</span>
                 <span>a</span>
-                <span className={styles.forth}>a</span>
+                <span className={styles.hidden}>a</span>
                 <span>c</span>
                 </motion.h3>
                 </FadeInWhenVisible>
@@ -89,9 +89,9 @@ export default function Home({ allPostsData }) {
               </svg>
               <motion.h3  className={styles.layered}>
                 <span>j</span>
-                <span className={styles.second}>o</span>
+                <span className={styles.hidden}>o</span>
                 <span>s</span>
-                <span>h</span>
+                <span className={styles.hidden}>h</span>
                 </motion.h3>
                 </FadeInWhenVisible>
             </div>

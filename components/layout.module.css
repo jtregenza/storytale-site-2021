@@ -177,9 +177,7 @@
 align-self: center;
 }
 
-.wordMark .layered .second,
-.wordMark .layered .fourth,
-.wordMark .layered .seventh {
+.wordMark .layered .hidden {
   visibility: hidden;
 }
 
@@ -604,9 +602,8 @@ align-self: center;
   align-self: center;
 }
 
-.isaacWordMark .layered .second,
-.isaacWordMark .layered .forth,
-.joshWordMark .layered .second{
+.isaacWordMark .layered .hidden,
+.joshWordMark .layered .hidden{
   visibility: hidden;
 }
 
@@ -651,7 +648,7 @@ align-self: center;
    }
   
   .tertiaryImage { 
-    grid-area: 3 / 6 / 6 / 10;
+    grid-area: 5 / 6 / 9 / 10;
     position:relative;
    }
 
