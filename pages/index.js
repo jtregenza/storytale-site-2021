@@ -64,11 +64,11 @@ export default function Home({ allPostsData }) {
             <h2 className={styles.display}><Typewriter>with two storytellers</Typewriter></h2>
             <div className={styles.imageGroup}>
             
-              <ParallaxImage src="/images/photo-1625230650972-f4e0fb2a075a.webp" alt="image-1" className={styles.secondaryImage} placeholder="blur" width="" height="" />
+              <ParallaxImage src="/images/collage-1.png" alt="image-1" className={styles.secondaryImage} placeholder="blur" width="" height="" />
 
-              <ParallaxImage src="/images/photo-1625297448527-6510d58bf530.webp" alt="image-2" className={styles.primaryImage}  placeholder="blur" width="" height="" />
+              <ParallaxImage src="/images/collage-2.png" alt="image-2" className={styles.primaryImage}  placeholder="blur" width="" height="" />
 
-              <ParallaxImage src="/images/PXL_20201017_065731831.jpg" alt="image-3" className={styles.tertiaryImage}  placeholder="blur" width="" height="" />
+              <ParallaxImage src="/images/collage-3.png" alt="image-3" className={styles.tertiaryImage}  placeholder="blur" width="" height="" />
               <FadeInWhenVisible  className={styles.isaacWordMark}>
               <motion.h3 className={styles.full}>isaac</motion.h3>
               <svg viewBox="0 0 382 92" fill="none" xmlns="http://www.w3.org/2000/svg">
