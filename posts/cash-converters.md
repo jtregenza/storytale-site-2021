@@ -8,9 +8,9 @@ image: "/images/PXL_20210904_014135557.MP.jpg"
 ---
 
 
-*This case study has not been asked for by the subject and is an unofficial exercise in Storytale's process of the hero's journey.*
+*This case study has not been asked for by the subject and is an unofficial exercise in Storytale's process.*
 
-Part of these Fantasy Case Studies exercise was to take "Dying" Brands and revitalise them and from the outside it looked like Cash Converters was a prime example. Even before COVID-19 creating lockdown, the emergence of Depop, Ebay and Facebook Marketplace changing the second hand landscape and the perception of pawn shops. Shockingly as of March 2021, Cash Converters is doing just fine, in large part due to their personal lending portion of the company that has been developing since 1999 with their Cash Advance PayDay Loan.
+Part of the Fantasy Case Studies exercise was to take "Dying" Brands and revitalise them and from the outside it looked like Cash Converters was a prime example. Even before COVID-19 creating lockdown, the emergence of Depop, Ebay and Facebook Marketplace changing the second hand landscape and the perception of pawn shops. Shockingly as of March 2021, Cash Converters is doing just fine, in large part due to their personal lending portion of the company that has been developing since 1999 with their Cash Advance PayDay Loan.
 
 To continue with the Case Study we have to choose a path, do we want to follow the money and capitalise on the personal loan game or stick to our original trajectory and revitalise the portion of Cash Converters that is more well known for, the second hand retail.
 
@@ -21,7 +21,7 @@ The golden rule in these decisions for Storytale is "Where is the story?" and fo
 This brought us to the story for Cash Converters and the direction to take:
 
 - Increase buyer confidence
-- Create a safe location for transactions can be completed
+- Create a safe location for transactions to be completed
 
 So we would disregard the personal lending side of Cash Converters and focus on second hand retail, bring it forward into modernity and become a direct competitor to the likes of Depop, while playing to the existing strengths Cash Converters has and improving some of the parts of the business that could make that side of the company more attractive than personal lending.
 
@@ -51,7 +51,8 @@ The HAGL app faciliates peer to peer communication and individual storefronts fo
 
 <img src="/images/case-studies/cash-converters/HAGL-Post-Concept.png" alt="HAGL Post Concept" title="HAGL Post Concept"/>
 
-The HAGL post is the physical store comes to play. Harkening back to the Trading Posts of yore, this is where buyers and HAGLers can drop off and pick up their items from the HAGL boxes. Once a HAGL has been confirmed, the HAGLer drops the item into their preferred HAGL Post where one of the staff then confirms the item is what is being sold and then transports the item into the appropriate HAGL boxes. By transforming the stores into trading posts that only have stock when sales have occurred, this seeks to decrease the depreciating or lost stock that Cash Converters accumulates year on year. The consumer then has piece of mind when collecting from the HAGL post in their own safety, with check in facilities and lock boxes for their items.
+The HAGL Post is the physical store comes to play. Harkening back to the Trading Posts of old, this is where buyers and HAGLers can drop off and pick up their items from the HAGL boxes. Once a HAGL has been confirmed, the HAGLer drops the item into their preferred HAGL Post where one of the staff then confirms the item is what is being sold and then transports the item into the appropriate HAGL boxes. By transforming the stores into trading posts that only have stocks when sales have occurred, this would decrease the depreciating/lost stock that Cash Converters accumulates year on year. The consumer then has piece of mind when collecting from the HAGL post in their own safety, with check in facilities and lock boxes for their items. 
 
+The HAGL Posts can be placed in more diverse community centres that can we closer to transport hubs and food hubs, due to the quick and transient mode that HAGL allows.
 
-
+Cash Converters is thriving as a company, due in large part to their personal lending segment. Resurrecting a "dying" business was short sighted on our part so we needed to pivot to a new story around the second hand marketplace. A  story that can increase buyer confidence and safety for transactions that connects with the current second hand marketplace around physical and digital stores. That's what HAGL seeks to accomplish.

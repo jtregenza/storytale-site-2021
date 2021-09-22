@@ -6,6 +6,8 @@ type: "fantasy case study"
 image: "/images/photo-1574672280600-4accfa5b6f98.webp"
 ---
 
+*This case study has not been asked for by the subject and is an unofficial exercise in Storytale's process.*
+
 # A family affair
 
 “It’s a Sunday night and you’re sitting at the dining table waiting for the door to open. You hear the clunking of keys in the lock as you turn you head to see dad come in; white shopping bags full as you all cheer out in jubilation. Dinner’s here! Without a pause he comes over to the table and pulls out the boxes and clear takeaway containers that will inevitably fill up a draw in the kitchen. You wait as the steaming hot peas are scooped out onto your plate. Then a tong full of those nice golden chips, the best part of any takeaway meal. Your nose is filled with that rich smell of the hero of dinner, the roast chicken. Its tender white meat encased in that coveted caramelised skin. Cut up and put on your plate and drowned in that brown gravy from the tub. You pick your knife and fork and slice off a portion of the chicken and add it to a skewering of chips and stuff in your mouth. Yum!”

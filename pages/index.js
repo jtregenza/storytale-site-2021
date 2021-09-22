@@ -140,7 +140,7 @@ export default function Home({ allPostsData }) {
               <motion.h3  className={styles.full}>josh</motion.h3>
               <svg viewBox="0 0 690 278" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g filter="url(#dark)">
-              <path d="M56 133.231C68.987 133.231 102.045 133.231 130.38 133.231C165.799 133.231 181.737 206 212.729 206C243.721 206 265.858 81.7322 311.017 81.7322C357.095 81.7322 362.374 162.533 401.335 162.533C439.452 162.532 451.807 40.0003 498.737 40C545.743 39.9997 552.751 122.576 589.056 122.576C618.099 122.576 668.453 122.576 690 122.576" stroke="var(--color-light)" stroke-width="64" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M56 133.231C68.987 133.231 102.045 133.231 130.38 133.231C165.799 133.231 181.737 206 212.729 206C243.721 206 265.858 81.7322 311.017 81.7322C357.095 81.7322 362.374 162.533 401.335 162.533C439.452 162.532 451.807 40.0003 498.737 40C545.743 39.9997 552.751 122.576 589.056 122.576C618.099 122.576 668.453 122.576 690 122.576" stroke="var(--color-light)" strokeWidth="64" strokeLinecap="round" strokeLinejoin="round"/>
               </g>
               <defs>
               <filter id="dark" x="0" y="0"  filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">

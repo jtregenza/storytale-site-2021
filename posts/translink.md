@@ -7,10 +7,7 @@ image: "/images/photo-1532939163844-547f958e91b4.webp"
 
 ---
 
-# Intro
 
-# The current story
+*This case study has not been asked for by the subject and is an unofficial exercise in Storytale's process.*
 
-# The new story
-
-# Extras
+# Coming Soon
