@@ -647,7 +647,6 @@ align-self: center;
   
   .isaacWordMark { 
     grid-area: 2 / 1 / 4 / 8;
-    color: dimgray;
     margin-left: -0.5rem;
     width: 90%;
    }
@@ -664,7 +663,6 @@ align-self: center;
   
   .joshWordMark {
      grid-area: 4 / 5 / 5 / 10;
-     color: var(--color-dark); 
      width: 110%;
      margin-right: -0.5rem;
   }
