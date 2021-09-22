@@ -68,7 +68,7 @@ export default function Home({ allPostsData }) {
 
               <ParallaxImage src="/images/collage-2.png" alt="image-2" className={styles.primaryImage}  placeholder="blur" width="" height="" />
 
-              <ParallaxImage src="/images/collage-3.png" alt="image-3" className={styles.tertiaryImage}  placeholder="blur" width="" height="" />
+              <ParallaxImage src="/images/collage-3-two.png" alt="image-3" className={styles.tertiaryImage}  placeholder="blur" width="" height="" />
               <FadeInWhenVisible  className={styles.isaacWordMark}>
               <motion.h3 className={styles.full}>isaac</motion.h3>
               <svg viewBox="0 0 614 223" fill="none" xmlns="http://www.w3.org/2000/svg">
