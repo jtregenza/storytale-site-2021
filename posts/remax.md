@@ -7,6 +7,8 @@ image: "/images/photo-1511452885600-a3d2c9148a31.webp"
 
 ---
 
+*This case study has not been asked for by the subject and is an unofficial exercise in Storytale's process.*
+
 One of the things that confused us the most about RE/MAX brand is the logo and their the hot air balloon. Why does a real estate company hold the balloon in high regard and what has kept it around for so long.
 
 Back in 1978, one of the franchises in New Mexico joined in the Albuquerque Hot Air Balloon Fiesta and it engaged with customers and head office so much, the balloon has become synonymous with the RE/MAX brand. Across American and Australia you can actually pay to fly in one of the many RE/MAX balloons in circulation. 
