@@ -8,11 +8,11 @@ image: "/images/photo-1574672280600-4accfa5b6f98.webp"
 
 *This case study has not been asked for by the subject and is an unofficial exercise in Storytale's process.*
 
-# A family affair
+### A family affair
 
 “It’s a Sunday night and you’re sitting at the dining table waiting for the door to open. You hear the clunking of keys in the lock as you turn you head to see dad come in; white shopping bags full as you all cheer out in jubilation. Dinner’s here! Without a pause he comes over to the table and pulls out the boxes and clear takeaway containers that will inevitably fill up a draw in the kitchen. You wait as the steaming hot peas are scooped out onto your plate. Then a tong full of those nice golden chips, the best part of any takeaway meal. Your nose is filled with that rich smell of the hero of dinner, the roast chicken. Its tender white meat encased in that coveted caramelised skin. Cut up and put on your plate and drowned in that brown gravy from the tub. You pick your knife and fork and slice off a portion of the chicken and add it to a skewering of chips and stuff in your mouth. Yum!”
 
-# The project
+### The project
 
 For those growing up in Australia, many would remember the Sunday night roast. Sometimes it was homemade, hours spent lovingly prepared by your parents. Other times it was takeaway from the family’s favourite place down the road. Fish & chips, Chinese or Chicken shop. For Queenslanders Brodie’s was once a big player in this space. A local competitor to the more popular Red Rooster and international KFC franchises. While these two companies focused on a generic feast for a family with mass produced chicken, Brodies always had that extra level of feeling like a home cooked meal. More options for vegetables and roast potatoes instead of just chips.
 
@@ -22,7 +22,7 @@ When I went to visit one of the few remaining Brodies near me, I found it a shel
 
 The story of being a local chain from a country town was long gone. It had lost its soul. Storytale thought we should have a crack and making a new one for a new era.
 
-# Food for the new era
+### Food for the new era
 
 What we wanted to do with this project is look at how we can evolve the story of the humble chicken store into something that played closer to its original roots, while also taking advantage of a more health-conscious customer.
 
