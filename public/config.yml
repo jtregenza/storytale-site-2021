@@ -3,13 +3,14 @@ backend:
   branch: main
 publish_mode: editorial_workflow
 media_folder: public/images #images that are uploaded via Netlify Cms interface will be stored in this folder
+logo_url: https://storytale.design/images/storytale-logo.svg
 public_folder: images #I dont know
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Posts" # Used in the UI
     folder: "posts" # The path to the folder where the markdown files are stored
     create: true # Allow users to create new markdown files.
-    slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for front matter. You will need to modify fields according to your project.
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Byline", name: "byline", widget: "string"}
