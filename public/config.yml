@@ -7,7 +7,7 @@ logo_url: https://storytale.design/images/storytale-arc-line.svg
 public_folder: images #I dont know
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
-    label: "Posts" # Used in the UI
+    label: "Case Study" # Used in the UI
     folder: "posts" # The path to the folder where the markdown files are stored
     create: true # Allow users to create new markdown files.
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -15,6 +15,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Byline", name: "byline", widget: "string"}
       - {label: "Date", name: "date", widget: "string"}
-      - {label: "Type", name: "type", widget: "string"}
+      - {label: "Type", name: "type", widget: "select", options: ["fantasy case study", "case study", "coming soon"]}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
