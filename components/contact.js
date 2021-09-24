@@ -21,7 +21,7 @@ export default function Contact() {
         <p className={styles.join}><span>to join</span>the storytellers</p>
         <ParallaxImage src="https://picsum.photos/500/600" alt="image-1" className={styles.imageTwo} placeholder="blur" width="" height="" />
         {/* <TextareaAutosize placeholder="Your message" name="message" className={styles.message} rows={7} required/> */}
-        <ButtonMailto label="Your story begins here" mailto="mailto:josh@storytale.design"/>
+        <ButtonMailto label="Your story begins here" mailto="mailto:fables@storytale.design"/>
         {/* <motion.button className={styles.cta} type="submit" 
         transition={{ duration: 0.8 }}
         initial={{ background: 'var(--color-dark)',
