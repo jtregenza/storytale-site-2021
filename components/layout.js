@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from './layout.module.css'
 import Link from 'next/link'
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, useCycle } from "framer-motion";
 import { useDimensions } from "./useDimensions";
 import { MenuToggle } from "./MenuToggle";
@@ -44,7 +44,17 @@ export default function Layout({ children, home, type }) {
   const [theme, toggleTheme, componentMounted] = useDarkMode();
 
   const themeMode = theme === 'dark' ? 'dark' : 'light';
-
+  useEffect(() => {
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', (user) => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/'
+          })
+        }
+      })
+    }
+  }, [])
 
   return (
     <div className={styles.container} type ={type} theme={themeMode}>
@@ -74,6 +84,7 @@ export default function Layout({ children, home, type }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@StudioStorytale"/>
         <meta name="twitter:image:alt" content="Stortale Studio Twitter Card Image" />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
 
       

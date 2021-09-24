@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: public/images #images that are uploaded via Netlify Cms interface will be stored in this folder
+public_folder: images #I dont know
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    folder: "posts" # The path to the folder where the markdown files are stored
+    create: true # Allow users to create new markdown files.
+    slug: "{{id}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for front matter. You will need to modify fields according to your project.
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Byline", name: "byline", widget: "string"}
+      - {label: "Date", name: "date", widget: "string"}
+      - {label: "Type", name: "type", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
