@@ -7,7 +7,6 @@ import * as ga from '../lib/ga'
 
 
 export default function App({ Component, pageProps, router }) {
-  const router = useRouter()
 
   useEffect(() => {
     const handleRouteChange = (url) => {
