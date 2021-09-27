@@ -6,7 +6,8 @@ import { useRouter } from 'next/router'
 import * as ga from '../lib/ga'
 
 
-export default function App({ Component, pageProps, router }) {
+export default function App({ Component, pageProps }) {
+  const router = useRouter()
 
   useEffect(() => {
     const handleRouteChange = (url) => {
