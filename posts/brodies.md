@@ -70,7 +70,7 @@ We wanted to reduce the menu of Brodies down to few, but better options. Then al
 
 <img src="/images/case-studies/brodies/brodies-menu-out.png" alt="Brodies Menu Out" title="Brodies Menu Out"/>
 <br/>
-<img src="/images/case-studies/brodies/brodies-menu-out.png" alt="Brodies Inside Menu" title="Brodies Menu In"/>
+<img src="/images/case-studies/brodies/brodies-menu-in.png" alt="Brodies Inside Menu" title="Brodies Menu In"/>
 
 Then all of that is put together into colourful recyclable packaging. Whether it be for dinner or for lunch. You know you’re getting a good meal.
 
@@ -84,6 +84,6 @@ Along with that we simplified the website. Encouraging users to go right to orde
 
 <img src="/images/case-studies/brodies/brodies-website.png" alt="Brodies Website" title="Brodies Website"/>
 
-## Keeping it simple
+### Keeping it simple
 
 When it comes to telling stories it’s important to keep that central theme strong. For brands that means sticking in that niche that makes you who you are. Don’t be afraid of it and then try and branch out into things that detract from that theme. Make that theme your personality and people will love you for it.
