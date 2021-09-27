@@ -71,10 +71,8 @@ export default function Layout({ children, home, type }) {
             href="/fonts/Silka/Silka-Italic-Webfont/stylesheet.css"
             crossOrigin=""
           />
-        <meta
-          name="description"
-          content="Story-powered solutions for products, brands and businesses"
-        />
+          <meta name="theme-color" content="#000000"/>
+        <meta name="description" content="Story-powered solutions for products, brands and businesses"/>
         <meta
           property="og:image"
           content="https://storytale.design/images/storytalestudio-card.png"
