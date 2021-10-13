@@ -18,7 +18,7 @@ export const ParallaxImage = ({ src, className, placeholder, alt, ...style }) =>
   
 	return (
 	  <div ref={ref} className={className}>
-		<motion.img className={styles.overlay}  src={src} style={{ ...style, y }}  placeholder={placeholder} alt={alt} />
+		<motion.img className={styles.overlay} loading="lazy" src={src} style={{ ...style, y }}  placeholder={placeholder} alt={alt} />
 	  </div>
 	);
   };
