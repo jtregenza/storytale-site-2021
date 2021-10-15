@@ -228,7 +228,7 @@ export default function Home({ allPostsData }) {
    
       <section id="ourStories" name="ourStories" className={styles.ourStories}>
       
-          {allPostsData.map(({ id, date, title, type, byline,image }) => (
+          {allPostsData.map(({ id, title, type, byline,image }) => (
               <FadeInWhenVisible key={id}>
               <Link href={`/posts/${id}`} className={styles.link}>
               <div className={styles.listItem} type={type}>
