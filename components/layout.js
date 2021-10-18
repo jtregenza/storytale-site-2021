@@ -77,7 +77,7 @@ export default function Layout({ children, home, type }) {
           property="og:image"
           content="https://storytale.design/images/storytalestudio-card.png"
         />
-        <meta name="og:title" content={'Storytale | ' + siteTitle} />
+        <meta name="og:title" content={name + ' | ' + siteTitle} />
         <meta property="og:site_name" content={name}/>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@StudioStorytale"/>
