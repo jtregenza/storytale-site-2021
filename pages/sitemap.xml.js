@@ -14,7 +14,7 @@ export const getServerSideProps = ({ res }) => {
     .filter((staticPage) => {
       return ![
         "_app.js",
-        "_document.js",
+		"/admin/index.js",
         "_error.js",
         "sitemap.xml.js",
       ].includes(staticPage);
