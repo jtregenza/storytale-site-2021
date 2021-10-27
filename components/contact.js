@@ -5,6 +5,8 @@ import { motion } from 'framer-motion'
 import TextareaAutosize from 'react-autosize-textarea';
 import { ParallaxImage } from './parralaxImage';
 import ButtonMailto from './ButtonMailto';
+import GreenTree from '../public/images/PXL_20210226_225250473.jpg'
+import RandImage from '../public/images/annie-spratt-lIWF2uHxs0Q-unsplash.jpg'
 
 export default function Contact() {
 
@@ -17,9 +19,9 @@ export default function Contact() {
         {/* <input type="text" name="name" id="yourname"  placeholder="Your Name" pattern="\S+.*"/>
         <input type="email" name="email" id="youremail" placeholder="Your Email" pattern="[^@\s]+@[^@\s]+" /> */}
         </div>
-        <ParallaxImage src="/images/PXL_20210226_225250473.jpg" alt="image-1" className={styles.imageOne} placeholder="blur" width="600" height="400" />
+        <ParallaxImage src={GreenTree} alt="image-1" className={styles.imageOne} placeholder="blur" width="600" height="400" />
         <p className={styles.join}><span>to join</span>the storytellers</p>
-        <ParallaxImage src="https://picsum.photos/500/600" alt="image-1" className={styles.imageTwo} placeholder="blur" width="" height="" />
+        <ParallaxImage src={RandImage} alt="image-1" className={styles.imageTwo} placeholder="blur" width="" height="" />
         {/* <TextareaAutosize placeholder="Your message" name="message" className={styles.message} rows={7} required/> */}
         <ButtonMailto label="Your story begins here" mailto="mailto:fables@storytale.design"/>
         {/* <motion.button className={styles.cta} type="submit" 

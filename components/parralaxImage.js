@@ -1,13 +1,14 @@
 import { useViewportScroll, useTransform, motion } from 'framer-motion'
 import { useState, useRef, useEffect } from "react"
 import styles from './layout.module.css'
+import Image from 'next/image'
 
 export const ParallaxImage = ({ src, className, placeholder, alt, ...style }) => {
 	const [elementTop, setElementTop] = useState(0);
 	const ref = useRef(null);
 	const { scrollY } = useViewportScroll();
   
-	const y = useTransform(scrollY, [elementTop, elementTop - 200], [0, + 25], {
+	const y = useTransform(scrollY, [elementTop, elementTop - 500], [0, + 200], {
 	  clamp: true
 	});
   
@@ -17,8 +18,10 @@ export const ParallaxImage = ({ src, className, placeholder, alt, ...style }) =>
 	}, [ref]);
   
 	return (
-	  <div ref={ref} className={className}>
-		<motion.img className={styles.overlay} loading="lazy" src={src} style={{ ...style, y }}  placeholder={placeholder} alt={alt} />
+	  <div ref={ref} className={className} >
+		  <motion.div className={styles.overlay}  style={{ ...style, y }}>
+			  <Image loading="lazy" src={src} placeholder='blur' alt={alt}  layout='fill'></Image>
+		  </motion.div>
 	  </div>
 	);
   };

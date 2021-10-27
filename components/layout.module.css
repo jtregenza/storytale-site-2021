@@ -612,6 +612,11 @@ align-self: center;
   visibility: hidden;
 }
 
+.overlay {
+  height: 100%;
+  width: 100%;
+}
+
 
 .aboutUs img{
   object-fit: cover;
