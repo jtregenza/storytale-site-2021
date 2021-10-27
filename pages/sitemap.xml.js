@@ -10,18 +10,21 @@ export const getServerSideProps = ({ res }) => {
   }[process.env.NODE_ENV];
 
   const staticPages = fs
-    .readdirSync("pages")
-    .filter((staticPage) => {
-      return ![
-        "_app.js",
-		"/admin/index.js",
-        "_error.js",
-        "sitemap.xml.js",
-      ].includes(staticPage);
-    })
-    .map((staticPagePath) => {
-      return `${baseUrl}/${staticPagePath}`;
-    });
+  .readdirSync({
+    development: 'pages',
+    production: './',
+  }[process.env.NODE_ENV])
+  .filter((staticPage) => {
+    return ![
+      "_app.js",
+      "_document.js",
+      "_error.js",
+      "sitemap.xml.js",
+    ].includes(staticPage);
+  })
+  .map((staticPagePath) => {
+    return `${baseUrl}/${staticPagePath}`;
+  });
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
