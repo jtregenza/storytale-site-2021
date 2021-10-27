@@ -1,48 +1,52 @@
-const EXTERNAL_DATA_URL = 'https://jsonplaceholder.typicode.com/posts'
 
-function generateSiteMap(posts) {
-  return `<?xml version="1.0" encoding="UTF-8"?>
-   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-     <!--We manually set the two URLs we know already-->
-     <url>
-       <loc>https://jsonplaceholder.typicode.com</loc>
-     </url>
-     <url>
-       <loc>https://jsonplaceholder.typicode.com/guide</loc>
-     </url>
-     ${posts
-       .map(({ id }) => {
-         return `
-       <url>
-           <loc>${`${EXTERNAL_DATA_URL}/${id}`}</loc>
-       </url>
-     `
-       })
-       .join('')}
-   </urlset>
- `
-}
+import fs from "fs";
 
-function SiteMap() {
-  // getServerSideProps will do the heavy lifting
-}
+const Sitemap = () => {};
 
-export async function getServerSideProps({ res }) {
-  // We make an API call to gather the URLs for our site
-  const request = await fetch(EXTERNAL_DATA_URL)
-  const posts = await request.json()
+export const getServerSideProps = ({ res }) => {
+  const baseUrl = {
+    development: "http://localhost:3000",
+    production: "https://storytale.design",
+  }[process.env.NODE_ENV];
 
-  // We generate the XML sitemap with the posts data
-  const sitemap = generateSiteMap(posts)
+  const staticPages = fs
+    .readdirSync("pages")
+    .filter((staticPage) => {
+      return ![
+        "_app.js",
+        "_document.js",
+        "_error.js",
+        "sitemap.xml.js",
+      ].includes(staticPage);
+    })
+    .map((staticPagePath) => {
+      return `${baseUrl}/${staticPagePath}`;
+    });
 
-  res.setHeader('Content-Type', 'text/xml')
-  // we send the XML to the browser
-  res.write(sitemap)
-  res.end()
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      ${staticPages
+        .map((url) => {
+          return `
+            <url>
+              <loc>${url}</loc>
+              <lastmod>${new Date().toISOString()}</lastmod>
+              <changefreq>monthly</changefreq>
+              <priority>1.0</priority>
+            </url>
+          `;
+        })
+        .join("")}
+    </urlset>
+  `;
+
+  res.setHeader("Content-Type", "text/xml");
+  res.write(sitemap);
+  res.end();
 
   return {
-    props: {}
-  }
-}
+    props: {},
+  };
+};
 
-export default SiteMap
+export default Sitemap;
