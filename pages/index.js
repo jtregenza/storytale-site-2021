@@ -261,7 +261,7 @@ export default function Home({ allPostsData }) {
 
       <section id="ventures" name="ventures" className={styles.ventures}>
         <h2><Typewriter>and where they </Typewriter><span className={styles.highlight}>venture</span></h2>
-      <FadeInWhenVisible><img src="https://picsum.photos/300/700"/></FadeInWhenVisible>
+      <FadeInWhenVisible><img width="300" height="700" src="https://picsum.photos/300/700"/></FadeInWhenVisible>
       <FadeInWhenVisible>
         <ul>
           <li><Link href="/seasonal">Seasonal</Link></li>
@@ -269,7 +269,7 @@ export default function Home({ allPostsData }) {
           {/* <li><Link href="/crumple">Crumple</Link></li> */}
         </ul>
         </FadeInWhenVisible>
-        <FadeInWhenVisible><img src="https://picsum.photos/300/700"/></FadeInWhenVisible>
+        <FadeInWhenVisible><img width="300" height="700" src="https://picsum.photos/300/700"/></FadeInWhenVisible>
       </section>
 
       
