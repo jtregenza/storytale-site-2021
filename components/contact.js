@@ -19,7 +19,7 @@ export default function Contact() {
         {/* <input type="text" name="name" id="yourname"  placeholder="Your Name" pattern="\S+.*"/>
         <input type="email" name="email" id="youremail" placeholder="Your Email" pattern="[^@\s]+@[^@\s]+" /> */}
         </div>
-        <ParallaxImage src={GreenTree} alt="image-1" className={styles.imageOne} placeholder="blur" width="600" height="400" />
+        <ParallaxImage src={GreenTree} alt="image-1" className={styles.imageOne} placeholder="blur" width="" height="" />
         <p className={styles.join}><span>to join</span>the storytellers</p>
         <ParallaxImage src={RandImage} alt="image-1" className={styles.imageTwo} placeholder="blur" width="" height="" />
         {/* <TextareaAutosize placeholder="Your message" name="message" className={styles.message} rows={7} required/> */}
