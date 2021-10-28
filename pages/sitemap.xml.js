@@ -47,7 +47,6 @@ export const getServerSideProps = ({ res }) => {
   res.setHeader("Content-Type", "text/xml");
   res.write(sitemap);
   res.end();
-  fs.writeFile('public/sitemap.xml', sitemap, err => { if (err) { console.error(err); return } })
   return {
     props: {},
   };
