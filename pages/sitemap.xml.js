@@ -12,7 +12,7 @@ export const getServerSideProps = ({ res }) => {
   const staticPages = fs
   .readdirSync({
     development: 'pages',
-    production: './.netlify/',
+    production: './.netlify/functions_internal/',
   }[process.env.NODE_ENV])
   .filter((staticPage) => {
     return ![
