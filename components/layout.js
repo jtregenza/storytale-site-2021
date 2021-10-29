@@ -50,10 +50,10 @@ export default function Layout({ children, home, type }) {
         if (!user) {
           window.netlifyIdentity.on('login', () => {
             document.location.href = '/admin/'
-          })
+          });
         }
-      })
-    }
+      });
+    };
     var prevScrollpos = window.pageYOffset;
 		window.onscroll = function() {
 		  var currentScrollPos = window.pageYOffset;
@@ -63,6 +63,7 @@ export default function Layout({ children, home, type }) {
 			document.getElementById("navbar").style.top = "-50px";
 		  }
 		  prevScrollpos = currentScrollPos;
+    };
   }, [])
 
   return (
