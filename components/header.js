@@ -38,10 +38,20 @@ export function Header() {
 	const { height } = useDimensions(containerRef);
 	const [theme, toggleTheme, componentMounted] = useDarkMode();
   
-
+	useEffect(() => {
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		  var currentScrollPos = window.pageYOffset;
+		  if (prevScrollpos > currentScrollPos) {
+			document.getElementById("navbar").style.top = "0";
+		  } else {
+			document.getElementById("navbar").style.top = "-50px";
+		  }
+		  prevScrollpos = currentScrollPos;
+		}  }, [])
 
 	return (
-		<header className={styles.header}>
+		<header className={styles.header} id="navbar">
 			<Link href="/" title="home">
               <a title="home">
 			<svg viewBox="0 0 188 71" fill="none" xmlns="http://www.w3.org/2000/svg">
