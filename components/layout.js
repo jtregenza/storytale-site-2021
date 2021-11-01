@@ -60,7 +60,7 @@ export default function Layout({ children, home, type }) {
 		  if (prevScrollpos > currentScrollPos) {
 			document.getElementById("navbar").style.top = "0";
 		  } else {
-			document.getElementById("navbar").style.top = "-50px";
+			document.getElementById("navbar").style.top = "-100px";
 		  }
 		  prevScrollpos = currentScrollPos;
     };
